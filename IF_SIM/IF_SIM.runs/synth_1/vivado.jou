@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Fri Jan 19 18:31:37 2024
+# Process ID: 27304
+# Current directory: C:/Users/thakk/Desktop/vivadoTests/IF_SIM/IF_SIM.runs/synth_1
+# Command line: vivado.exe -log i2s_playback.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source i2s_playback.tcl
+# Log file: C:/Users/thakk/Desktop/vivadoTests/IF_SIM/IF_SIM.runs/synth_1/i2s_playback.vds
+# Journal file: C:/Users/thakk/Desktop/vivadoTests/IF_SIM/IF_SIM.runs/synth_1\vivado.jou
+# Running On: DESKTOP-HRIQRGI, OS: Windows, CPU Frequency: 1992 MHz, CPU Physical cores: 4, Host memory: 16976 MB
+#-----------------------------------------------------------
+source i2s_playback.tcl -notrace
