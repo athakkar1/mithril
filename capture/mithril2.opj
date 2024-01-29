@@ -1,0 +1,384 @@
+(ExpressProject "mithril2"
+  (ProjectVersion "19981106")
+  (SoftwareVersion "17.4-2019 S038 (4132295)  [8/6/2023]-[01/29/24]")
+  (ProjectType "Analog or A/D Mixed Mode")
+  (Folder "Design Resources"
+    (Folder "Library"
+      (File "..\lib_885012206071\885012206071\capture\library1.olb"
+        (Type "Schematic Library"))
+      (File "..\lib_885012206071\885012206071\capture\885012206071.olb"
+        (Type "Schematic Library")))
+    (NoModify)
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (ANNOTATE_Scope "0")
+    (ANNOTATE_Mode "1")
+    (ANNOTATE_Action "1")
+    (ANNOTATE_Reset_References_to_1 "FALSE")
+    (ANNOTATE_No_Page_Number_Change "TRUE")
+    (ANNOTATE_Property_Combine "{Value}{Source Package}")
+    (DOCKED "TRUE")
+    (DOCKING_POSITION "59420")
+    (Allegro Netlist Directory "allegro")
+    (Allegro Netlist Output Board File ".\allegro\mithril2.brd")
+    (Netlist_TAB "0")
+    (Create Allegro Netlist "TRUE")
+    (View Allegro Netlist Files "FALSE")
+    (Allegro Netlist Create DCF File "FALSE")
+    (Update Allegro Board "FALSE")
+    (Allegro Netlist Remove Etch "FALSE")
+    (Allegro Netlist Place Changed Component "ALWAYS_REPLACE")
+    (Allegro Netlist Open Board in Allegro "ALLEGRO")
+    (Allegro Setup Backup Versions "3")
+    (Allegro Setup Ignore Constraints "FALSE")
+    (Allegro Setup Part Type Length "255")
+    (Allegro Netlist Combine Property String "PCB Footprint")
+    (Allegro Netlist Ignore Fixed Property "FALSE")
+    (Allegro Netlist User Defined Property "FALSE")
+    (File ".\mithril2.dsn"
+      (Type "Schematic Design"))
+    ("Allegro Netlist Directory" "allegro")
+    ("Allegro Netlist Output Board File" ".\allegro\mithril2.brd"))
+  (Folder "Layout"
+    (File ".\allegro\mithril2.brd"
+      (Type "Board File")
+      (OutputBoard ".\allegro\mithril2.brd")
+      (NetListPath ".\allegro")
+      (ActiveBoard "1")))
+  (Folder "Outputs"
+    (File ".\allegro\pstxnet.dat"
+      (Type "Report")
+      (DisplayName "pstxnet.dat"))
+    (File ".\allegro\pstxprt.dat"
+      (Type "Report")
+      (DisplayName "pstxprt.dat"))
+    (File ".\allegro\pstchip.dat"
+      (Type "Report")
+      (DisplayName "pstchip.dat")))
+  (Folder "PSpice Resources"
+    (Folder "Model Libraries"
+      (Sort User))
+    (Folder "Stimulus Files"
+      (Sort User))
+    (Folder "Include Files"
+      (Sort User))
+    (Folder "Simulation Profiles"))
+  (DefaultLibraryBrowseDirectory "library\PSpice")
+  (PartMRUSelector
+    (RMCF0402FT1K62
+      (FullPartName "RMCF0402FT1K62.Normal")
+      (LibraryName
+         "D:\CADENCE\SPB_DATA\CDSSETUP\ORCAD_CAPTURE\17.4.0\ORCAPTUREDOWNLOAD.OLB")
+      (DeviceIndex "0"))
+    (RMCF0402FT4K12
+      (FullPartName "RMCF0402FT4K12.Normal")
+      (LibraryName
+         "D:\CADENCE\SPB_DATA\CDSSETUP\ORCAD_CAPTURE\17.4.0\ORCAPTUREDOWNLOAD.OLB")
+      (DeviceIndex "0"))
+    (RMCF0402FT28K0
+      (FullPartName "RMCF0402FT28K0.Normal")
+      (LibraryName
+         "D:\CADENCE\SPB_DATA\CDSSETUP\ORCAD_CAPTURE\17.4.0\ORCAPTUREDOWNLOAD.OLB")
+      (DeviceIndex "0"))
+    (RMCF0402FT17K4
+      (FullPartName "RMCF0402FT17K4.Normal")
+      (LibraryName
+         "C:\USERS\MARIO\DOWNLOADS\LIB_885012206071\885012206071\CAPTURE\LIBRARY1.OLB")
+      (DeviceIndex "0"))
+    (RMCF0603FT12K1
+      (FullPartName "RMCF0603FT12K1.Normal")
+      (LibraryName
+         "D:\CADENCE\SPB_DATA\CDSSETUP\ORCAD_CAPTURE\17.4.0\ORCAPTUREDOWNLOAD.OLB")
+      (DeviceIndex "0"))
+    (RMCF0603FT1K00
+      (FullPartName "RMCF0603FT1K00.Normal")
+      (LibraryName
+         "D:\CADENCE\SPB_DATA\CDSSETUP\ORCAD_CAPTURE\17.4.0\ORCAPTUREDOWNLOAD.OLB")
+      (DeviceIndex "0"))
+    (C0402C102J1GEC7411
+      (FullPartName "C0402C102J1GEC7411.Normal")
+      (LibraryName
+         "D:\CADENCE\SPB_DATA\CDSSETUP\ORCAD_CAPTURE\17.4.0\ORCAPTUREDOWNLOAD.OLB")
+      (DeviceIndex "0"))
+    (RMCF0603FG102K
+      (FullPartName "RMCF0603FG102K.Normal")
+      (LibraryName
+         "D:\CADENCE\SPB_DATA\CDSSETUP\ORCAD_CAPTURE\17.4.0\ORCAPTUREDOWNLOAD.OLB")
+      (DeviceIndex "0"))
+    (RMCF0603FT7K15
+      (FullPartName "RMCF0603FT7K15.Normal")
+      (LibraryName
+         "D:\CADENCE\SPB_DATA\CDSSETUP\ORCAD_CAPTURE\17.4.0\ORCAPTUREDOWNLOAD.OLB")
+      (DeviceIndex "0"))
+    (RMCF0603FT8K45
+      (FullPartName "RMCF0603FT8K45.Normal")
+      (LibraryName
+         "D:\CADENCE\SPB_DATA\CDSSETUP\ORCAD_CAPTURE\17.4.0\ORCAPTUREDOWNLOAD.OLB")
+      (DeviceIndex "0"))
+    (CL05A104KA5NNNC
+      (FullPartName "CL05A104KA5NNNC.Normal")
+      (LibraryName
+         "D:\CADENCE\SPB_DATA\CDSSETUP\ORCAD_CAPTURE\17.4.0\ORCAPTUREDOWNLOAD.OLB")
+      (DeviceIndex "0"))
+    (GRM0335C1H101JA01D
+      (FullPartName "GRM0335C1H101JA01D.Normal")
+      (LibraryName
+         "D:\CADENCE\SPB_DATA\CDSSETUP\ORCAD_CAPTURE\17.4.0\ORCAPTUREDOWNLOAD.OLB")
+      (DeviceIndex "0"))
+    (GRM033R60J474KE90D
+      (FullPartName "GRM033R60J474KE90D.Normal")
+      (LibraryName
+         "D:\CADENCE\SPB_DATA\CDSSETUP\ORCAD_CAPTURE\17.4.0\ORCAPTUREDOWNLOAD.OLB")
+      (DeviceIndex "0"))
+    (A770MS108M1CLAS015
+      (FullPartName "A770MS108M1CLAS015.Normal")
+      (LibraryName
+         "D:\CADENCE\SPB_DATA\CDSSETUP\ORCAD_CAPTURE\17.4.0\ORCAPTUREDOWNLOAD.OLB")
+      (DeviceIndex "0"))
+    (LQG18HH6N8J00D
+      (FullPartName "LQG18HH6N8J00D.Normal")
+      (LibraryName
+         "D:\CADENCE\SPB_DATA\CDSSETUP\ORCAD_CAPTURE\17.4.0\ORCAPTUREDOWNLOAD.OLB")
+      (DeviceIndex "0"))
+    (GRM1555C1H220JA01D
+      (FullPartName "GRM1555C1H220JA01D.Normal")
+      (LibraryName
+         "D:\CADENCE\SPB_DATA\CDSSETUP\ORCAD_CAPTURE\17.4.0\ORCAPTUREDOWNLOAD.OLB")
+      (DeviceIndex "0"))
+    (RMCF2512JT470R
+      (FullPartName "RMCF2512JT470R.Normal")
+      (LibraryName
+         "D:\CADENCE\SPB_DATA\CDSSETUP\ORCAD_CAPTURE\17.4.0\ORCAPTUREDOWNLOAD.OLB")
+      (DeviceIndex "0"))
+    (C0402C103K4REC7411
+      (FullPartName "C0402C103K4REC7411.Normal")
+      (LibraryName
+         "D:\CADENCE\SPB_DATA\CDSSETUP\ORCAD_CAPTURE\17.4.0\ORCAPTUREDOWNLOAD.OLB")
+      (DeviceIndex "0"))
+    (ERJ-3GEY0R00V
+      (FullPartName "ERJ-3GEY0R00V.Normal")
+      (LibraryName
+         "C:\USERS\MARIO\DOWNLOADS\LIB_885012206071\885012206071\CAPTURE\LIBRARY1.OLB")
+      (DeviceIndex "0"))
+    (C0805C225J4RACTU
+      (FullPartName "C0805C225J4RACTU.Normal")
+      (LibraryName
+         "C:\USERS\MARIO\DOWNLOADS\LIB_885012206071\885012206071\CAPTURE\LIBRARY1.OLB")
+      (DeviceIndex "0"))
+    (C0603C104J5RACTU
+      (FullPartName "C0603C104J5RACTU.Normal")
+      (LibraryName
+         "C:\USERS\MARIO\DOWNLOADS\LIB_885012206071\885012206071\CAPTURE\LIBRARY1.OLB")
+      (DeviceIndex "0"))
+    (HK160815NJ-T
+      (FullPartName "HK160815NJ-T.Normal")
+      (LibraryName
+         "C:\USERS\MARIO\DOWNLOADS\LIB_885012206071\885012206071\CAPTURE\LIBRARY1.OLB")
+      (DeviceIndex "0"))
+    (CBR06C119B5GAC
+      (FullPartName "CBR06C119B5GAC.Normal")
+      (LibraryName
+         "C:\USERS\MARIO\DOWNLOADS\LIB_885012206071\885012206071\CAPTURE\LIBRARY1.OLB")
+      (DeviceIndex "0"))
+    (GJM1555C1H1R5WB01D
+      (FullPartName "GJM1555C1H1R5WB01D.Normal")
+      (LibraryName
+         "C:\USERS\MARIO\DOWNLOADS\LIB_885012206071\885012206071\CAPTURE\LIBRARY1.OLB")
+      (DeviceIndex "0"))
+    (C0805C220J5GAC7210
+      (FullPartName "C0805C220J5GAC7210.Normal")
+      (LibraryName
+         "C:\USERS\MARIO\DOWNLOADS\LIB_885012206071\885012206071\CAPTURE\LIBRARY1.OLB")
+      (DeviceIndex "0"))
+    (GRM1555C1H221JA01D
+      (FullPartName "GRM1555C1H221JA01D.Normal")
+      (LibraryName
+         "D:\CADENCE\SPB_DATA\CDSSETUP\ORCAD_CAPTURE\17.4.0\ORCAPTUREDOWNLOAD.OLB")
+      (DeviceIndex "0"))
+    (CL21A476MRYNNNE
+      (FullPartName "CL21A476MRYNNNE.Normal")
+      (LibraryName
+         "D:\CADENCE\SPB_DATA\CDSSETUP\ORCAD_CAPTURE\17.4.0\ORCAPTUREDOWNLOAD.OLB")
+      (DeviceIndex "0"))
+    (RT0603BRE0750RL
+      (FullPartName "RT0603BRE0750RL.Normal")
+      (LibraryName
+         "D:\CADENCE\SPB_DATA\CDSSETUP\ORCAD_CAPTURE\17.4.0\ORCAPTUREDOWNLOAD.OLB")
+      (DeviceIndex "0"))
+    (CRCW060350R0FKEA
+      (FullPartName "CRCW060350R0FKEA.Normal")
+      (LibraryName
+         "D:\CADENCE\SPB_DATA\CDSSETUP\ORCAD_CAPTURE\17.4.0\ORCAPTUREDOWNLOAD.OLB")
+      (DeviceIndex "0"))
+    (RMCF0603FT4K70
+      (FullPartName "RMCF0603FT4K70.Normal")
+      (LibraryName
+         "D:\CADENCE\SPB_DATA\CDSSETUP\ORCAD_CAPTURE\17.4.0\ORCAPTUREDOWNLOAD.OLB")
+      (DeviceIndex "0"))
+    (CL21A106KOQNNNE
+      (FullPartName "CL21A106KOQNNNE.Normal")
+      (LibraryName
+         "D:\CADENCE\SPB_DATA\CDSSETUP\ORCAD_CAPTURE\17.4.0\ORCAPTUREDOWNLOAD.OLB")
+      (DeviceIndex "0"))
+    (GCM188R71E474KA64J
+      (FullPartName "GCM188R71E474KA64J.Normal")
+      (LibraryName
+         "D:\CADENCE\SPB_DATA\CDSSETUP\ORCAD_CAPTURE\17.4.0\ORCAPTUREDOWNLOAD.OLB")
+      (DeviceIndex "0"))
+    (ERA-2AEB152X
+      (FullPartName "ERA-2AEB152X.Normal")
+      (LibraryName
+         "D:\CADENCE\SPB_DATA\CDSSETUP\ORCAD_CAPTURE\17.4.0\ORCAPTUREDOWNLOAD.OLB")
+      (DeviceIndex "0"))
+    (PTN0805E5002BST1
+      (FullPartName "PTN0805E5002BST1.Normal")
+      (LibraryName
+         "D:\CADENCE\SPB_DATA\CDSSETUP\ORCAD_CAPTURE\17.4.0\ORCAPTUREDOWNLOAD.OLB")
+      (DeviceIndex "0"))
+    (RT0603BRD0750KL
+      (FullPartName "RT0603BRD0750KL.Normal")
+      (LibraryName
+         "D:\CADENCE\SPB_DATA\CDSSETUP\ORCAD_CAPTURE\17.4.0\ORCAPTUREDOWNLOAD.OLB")
+      (DeviceIndex "0"))
+    (RMCF0402FT1K00
+      (FullPartName "RMCF0402FT1K00.Normal")
+      (LibraryName
+         "D:\CADENCE\SPB_DATA\CDSSETUP\ORCAD_CAPTURE\17.4.0\ORCAPTUREDOWNLOAD.OLB")
+      (DeviceIndex "0"))
+    (885012206071
+      (FullPartName "885012206071.Normal")
+      (LibraryName "C:\USERS\MARIO\DOWNLOADS\1\LIBRARY1.OLB")
+      (DeviceIndex "0"))
+    (ERJ-2RKF4702X
+      (FullPartName "ERJ-2RKF4702X.Normal")
+      (LibraryName
+         "D:\CADENCE\SPB_DATA\CDSSETUP\ORCAD_CAPTURE\17.4.0\ORCAPTUREDOWNLOAD.OLB")
+      (DeviceIndex "0"))
+    (TSW-104-07-F-D
+      (FullPartName "TSW-104-07-F-D.Normal")
+      (LibraryName
+         "C:\USERS\THAKK\APPDATA\ROAMING\SPB_DATA\CDSSETUP\ORCAD_CAPTURE\23.1.0\TEMP\DOWNLOADED_PARTS\UL_PART_1706049049\ORCADCAPTUREXML\SAM8996-ND.OLB")
+      (DeviceIndex "0"))
+    (2PH2-08-UA
+      (FullPartName "2PH2-08-UA.Normal")
+      (LibraryName
+         "C:\USERS\THAKK\APPDATA\ROAMING\SPB_DATA\CDSSETUP\ORCAD_CAPTURE\23.1.0\TEMP\DOWNLOADED_PARTS\UL_PART_1706048899\ORCADCAPTUREXML\2057-2PH2-08-UA-ND.OLB")
+      (DeviceIndex "0"))
+    (OFFPAGELEFT-R
+      (LibraryName "D:\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (OFFPAGELEFT-L
+      (LibraryName "D:\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (825440-4
+      (FullPartName "825440-4.Normal")
+      (LibraryName
+         "C:\USERS\THAKK\APPDATA\ROAMING\SPB_DATA\CDSSETUP\ORCAD_CAPTURE\23.1.0\TEMP\DOWNLOADED_PARTS\SNAPEDA_PART_1704999603\825440-4.OLB")
+      (DeviceIndex "0"))
+    (HMC400MS8ETR
+      (FullPartName "HMC400MS8ETR.Normal")
+      (LibraryName
+         "C:\USERS\THAKK\APPDATA\ROAMING\SPB_DATA\CDSSETUP\ORCAD_CAPTURE\23.1.0\TEMP\DOWNLOADED_PARTS\SAMACSYS_PART_1704836665\HMC400MS8ETR\CAPTURE\HMC400MS8ETR.OLB")
+      (DeviceIndex "0"))
+    (R
+      (FullPartName "R.Normal")
+      (LibraryName "D:\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (L
+      (FullPartName "L.Normal")
+      (LibraryName "D:\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (H
+      (FullPartName "H.Normal")
+      (LibraryName "D:\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (GND
+      (LibraryName "D:\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (C
+      (FullPartName "C.Normal")
+      (LibraryName "D:\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (HMC618ALP3ETR
+      (FullPartName "HMC618ALP3ETR.Normal")
+      (LibraryName
+         "C:\USERS\THAKK\APPDATA\ROAMING\SPB_DATA\CDSSETUP\ORCAD_CAPTURE\23.1.0\TEMP\DOWNLOADED_PARTS\UL_PART_1704750597\ORCADCAPTUREXML\1127-2835-2-ND.OLB")
+      (DeviceIndex "0"))
+    (MMG3014NT1
+      (FullPartName "MMG3014NT1.Normal")
+      (LibraryName
+         "C:\USERS\THAKK\APPDATA\ROAMING\SPB_DATA\CDSSETUP\ORCAD_CAPTURE\23.1.0\TEMP\DOWNLOADED_PARTS\UL_PART_1704747136\ORCADCAPTUREXML\MMG3014NT1TR-ND.OLB")
+      (DeviceIndex "0"))
+    (RF2-04A-T-00-50-G
+      (FullPartName "RF2-04A-T-00-50-G.Normal")
+      (LibraryName
+         "C:\USERS\THAKK\APPDATA\ROAMING\SPB_DATA\CDSSETUP\ORCAD_CAPTURE\23.1.0\TEMP\DOWNLOADED_PARTS\UL_PART_1704411429\ORCADCAPTUREXML\2057-RF2-04A-T-00-50-G-ND.OLB")
+      (DeviceIndex "0"))
+    (CON8
+      (FullPartName "CON8.Normal")
+      (LibraryName "D:\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    (CONN HEADER VERT 9POS 2.54MM
+      (FullPartName "CONN HEADER VERT 9POS 2.54MM.Normal")
+      (LibraryName
+         "D:\TOOLS\CAPTURE\LIBRARY\EX_FILES_LEARNING_PCB_DESIGN_WITH_ORCAD\EXERCISE FILES\01_02\LEARNPCBDESIGNORCAD.OLB")
+      (DeviceIndex "0")))
+  (LastUsedLibraryBrowseDirectory "D:\tools\capture\library")
+  (MPSSessionName "mario")
+  (Folder "Logs"
+    (File ".\allegro\netlist.log"
+      (Type "Log File")
+      (LogFile "C:\Users\mario\Downloads\1\allegro\netlist.log"))
+    (File ".\allegro\netrev.lst"
+      (Type "Log File")
+      (LogFile "C:\Users\mario\Downloads\1\allegro\netrev.lst"))
+    (File ".\allegro\eco.txt"
+      (Type "Log File")
+      (LogFile "C:\Users\mario\Downloads\1\allegro\eco.txt"))
+    (File ".\allegro\genfeed.log"
+      (Type "Log File")
+      (LogFile "d:\orcadprojects\allegro\genfeed.log")))
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources" "C:\Users\mario\Downloads\1\mithril2.dsn")
+      (Path "Design Resources" "C:\Users\mario\Downloads\1\mithril2.dsn"
+         "SCHEMATIC1")
+      (Path "Design Resources" "C:\Users\mario\Downloads\1\mithril2.dsn"
+         "Design Cache")
+      (Path "Design Resources" "Library")
+      (Path "Design Resources" "Library"
+         "C:\Users\mario\Downloads\lib_885012206071\885012206071\capture\885012206071.olb")
+      (Path "Layout")
+      (Path "Outputs")
+      (Path "PSpice Resources")
+      (Path "Logs")
+      (Select "Design Resources" "Library"
+         "C:\Users\mario\Downloads\lib_885012206071\885012206071\capture\library1.olb"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 0 200 0 781"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 5 24 5 1674 24 799")
+        (Scroll "-241 -3")
+        (Zoom "76")
+        (Occurrence "/"))
+      (Path "C:\USERS\MARIO\DOWNLOADS\1\MITHRIL2.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "PAGE1"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 5 24 5 1674 24 799")
+        (Scroll "-334 -7")
+        (Zoom "48")
+        (Occurrence "/"))
+      (Path "C:\USERS\MARIO\DOWNLOADS\1\MITHRIL2.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "receiver")))
+  (ISPCBBASICLICENSE "false"))
