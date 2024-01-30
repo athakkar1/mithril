@@ -1,12 +1,14 @@
 (ExpressProject "mithril2"
   (ProjectVersion "19981106")
-  (SoftwareVersion "17.4-2019 S038 (4132295)  [8/6/2023]-[01/29/24]")
+  (SoftwareVersion "17.4-2019 S038 (4132295)  [8/6/2023]-[01/30/24]")
   (ProjectType "Analog or A/D Mixed Mode")
   (Folder "Design Resources"
     (Folder "Library"
       (File "..\lib_885012206071\885012206071\capture\library1.olb"
         (Type "Schematic Library"))
       (File "..\lib_885012206071\885012206071\capture\885012206071.olb"
+        (Type "Schematic Library"))
+      (File ".\library1.olb"
         (Type "Schematic Library")))
     (NoModify)
     (BuildFileAddedOrDeleted "x")
@@ -65,6 +67,16 @@
     (Folder "Simulation Profiles"))
   (DefaultLibraryBrowseDirectory "library\PSpice")
   (PartMRUSelector
+    (GRT033C71C104KE01D
+      (FullPartName "GRT033C71C104KE01D.Normal")
+      (LibraryName
+         "D:\CADENCE\SPB_DATA\CDSSETUP\ORCAD_CAPTURE\17.4.0\ORCAPTUREDOWNLOAD.OLB")
+      (DeviceIndex "0"))
+    (TLV9162QDGKRQ1
+      (FullPartName "TLV9162QDGKRQ1.Normal")
+      (LibraryName
+         "D:\CADENCE\SPB_DATA\CDSSETUP\ORCAD_CAPTURE\17.4.0\ORCAPTUREDOWNLOAD.OLB")
+      (DeviceIndex "0"))
     (RMCF0402FT1K62
       (FullPartName "RMCF0402FT1K62.Normal")
       (LibraryName
@@ -349,23 +361,25 @@
       (Path "Design Resources" "Library")
       (Path "Design Resources" "Library"
          "C:\Users\mario\Downloads\lib_885012206071\885012206071\capture\885012206071.olb")
+      (Path "Design Resources" "Library"
+         "C:\Users\mario\Downloads\1\library1.olb")
       (Path "Layout")
       (Path "Outputs")
       (Path "PSpice Resources")
       (Path "Logs")
       (Select "Design Resources" "Library"
-         "C:\Users\mario\Downloads\lib_885012206071\885012206071\capture\library1.olb"))
+         "C:\Users\mario\Downloads\1\library1.olb"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 200 0 781"))
+        (Placement "44 0 1 -1 -1 -1 -1 0 194 0 781"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 5 24 5 1674 24 799")
-        (Scroll "-241 -3")
+        (Placement "44 0 1 -1 -1 5 24 5 1680 24 799")
+        (Scroll "-244 -3")
         (Zoom "76")
         (Occurrence "/"))
       (Path "C:\USERS\MARIO\DOWNLOADS\1\MITHRIL2.DSN")
@@ -374,9 +388,9 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 5 24 5 1674 24 799")
-        (Scroll "-334 -7")
-        (Zoom "48")
+        (Placement "44 0 1 -1 -1 5 24 5 1680 24 799")
+        (Scroll "0 2259")
+        (Zoom "200")
         (Occurrence "/"))
       (Path "C:\USERS\MARIO\DOWNLOADS\1\MITHRIL2.DSN")
       (Schematic "SCHEMATIC1")
