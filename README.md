@@ -2,5 +2,6 @@ Mithril is a proof of concept outlining the implementation of distributed comput
 
 [video](https://github.com/athakkar1/mithril/assets/73338873/d519cee0-55b5-432d-a1c4-0204b90ec6aa)
 
-
+Above is a video of our STM32 sampling from a waveform generator, computing an FFT, sending it to the Pi over UART, and the Pi sending the STM data using MQTT to another Pi. Both of the Pis then plot their data in a real-time spectrogram to illustrate the digital and networking portion of our project.
 ![thumbnail_IMG_9883](https://github.com/athakkar1/mithril/assets/96598825/68ff6378-62a2-42a3-8b00-6830995e717e)
+Above is a picture of our physical setup, including an STM32, Xilinx FPGA for signal simulation, waveform generator for signal simulation, and Raspberry Pi 4.
