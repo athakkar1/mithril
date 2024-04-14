@@ -39,6 +39,9 @@ client = mqtt.Client()
 # Connect to the broker
 client.connect(broker_address, broker_port, 60)
 
+previous_message = False
+buffer = None
+
 # Publish a message every 5 seconds
 try:
     while True:
