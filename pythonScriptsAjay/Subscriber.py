@@ -10,6 +10,8 @@ data_file_path = "received_data2.txt"
 previous_values = False
 buffer = None
 current_values = np.zeros(1024)
+vmin = 0
+vmax = 10
 
 # Callback when the client connects to the MQTT broker
 def on_connect(client, userdata, flags, rc):
@@ -40,6 +42,7 @@ def update(frame):
         # Process the data (split by commas and remove newline character)
         try:
             values = np.array([int(val) for val in data.strip().split(',')])
+            '''
             if previous_values:
                 values = abs(values - buffer)*10
                 current_values = values
@@ -49,6 +52,7 @@ def update(frame):
                 buffer = values
                 values = current_values
                 previous_values = True
+            '''
             if len(values) != num_points:
                 return  # Skip if the number of data points does not match num_points
         except ValueError:
@@ -61,12 +65,8 @@ def update(frame):
         fft_data = np.vstack([fft_data, values])
 
         # Clear the axis and plot the spectrogram
-        ax.clear()
-        freqs = np.arange(num_points) * sampling_frequency / fft_size
-        ax.pcolormesh(freqs, np.arange(fft_data.shape[0]), fft_data, shading='gouraud')
-        ax.set_xlabel('Frequency (Hz)')
-        ax.set_ylabel('Time Index')
-        ax.set_title('Real-time FFT Spectrogram')
+        im.set_data(fft_data)
+        
 
 # Create MQTT client
 client = mqtt.Client()
@@ -77,17 +77,35 @@ client.on_message = on_message
 
 # Connect to the broker
 client.connect(broker_address, broker_port, 60)
-
-# Create a figure for the spectrogram
-fig, ax = plt.subplots()
-
 # Initialize parameters
 sampling_frequency = 21929  # Updated sampling frequency
 fft_size = 2048  # FFT size
 num_points = 1024  # Number of points per FFT
+c = 3 * (10**8)
+Td = 258 * (10**-6)
+b = 50 * (10**6)
+range_constant = Td*c/(b*2)
+# Create the plot with a constant color scale outside of the function
+fig, ax = plt.subplots()
 
-# Initialize a 2D array to store the FFT data
-fft_data = np.zeros((0, num_points))  # Changed to an empty array with correct numbe>
+# Initialize fft_data with a row of zeros
+fft_data = np.zeros((40, num_points))
+
+# Create the plot with a constant color scale
+im = ax.imshow(fft_data, aspect='auto', vmin=vmin, vmax=vmax, origin='lower', cmap='Oranges')
+
+num_ticks = 5  # adjust this value as needed
+xticks = np.linspace(1, num_points, num_ticks)
+xfreqs = xfreqs = ["{:.2f}".format(x) for x in xticks * sampling_frequency * range_constant / fft_size]
+ax.set_xticks(xticks)
+ax.set_xticklabels(xfreqs)
+
+# Add a colorbar
+fig.colorbar(im, ax=ax)
+
+ax.set_xlabel('Range (m)')
+ax.set_ylabel('Time Index')
+ax.set_title('Real-time FFT Spectrogram')
 
 #Initililize penis
 penis = 0
