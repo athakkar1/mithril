@@ -1,20 +1,40 @@
 \begin{theindex}
 
   \item Chapter
+    \subitem Digital Processing, 7
     \subitem Introduction, 1
+    \subitem Issues, 10
+    \subitem Networking, 8
+    \subitem Part Selection, 5
+    \subitem PCB, 6
     \subitem Project Description, 2
-    \subitem Test, 3
+    \subitem Radar Theory, 4
+    \subitem Resources, 3
+    \subitem Results, 9
+
+  \indexspace
+
+  \item Digital Processing, 7
 
   \indexspace
 
   \item Introduction, 1
+  \item Issues, 10
 
   \indexspace
 
+  \item Networking, 8
+
+  \indexspace
+
+  \item Part Selection, 5
+  \item PCB, 6
   \item Project Description, 2
 
   \indexspace
 
-  \item Test, 3
+  \item Radar Theory, 4
+  \item Resources, 3
+  \item Results, 9
 
 \end{theindex}
