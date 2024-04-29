@@ -1,0 +1,42 @@
+% File: prologue.tex
+% Thesis prologue:  Title page, acknowledgements, table of contents,
+% list of figures, and list of tables.
+%
+% this file is to be \include'd after the \begin{document}
+
+% Cornell-style title page
+\begin{titlepage}
+        \title{Mithril - FMCW Radar}
+        \author{Tomas Esson, Ajay Thakkar, Juan Jimenez \\ tesson@stevens.edu, athakka5@stevens.edu, jjimene6@stevens.edu }
+        \conferraldate{}{\today} \maketitle
+\end{titlepage}
+
+% Copyright page
+%\begin{copyrightpage}
+\makecopyright
+%\end{copyrightpage}
+
+% Abstract: the abstract body is pulled from the file abstract.tex;
+%  the title is pulled from the \title command in the titlepage section
+
+% Biographical information pulled from file bio.tex
+%\begin{biosketch} \input bio \end{biosketch}
+
+% Dedication (optional):  pulls information from file dedication.tex
+%\begin{dedication} 
+%\input dedicate 
+%\end{dedication}
+
+% Acknowledgements:  pulls information from file acknow
+%\begin{acknowledgements} \input acknow \end{acknowledgements}
+
+% Table of contents
+\contentspage
+
+% If you have no tables or figures put a % in front of the list page line
+% List of tables
+\tablelistpage
+
+% List of figures
+\figurelistpage
+
