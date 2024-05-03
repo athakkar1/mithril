@@ -1,5 +1,6 @@
 \contentsline {chapter}{\numberline {1}Introduction }{1}{chapter.1}%
 \contentsline {chapter}{\numberline {2}Project Description }{2}{chapter.2}%
+\contentsline {section}{\numberline {2.1}}{2}{section.2.1}%
 \contentsline {chapter}{\numberline {3}Resources }{3}{chapter.3}%
 \contentsline {chapter}{\numberline {4}Radar Theory }{4}{chapter.4}%
 \contentsline {chapter}{\numberline {5}Part Selection }{5}{chapter.5}%
