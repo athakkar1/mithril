@@ -1,0 +1,543 @@
+(ExpressProject "mithril2"
+  (ProjectVersion "19981106")
+  (SoftwareVersion "23.1 S002 (4170606)  [2/5/2024]-[03/07/24]")
+  (ProjectType "Analog or A/D Mixed Mode")
+  (Folder "Design Resources"
+    (Folder "Library"
+      (File "..\tools\capture\library\pspice\7400.olb"
+        (DisplayName "..\tools\capture\library\pspice\7400.olb")
+        (Type "Schematic Library"))
+      (File "..\tools\capture\library\pspice\74ac.olb"
+        (DisplayName "..\tools\capture\library\pspice\74ac.olb")
+        (Type "Schematic Library"))
+      (File "..\tools\capture\library\pspice\74act.olb"
+        (DisplayName "..\tools\capture\library\pspice\74act.olb")
+        (Type "Schematic Library"))
+      (File "..\tools\capture\library\pspice\74als.olb"
+        (DisplayName "..\tools\capture\library\pspice\74als.olb")
+        (Type "Schematic Library"))
+      (File "..\tools\capture\library\pspice\74as.olb"
+        (DisplayName "..\tools\capture\library\pspice\74as.olb")
+        (Type "Schematic Library"))
+      (File "..\tools\capture\library\pspice\74f.olb"
+        (DisplayName "..\tools\capture\library\pspice\74f.olb")
+        (Type "Schematic Library"))
+      (File "..\tools\capture\library\pspice\74h.olb"
+        (DisplayName "..\tools\capture\library\pspice\74h.olb")
+        (Type "Schematic Library"))
+      (File "..\tools\capture\library\pspice\74hc.olb"
+        (DisplayName "..\tools\capture\library\pspice\74hc.olb")
+        (Type "Schematic Library"))
+      (File "..\tools\capture\library\pspice\74hct.olb"
+        (DisplayName "..\tools\capture\library\pspice\74hct.olb")
+        (Type "Schematic Library"))
+      (File "..\tools\capture\library\pspice\74l.olb"
+        (DisplayName "..\tools\capture\library\pspice\74l.olb")
+        (Type "Schematic Library"))
+      (File "..\tools\capture\library\pspice\74ls.olb"
+        (DisplayName "..\tools\capture\library\pspice\74ls.olb")
+        (Type "Schematic Library"))
+      (File "..\tools\capture\library\pspice\74s.olb"
+        (DisplayName "..\tools\capture\library\pspice\74s.olb")
+        (Type "Schematic Library"))
+      (File "..\tools\capture\library\pspice\abm.olb"
+        (DisplayName "..\tools\capture\library\pspice\abm.olb")
+        (Type "Schematic Library"))
+      (File "..\tools\capture\library\pspice\adv_lin.olb"
+        (DisplayName "..\tools\capture\library\pspice\adv_lin.olb")
+        (Type "Schematic Library"))
+      (File "..\tools\capture\library\pspice\analog.olb"
+        (DisplayName "..\tools\capture\library\pspice\analog.olb")
+        (Type "Schematic Library"))
+      (File "..\tools\capture\library\pspice\analog_p.olb"
+        (DisplayName "..\tools\capture\library\pspice\analog_p.olb")
+        (Type "Schematic Library"))
+      (File "..\tools\capture\library\pspice\ana_swit.olb"
+        (DisplayName "..\tools\capture\library\pspice\ana_swit.olb")
+        (Type "Schematic Library"))
+      (File "..\tools\capture\library\pspice\anlg_dev.olb"
+        (DisplayName "..\tools\capture\library\pspice\anlg_dev.olb")
+        (Type "Schematic Library"))
+      (File "..\tools\capture\library\pspice\anl_misc.olb"
+        (DisplayName "..\tools\capture\library\pspice\anl_misc.olb")
+        (Type "Schematic Library"))
+      (File "..\tools\capture\library\pspice\apex.olb"
+        (DisplayName "..\tools\capture\library\pspice\apex.olb")
+        (Type "Schematic Library"))
+      (File "..\tools\capture\library\pspice\apex_pwm.olb"
+        (DisplayName "..\tools\capture\library\pspice\apex_pwm.olb")
+        (Type "Schematic Library"))
+      (File "..\tools\capture\library\pspice\bipolar.olb"
+        (DisplayName "..\tools\capture\library\pspice\bipolar.olb")
+        (Type "Schematic Library"))
+      (File "..\tools\capture\library\pspice\breakout.olb"
+        (DisplayName "..\tools\capture\library\pspice\breakout.olb")
+        (Type "Schematic Library"))
+      (File "..\tools\capture\library\pspice\burr_brn.olb"
+        (DisplayName "..\tools\capture\library\pspice\burr_brn.olb")
+        (Type "Schematic Library"))
+      (File "..\tools\capture\library\pspice\cd4000.olb"
+        (DisplayName "..\tools\capture\library\pspice\cd4000.olb")
+        (Type "Schematic Library"))
+      (File "..\tools\capture\library\pspice\cel.olb"
+        (DisplayName "..\tools\capture\library\pspice\cel.olb")
+        (Type "Schematic Library"))
+      (File "..\tools\capture\library\pspice\comlinr.olb"
+        (DisplayName "..\tools\capture\library\pspice\comlinr.olb")
+        (Type "Schematic Library"))
+      (File "..\tools\capture\library\pspice\darlngtn.olb"
+        (DisplayName "..\tools\capture\library\pspice\darlngtn.olb")
+        (Type "Schematic Library"))
+      (File "..\tools\capture\library\pspice\dataconv.olb"
+        (DisplayName "..\tools\capture\library\pspice\dataconv.olb")
+        (Type "Schematic Library"))
+      (File "..\tools\capture\library\pspice\dig_ecl.olb"
+        (DisplayName "..\tools\capture\library\pspice\dig_ecl.olb")
+        (Type "Schematic Library"))
+      (File "..\tools\capture\library\pspice\dig_gal.olb"
+        (DisplayName "..\tools\capture\library\pspice\dig_gal.olb")
+        (Type "Schematic Library"))
+      (File "..\tools\capture\library\pspice\dig_misc.olb"
+        (DisplayName "..\tools\capture\library\pspice\dig_misc.olb")
+        (Type "Schematic Library"))
+      (File "..\tools\capture\library\pspice\dig_pal.olb"
+        (DisplayName "..\tools\capture\library\pspice\dig_pal.olb")
+        (Type "Schematic Library"))
+      (File "..\tools\capture\library\pspice\dig_prim.olb"
+        (DisplayName "..\tools\capture\library\pspice\dig_prim.olb")
+        (Type "Schematic Library"))
+      (File "..\tools\capture\library\pspice\diode.olb"
+        (DisplayName "..\tools\capture\library\pspice\diode.olb")
+        (Type "Schematic Library"))
+      (File "..\tools\capture\library\pspice\ebipolar.olb"
+        (DisplayName "..\tools\capture\library\pspice\ebipolar.olb")
+        (Type "Schematic Library"))
+      (File "..\tools\capture\library\pspice\ediode.olb"
+        (DisplayName "..\tools\capture\library\pspice\ediode.olb")
+        (Type "Schematic Library"))
+      (File "..\tools\capture\library\pspice\elantec.olb"
+        (DisplayName "..\tools\capture\library\pspice\elantec.olb")
+        (Type "Schematic Library"))
+      (File "..\tools\capture\library\pspice\epcos.olb"
+        (DisplayName "..\tools\capture\library\pspice\epcos.olb")
+        (Type "Schematic Library"))
+      (File "..\tools\capture\library\pspice\epwrbjt.olb"
+        (DisplayName "..\tools\capture\library\pspice\epwrbjt.olb")
+        (Type "Schematic Library"))
+      (File "..\tools\capture\library\pspice\fairchild.olb"
+        (DisplayName "..\tools\capture\library\pspice\fairchild.olb")
+        (Type "Schematic Library"))
+      (File "..\tools\capture\library\pspice\filtsub.olb"
+        (DisplayName "..\tools\capture\library\pspice\filtsub.olb")
+        (Type "Schematic Library"))
+      (File "..\tools\capture\library\pspice\fwbell.olb"
+        (DisplayName "..\tools\capture\library\pspice\fwbell.olb")
+        (Type "Schematic Library"))
+      (File "..\tools\capture\library\pspice\harris.olb"
+        (DisplayName "..\tools\capture\library\pspice\harris.olb")
+        (Type "Schematic Library"))
+      (File "..\tools\capture\library\pspice\igbt.olb"
+        (DisplayName "..\tools\capture\library\pspice\igbt.olb")
+        (Type "Schematic Library"))
+      (File "..\tools\capture\library\pspice\infineon.olb"
+        (DisplayName "..\tools\capture\library\pspice\infineon.olb")
+        (Type "Schematic Library"))
+      (File "..\tools\capture\library\pspice\ixys.olb"
+        (DisplayName "..\tools\capture\library\pspice\ixys.olb")
+        (Type "Schematic Library"))
+      (File "..\tools\capture\library\pspice\jbipolar.olb"
+        (DisplayName "..\tools\capture\library\pspice\jbipolar.olb")
+        (Type "Schematic Library"))
+      (File "..\tools\capture\library\pspice\jdiode.olb"
+        (DisplayName "..\tools\capture\library\pspice\jdiode.olb")
+        (Type "Schematic Library"))
+      (File "..\tools\capture\library\pspice\jfet.olb"
+        (DisplayName "..\tools\capture\library\pspice\jfet.olb")
+        (Type "Schematic Library"))
+      (File "..\tools\capture\library\pspice\jjfet.olb"
+        (DisplayName "..\tools\capture\library\pspice\jjfet.olb")
+        (Type "Schematic Library"))
+      (File "..\tools\capture\library\pspice\jopamp.olb"
+        (DisplayName "..\tools\capture\library\pspice\jopamp.olb")
+        (Type "Schematic Library"))
+      (File "..\tools\capture\library\pspice\jpwrbjt.olb"
+        (DisplayName "..\tools\capture\library\pspice\jpwrbjt.olb")
+        (Type "Schematic Library"))
+      (File "..\tools\capture\library\pspice\jpwrmos.olb"
+        (DisplayName "..\tools\capture\library\pspice\jpwrmos.olb")
+        (Type "Schematic Library"))
+      (File "..\tools\capture\library\pspice\linedriv.olb"
+        (DisplayName "..\tools\capture\library\pspice\linedriv.olb")
+        (Type "Schematic Library"))
+      (File "..\tools\capture\library\pspice\lin_tech.olb"
+        (DisplayName "..\tools\capture\library\pspice\lin_tech.olb")
+        (Type "Schematic Library"))
+      (File "..\tools\capture\library\pspice\magnetic.olb"
+        (DisplayName "..\tools\capture\library\pspice\magnetic.olb")
+        (Type "Schematic Library"))
+      (File "..\tools\capture\library\pspice\maxim.olb"
+        (DisplayName "..\tools\capture\library\pspice\maxim.olb")
+        (Type "Schematic Library"))
+      (File "..\tools\capture\library\pspice\mix_misc.olb"
+        (DisplayName "..\tools\capture\library\pspice\mix_misc.olb")
+        (Type "Schematic Library"))
+      (File "..\tools\capture\library\pspice\motorsen.olb"
+        (DisplayName "..\tools\capture\library\pspice\motorsen.olb")
+        (Type "Schematic Library"))
+      (File "..\tools\capture\library\pspice\motor_rf.olb"
+        (DisplayName "..\tools\capture\library\pspice\motor_rf.olb")
+        (Type "Schematic Library"))
+      (File "..\tools\capture\library\pspice\nat_semi.olb"
+        (DisplayName "..\tools\capture\library\pspice\nat_semi.olb")
+        (Type "Schematic Library"))
+      (File "..\tools\capture\library\pspice\on_amp.olb"
+        (DisplayName "..\tools\capture\library\pspice\on_amp.olb")
+        (Type "Schematic Library"))
+      (File "..\tools\capture\library\pspice\on_bjt.olb"
+        (DisplayName "..\tools\capture\library\pspice\on_bjt.olb")
+        (Type "Schematic Library"))
+      (File "..\tools\capture\library\pspice\on_diode.olb"
+        (DisplayName "..\tools\capture\library\pspice\on_diode.olb")
+        (Type "Schematic Library"))
+      (File "..\tools\capture\library\pspice\on_mos.olb"
+        (DisplayName "..\tools\capture\library\pspice\on_mos.olb")
+        (Type "Schematic Library"))
+      (File "..\tools\capture\library\pspice\on_pwm.olb"
+        (DisplayName "..\tools\capture\library\pspice\on_pwm.olb")
+        (Type "Schematic Library"))
+      (File "..\tools\capture\library\pspice\opamp.olb"
+        (DisplayName "..\tools\capture\library\pspice\opamp.olb")
+        (Type "Schematic Library"))
+      (File "..\tools\capture\library\pspice\opto.olb"
+        (DisplayName "..\tools\capture\library\pspice\opto.olb")
+        (Type "Schematic Library"))
+      (File "..\tools\capture\library\pspice\phil_bjt.olb"
+        (DisplayName "..\tools\capture\library\pspice\phil_bjt.olb")
+        (Type "Schematic Library"))
+      (File "..\tools\capture\library\pspice\phil_diode.olb"
+        (DisplayName "..\tools\capture\library\pspice\phil_diode.olb")
+        (Type "Schematic Library"))
+      (File "..\tools\capture\library\pspice\phil_fet.olb"
+        (DisplayName "..\tools\capture\library\pspice\phil_fet.olb")
+        (Type "Schematic Library"))
+      (File "..\tools\capture\library\pspice\phil_rf.olb"
+        (DisplayName "..\tools\capture\library\pspice\phil_rf.olb")
+        (Type "Schematic Library"))
+      (File "..\tools\capture\library\pspice\polyfet.olb"
+        (DisplayName "..\tools\capture\library\pspice\polyfet.olb")
+        (Type "Schematic Library"))
+      (File "..\tools\capture\library\pspice\pwrbjt.olb"
+        (DisplayName "..\tools\capture\library\pspice\pwrbjt.olb")
+        (Type "Schematic Library"))
+      (File "..\tools\capture\library\pspice\pwrmos.olb"
+        (DisplayName "..\tools\capture\library\pspice\pwrmos.olb")
+        (Type "Schematic Library"))
+      (File "..\tools\capture\library\pspice\source.olb"
+        (DisplayName "..\tools\capture\library\pspice\source.olb")
+        (Type "Schematic Library"))
+      (File "..\tools\capture\library\pspice\sourcstm.olb"
+        (DisplayName "..\tools\capture\library\pspice\sourcstm.olb")
+        (Type "Schematic Library"))
+      (File "..\tools\capture\library\pspice\special.olb"
+        (DisplayName "..\tools\capture\library\pspice\special.olb")
+        (Type "Schematic Library"))
+      (File "..\tools\capture\library\pspice\swit_rav.olb"
+        (DisplayName "..\tools\capture\library\pspice\swit_rav.olb")
+        (Type "Schematic Library"))
+      (File "..\tools\capture\library\pspice\swit_reg.olb"
+        (DisplayName "..\tools\capture\library\pspice\swit_reg.olb")
+        (Type "Schematic Library"))
+      (File "..\tools\capture\library\pspice\tex_inst.olb"
+        (DisplayName "..\tools\capture\library\pspice\tex_inst.olb")
+        (Type "Schematic Library"))
+      (File "..\tools\capture\library\pspice\thyristr.olb"
+        (DisplayName "..\tools\capture\library\pspice\thyristr.olb")
+        (Type "Schematic Library"))
+      (File "..\tools\capture\library\pspice\tline.olb"
+        (DisplayName "..\tools\capture\library\pspice\tline.olb")
+        (Type "Schematic Library"))
+      (File "..\tools\capture\library\pspice\xtal.olb"
+        (DisplayName "..\tools\capture\library\pspice\xtal.olb")
+        (Type "Schematic Library"))
+      (File "..\tools\capture\library\pspice\zetex.olb"
+        (DisplayName "..\tools\capture\library\pspice\zetex.olb")
+        (Type "Schematic Library"))
+      (File ".\capsym.olb"
+        (Type "Schematic Library"))
+      (File
+         "..\tools\capture\library\ex_files_learning_pcb_design_with_orcad\exercise files\01_02\learnpcbdesignorcad.olb"
+        (Type "Schematic Library"))
+      (File "..\tools\capture\library\connector.olb"
+        (Type "Schematic Library"))
+      (File ".\library1.olb"
+        (Type "Schematic Library"))
+      (File
+         "c:\users\thakk\appdata\roaming\spb_data\cdssetup\orcad_capture\23.1.0\downloaded_parts\samacsys\capture\grf2133w.olb"
+        (Type "Schematic Library")))
+    (NoModify)
+    (File "mithril2.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (ANNOTATE_Scope "0")
+    (ANNOTATE_Mode "1")
+    (ANNOTATE_Action "1")
+    (ANNOTATE_Reset_References_to_1 "FALSE")
+    (ANNOTATE_No_Page_Number_Change "TRUE")
+    (ANNOTATE_Property_Combine "{Value}{Source Package}")
+    (DOCKED "TRUE")
+    (DOCKING_POSITION "61215")
+    ("Allegro Netlist Directory" "allegro")
+    ("Allegro Netlist Output Board File" ".\allegro\mithrilpoosack_alt.brd")
+    (Netlist_TAB "0")
+    ("Create Allegro Netlist" "TRUE")
+    ("View Allegro Netlist Files" "FALSE")
+    ("Allegro Netlist Create DCF File" "FALSE")
+    ("Update Allegro Board" "FALSE")
+    ("Allegro Netlist Remove Etch" "FALSE")
+    ("Allegro Netlist Place Changed Component" "ALWAYS_REPLACE")
+    ("Allegro Netlist Open Board in Allegro" "ALLEGRO")
+    ("Allegro Setup Backup Versions" "3")
+    ("Allegro Setup Ignore Constraints" "FALSE")
+    ("Allegro Setup Part Type Length" "255")
+    ("Allegro Netlist Combine Property String" "PCB Footprint")
+    ("Allegro Netlist Ignore Fixed Property" "FALSE")
+    ("Allegro Netlist User Defined Property" "FALSE")
+    (BOM_Scope "0")
+    (BOM_Mode "0")
+    (BOM_Report_File "D:\ORCADPROJECTS\MITHRIL2.BOM")
+    (BOM_Merge_Include "FALSE")
+    (BOM_Property_Combine_7.0
+       "{Item}\t{Quantity}\t{Reference}\t{Value}\t{Manufacturer_Part_Number}\t{Manufacturer Name}")
+    (BOM_Header
+       "Item\tQuantity\tReference\tPart\tManufacturer Part Number\tManufacturer Name")
+    (BOM_Include_File "D:\ORCADPROJECTS\MITHRIL2.INC")
+    (BOM_Include_File_Combine_7.0 "{Item}\t{Quantity}\t{Reference}\t{Value}")
+    (BOM_One_Part_Per_Line "FALSE")
+    (Open_BOM_in_Excel "TRUE")
+    (BOM_View_Output "FALSE"))
+  (Folder "Layout"
+    (File ".\allegro\mithril2.brd"
+      (Type "Board File")
+      (OutputBoard ".\allegro\mithril2.brd")
+      (NetListPath ".\allegro")
+      (ActiveBoard "0"))
+    (File ".\allegro\mithrilpoo.brd"
+      (Type "Board File")
+      (OutputBoard ".\allegro\mithrilpoo.brd")
+      (NetListPath ".\allegro")
+      (ActiveBoard "0"))
+    (File ".\allegro\mithrilpoosack.brd"
+      (Type "Board File")
+      (OutputBoard ".\allegro\mithrilpoosack.brd")
+      (NetListPath ".\allegro")
+      (ActiveBoard "0"))
+    (File ".\allegro\mithrilpoosack_alt.brd"
+      (Type "Board File")
+      (OutputBoard ".\allegro\mithrilpoosack_alt.brd")
+      (NetListPath ".\allegro")
+      (ActiveBoard "1")))
+  (Folder "Outputs"
+    (File ".\allegro\pstxnet.dat"
+      (Type "Report")
+      (DisplayName "pstxnet.dat"))
+    (File ".\allegro\pstxprt.dat"
+      (Type "Report")
+      (DisplayName "pstxprt.dat"))
+    (File ".\allegro\pstchip.dat"
+      (Type "Report")
+      (DisplayName "pstchip.dat"))
+    (File ".\mithril2.bom"
+      (Type "Report")))
+  (Folder "PSpice Resources"
+    (Folder "Model Libraries"
+      (Sort User))
+    (Folder "Stimulus Files"
+      (Sort User))
+    (Folder "Include Files"
+      (Sort User))
+    (Folder "Simulation Profiles"
+      (ActiveProfile ".\mithril2-pspicefiles\schematic1\bias.sim")
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\mithril2-pspicefiles\schematic1\bias.sim"
+        (DisplayName "SCHEMATIC1-bias")
+        (Type "PSpice Profile"))))
+  (DefaultLibraryBrowseDirectory "library\PSpice")
+  (PartMRUSelector
+    (LQG15HS15NJ02D
+      (FullPartName "LQG15HS15NJ02D.Normal")
+      (LibraryName
+         "C:\USERS\THAKK\APPDATA\ROAMING\SPB_DATA\CDSSETUP\ORCAD_CAPTURE\23.1.0\TEMP\DOWNLOADED_PARTS\UL_PART_1709786109\ORCADCAPTUREXML\490-2625-2-ND.OLB")
+      (DeviceIndex "0"))
+    (OFFPAGELEFT-R
+      (LibraryName "D:\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (RC0402FR-0790K9L
+      (FullPartName "RC0402FR-0790K9L.Normal")
+      (LibraryName
+         "C:\USERS\THAKK\APPDATA\ROAMING\SPB_DATA\CDSSETUP\ORCAD_CAPTURE\23.1.0\TEMP\DOWNLOADED_PARTS\UL_PART_1709318269\ORCADCAPTUREXML\311-90.9KLRTR-ND.OLB")
+      (DeviceIndex "0"))
+    (RN73R1JTTD8562C50
+      (FullPartName "RN73R1JTTD8562C50.Normal")
+      (LibraryName
+         "C:\USERS\THAKK\APPDATA\ROAMING\SPB_DATA\CDSSETUP\ORCAD_CAPTURE\23.1.0\TEMP\DOWNLOADED_PARTS\UL_PART_1709318146\ORCADCAPTUREXML\2019-RN73R1JTTD8562C50TR-ND.OLB")
+      (DeviceIndex "0"))
+    (LTC1563-2IGN#PBF
+      (FullPartName "LTC1563-2IGN#PBF.Normal")
+      (LibraryName
+         "C:\USERS\THAKK\APPDATA\ROAMING\SPB_DATA\CDSSETUP\ORCAD_CAPTURE\23.1.0\TEMP\DOWNLOADED_PARTS\SAMACSYS_PART_1709317545\LTC1563-2IGN#PBF\CAPTURE\LTC1563-2IGN#PBF.OLB")
+      (DeviceIndex "0"))
+    (LTC1563-2IGNPBF
+      (FullPartName "LTC1563-2IGNPBF.Normal")
+      (LibraryName
+         "C:\USERS\THAKK\APPDATA\ROAMING\SPB_DATA\CDSSETUP\ORCAD_CAPTURE\23.1.0\TEMP\DOWNLOADED_PARTS\UL_PART_1709317237\ORCADCAPTUREXML\LTC1563-2IGN#PBF-ND.OLB")
+      (DeviceIndex "0"))
+    (MMG3014NT1
+      (FullPartName "MMG3014NT1.Normal")
+      (LibraryName
+         "C:\USERS\THAKK\APPDATA\ROAMING\SPB_DATA\CDSSETUP\ORCAD_CAPTURE\23.1.0\TEMP\DOWNLOADED_PARTS\SAMACSYS_PART_1708382212\MMG3014NT1\CAPTURE\MMG3014NT1.OLB")
+      (DeviceIndex "0"))
+    (GRF2133W
+      (FullPartName "GRF2133W.Normal")
+      (LibraryName
+         "C:\USERS\THAKK\APPDATA\ROAMING\SPB_DATA\CDSSETUP\ORCAD_CAPTURE\23.1.0\TEMP\DOWNLOADED_PARTS\SAMACSYS_PART_1707855904\GRF2133W\CAPTURE\GRF2133W.OLB")
+      (DeviceIndex "0"))
+    (5002
+      (FullPartName "5002.Normal")
+      (LibraryName
+         "C:\USERS\THAKK\APPDATA\ROAMING\SPB_DATA\CDSSETUP\ORCAD_CAPTURE\23.1.0\TEMP\DOWNLOADED_PARTS\SAMACSYS_PART_1707512154\5002\CAPTURE\5002.OLB")
+      (DeviceIndex "0"))
+    (LTST-C191KGKT
+      (FullPartName "LTST-C191KGKT.Normal")
+      (LibraryName
+         "C:\USERS\THAKK\APPDATA\ROAMING\SPB_DATA\CDSSETUP\ORCAD_CAPTURE\23.1.0\TEMP\DOWNLOADED_PARTS\UL_PART_1707508398\ORCADCAPTUREXML\160-1446-2-ND.OLB")
+      (DeviceIndex "0"))
+    (M20-9990246
+      (FullPartName "M20-9990246.Normal")
+      (LibraryName
+         "C:\USERS\THAKK\APPDATA\ROAMING\SPB_DATA\CDSSETUP\ORCAD_CAPTURE\23.1.0\TEMP\DOWNLOADED_PARTS\UL_PART_1707508146\ORCADCAPTUREXML\952-2262-ND.OLB")
+      (DeviceIndex "0"))
+    (LQG18HN33NJ00D
+      (FullPartName "LQG18HN33NJ00D.Normal")
+      (LibraryName
+         "C:\USERS\THAKK\APPDATA\ROAMING\SPB_DATA\CDSSETUP\ORCAD_CAPTURE\23.1.0\TEMP\DOWNLOADED_PARTS\UL_PART_1707414916\ORCADCAPTUREXML\490-6580-2-ND.OLB")
+      (DeviceIndex "0"))
+    (RC0402FR-0775RL
+      (FullPartName "RC0402FR-0775RL.Normal")
+      (LibraryName
+         "C:\USERS\THAKK\APPDATA\ROAMING\SPB_DATA\CDSSETUP\ORCAD_CAPTURE\23.1.0\TEMP\DOWNLOADED_PARTS\UL_PART_1707414700\ORCADCAPTUREXML\311-75.0LRTR-ND.OLB")
+      (DeviceIndex "0"))
+    (LQP03TN18NH02D
+      (FullPartName "LQP03TN18NH02D.Normal")
+      (LibraryName
+         "C:\USERS\THAKK\APPDATA\ROAMING\SPB_DATA\CDSSETUP\ORCAD_CAPTURE\23.1.0\TEMP\DOWNLOADED_PARTS\UL_PART_1707414081\ORCADCAPTUREXML\490-10768-2-ND.OLB")
+      (DeviceIndex "0"))
+    (GRM1555C1H330JA01D
+      (FullPartName "GRM1555C1H330JA01D.Normal")
+      (LibraryName
+         "C:\USERS\THAKK\APPDATA\ROAMING\SPB_DATA\CDSSETUP\ORCAD_CAPTURE\23.1.0\TEMP\DOWNLOADED_PARTS\UL_PART_1707354961\ORCADCAPTUREXML\490-5936-2-ND.OLB")
+      (DeviceIndex "0"))
+    (GRM0335C1H3R3CA01D
+      (FullPartName "GRM0335C1H3R3CA01D.Normal")
+      (LibraryName
+         "C:\USERS\THAKK\APPDATA\ROAMING\SPB_DATA\CDSSETUP\ORCAD_CAPTURE\23.1.0\TEMP\DOWNLOADED_PARTS\UL_PART_1707354871\ORCADCAPTUREXML\490-6128-2-ND.OLB")
+      (DeviceIndex "0"))
+    (LQG15HS10NJ02D
+      (FullPartName "LQG15HS10NJ02D.Normal")
+      (LibraryName
+         "C:\USERS\THAKK\APPDATA\ROAMING\SPB_DATA\CDSSETUP\ORCAD_CAPTURE\23.1.0\TEMP\DOWNLOADED_PARTS\UL_PART_1707354538\ORCADCAPTUREXML\490-2623-2-ND.OLB")
+      (DeviceIndex "0"))
+    (LQP03TN3N0B02D
+      (FullPartName "LQP03TN3N0B02D.Normal")
+      (LibraryName
+         "C:\USERS\THAKK\APPDATA\ROAMING\SPB_DATA\CDSSETUP\ORCAD_CAPTURE\23.1.0\TEMP\DOWNLOADED_PARTS\UL_PART_1707353589\ORCADCAPTUREXML\490-6727-1-ND.OLB")
+      (DeviceIndex "0"))
+    (ERA-2AEB152X
+      (FullPartName "ERA-2AEB152X.Normal")
+      (LibraryName
+         "C:\USERS\THAKK\APPDATA\ROAMING\SPB_DATA\CDSSETUP\ORCAD_CAPTURE\23.1.0\TEMP\DOWNLOADED_PARTS\UL_PART_1707353383\ORCADCAPTUREXML\P1.5KDCTR-ND.OLB")
+      (DeviceIndex "0"))
+    (ERJ-2RKF2001X
+      (FullPartName "ERJ-2RKF2001X.Normal")
+      (LibraryName
+         "C:\USERS\THAKK\APPDATA\ROAMING\SPB_DATA\CDSSETUP\ORCAD_CAPTURE\23.1.0\TEMP\DOWNLOADED_PARTS\UL_PART_1707353294\ORCADCAPTUREXML\P2.00KLTR-ND.OLB")
+      (DeviceIndex "0"))
+    (ERA-3AEB302V
+      (FullPartName "ERA-3AEB302V.Normal")
+      (LibraryName
+         "C:\USERS\THAKK\APPDATA\ROAMING\SPB_DATA\CDSSETUP\ORCAD_CAPTURE\23.1.0\TEMP\DOWNLOADED_PARTS\UL_PART_1707353175\ORCADCAPTUREXML\P3.0KDBTR-ND.OLB")
+      (DeviceIndex "0"))
+    (GRM1555C1H3R0CA01D
+      (FullPartName "GRM1555C1H3R0CA01D.Normal")
+      (LibraryName
+         "C:\USERS\THAKK\APPDATA\ROAMING\SPB_DATA\CDSSETUP\ORCAD_CAPTURE\23.1.0\TEMP\DOWNLOADED_PARTS\SAMACSYS_PART_1707344931\GRM1555C1H3R0CA01D\CAPTURE\GRM1555C1H3R0CA01D.OLB")
+      (DeviceIndex "0"))
+    (GRM1555C1H1R8CA01D
+      (FullPartName "GRM1555C1H1R8CA01D.Normal")
+      (LibraryName
+         "C:\USERS\THAKK\APPDATA\ROAMING\SPB_DATA\CDSSETUP\ORCAD_CAPTURE\23.1.0\TEMP\DOWNLOADED_PARTS\UL_PART_1707344009\ORCADCAPTUREXML\490-5898-2-ND.OLB")
+      (DeviceIndex "0"))
+    (LQG15HS2N0S02D
+      (FullPartName "LQG15HS2N0S02D.Normal")
+      (LibraryName
+         "C:\USERS\THAKK\APPDATA\ROAMING\SPB_DATA\CDSSETUP\ORCAD_CAPTURE\23.1.0\TEMP\DOWNLOADED_PARTS\UL_PART_1707343855\ORCADCAPTUREXML\490-6569-2-ND.OLB")
+      (DeviceIndex "0"))
+    (GRF5112
+      (FullPartName "GRF5112.Normal")
+      (LibraryName
+         "C:\USERS\THAKK\APPDATA\ROAMING\SPB_DATA\CDSSETUP\ORCAD_CAPTURE\23.1.0\TEMP\DOWNLOADED_PARTS\SAMACSYS_PART_1707343618\GRF5112\CAPTURE\GRF5112.OLB")
+      (DeviceIndex "0")))
+  (LastUsedLibraryBrowseDirectory "D:\tools\capture\library")
+  (MPSSessionName "thakk")
+  (Folder "Logs"
+    (File ".\allegro\netlist.log"
+      (Type "Log File")
+      (LogFile "d:\orcadprojects\allegro\netlist.log"))
+    (File ".\allegro\netrev.lst"
+      (Type "Log File")
+      (LogFile "d:\orcadprojects\allegro\netrev.lst"))
+    (File ".\allegro\eco.txt"
+      (Type "Log File")
+      (LogFile "d:\orcadprojects\allegro\eco.txt"))
+    (File ".\allegro\genfeed.log"
+      (Type "Log File")
+      (LogFile "d:\orcadprojects\allegro\genfeed.log")))
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources" "d:\orcadprojects\mithril2.dsn")
+      (Path "Design Resources" "d:\orcadprojects\mithril2.dsn" "SCHEMATIC1")
+      (Path "Design Resources" "Library")
+      (Path "Design Resources" "Library"
+         "c:\users\thakk\appdata\roaming\spb_data\cdssetup\orcad_capture\23.1.0\downloaded_parts\samacsys\capture\grf2133w.olb")
+      (Path "Layout")
+      (Path "Outputs")
+      (Path "Logs")
+      (Select "Design Resources" "d:\orcadprojects\mithril2.dsn"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 0 1712 0 653"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 5 24 5 1721 24 681")
+        (Scroll "207 156")
+        (Zoom "128")
+        (Occurrence "/"))
+      (Path "D:\ORCADPROJECTS\MITHRIL2.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "PAGE2"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 5 24 5 1721 24 681")
+        (Scroll "-14 152")
+        (Zoom "82")
+        (Occurrence "/"))
+      (Path "D:\ORCADPROJECTS\MITHRIL2.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "receiverFinal")))
+  (ISPCBBASICLICENSE "false"))
