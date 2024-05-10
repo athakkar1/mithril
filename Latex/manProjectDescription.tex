@@ -14,7 +14,7 @@
       \node [block] (mithril) {Mithril};
       \node [block, below of=mithril, node distance=4cm] (radar) {FMCW Radar};
       \node [block, left of=radar, node distance=4cm] (processing) {Digital Processing};
-      \node [block, right of=radar, node distance=4cm] (networking) {Distributed Networking};
+      \node [block, right of=radar, node distance=4cm] (networking) {Edge Computing};
       \node [block, below of=processing, node distance=2cm] (STM) {STM MC and Python};
       \node [block, below of=radar, node distance=2cm] (ORCad) {Cadence ORCad};
       \node [block, below of=networking, node distance=2cm] (pi) {Raspberry Pi and MQTT};
@@ -30,7 +30,12 @@
   \label{fig:mithril_flowchart}
   \end{figure}
 Mithril is a nodal FMCW radar system that incorporates traditional FMCW radar,
-digital processing, edge computing, and distributed networking. The initial idea of this 
+digital processing, edge computing, and distributed networking. The initial application of this project was for a military context.
+State of the art missile defense systems cost too much and are too big to be viable in many places, and while our system doesn't compare to
+systems like the Iron Dome or Patriot System it could allow for at least an alert for civilians to leave possible shelling and bombing sites.
+The system would include small radar nodes capable of detecting missiles and electronically steering their line of sight via phased array antennas.
+Multiple nodes could work in tandem to communicate their findings, allowing for a wider range of sight and active tracking of projectiles. The network would
+be able to function regardless of how many nodes there were, and still continue to function if nodes are destroyed.
 
 As can be seen in Figure \ref{fig:mithril_flowchart},
 the radar was designed as a standalone PCB in ORCad, digital processing was handled by
@@ -38,5 +43,5 @@ STM microcontrollers, and distributed networking is done via Raspberry Pi's and 
 All of these components were designed, engineered, and interfaced from scratch with a limited budget
 of 2000 dollars.
 
-\section{}
+\section{FMCW Radar PCB}
 The heart of the project is a standalone PCB capable of FMCW radar.
