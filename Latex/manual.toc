@@ -5,18 +5,23 @@
 \contentsline {chapter}{\numberline {4}Radar Theory }{5}{chapter.4}%
 \contentsline {chapter}{\numberline {5}Part Selection }{6}{chapter.5}%
 \contentsline {section}{\numberline {5.1}Voltage Controlled Oscillator (VCO)}{7}{section.5.1}%
-\contentsline {chapter}{\numberline {6}PCB }{9}{chapter.6}%
-\contentsline {section}{\numberline {6.1}Schematic}{9}{section.6.1}%
-\contentsline {subsection}{\numberline {6.1.1}ORCad Capture Overview}{9}{subsection.6.1.1}%
-\contentsline {subsection}{\numberline {6.1.2}Circuitry Good Practices}{12}{subsection.6.1.2}%
-\contentsline {subsubsection}{DC Blocking and Coupling Caps}{12}{section*.5}%
-\contentsline {subsubsection}{Test Pins and Grounds}{13}{section*.6}%
-\contentsline {subsubsection}{Power LEDs}{13}{section*.7}%
-\contentsline {subsubsection}{Potentiometers}{14}{section*.8}%
-\contentsline {subsection}{\numberline {6.1.3}Transmitter}{14}{subsection.6.1.3}%
-\contentsline {subsection}{\numberline {6.1.4}Receiver}{14}{subsection.6.1.4}%
-\contentsline {section}{\numberline {6.2}Layout}{14}{section.6.2}%
-\contentsline {chapter}{\numberline {7}Digital Processing }{15}{chapter.7}%
-\contentsline {chapter}{\numberline {8}Networking }{16}{chapter.8}%
-\contentsline {chapter}{\numberline {9}Results }{17}{chapter.9}%
-\contentsline {chapter}{\numberline {10}Issues }{18}{chapter.10}%
+\contentsline {section}{\numberline {5.2}Power Divider}{9}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Phase Shifter}{9}{section.5.3}%
+\contentsline {section}{\numberline {5.4}Power Amplifier}{10}{section.5.4}%
+\contentsline {section}{\numberline {5.5}Low Noise Amplifier}{11}{section.5.5}%
+\contentsline {section}{\numberline {5.6}Mixer/LO Amp}{11}{section.5.6}%
+\contentsline {chapter}{\numberline {6}PCB }{12}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Schematic}{12}{section.6.1}%
+\contentsline {subsection}{\numberline {6.1.1}ORCad Capture Overview}{12}{subsection.6.1.1}%
+\contentsline {subsection}{\numberline {6.1.2}Circuitry Good Practices}{15}{subsection.6.1.2}%
+\contentsline {subsubsection}{DC Blocking and Coupling Caps}{15}{section*.5}%
+\contentsline {subsubsection}{Test Pins and Grounds}{16}{section*.6}%
+\contentsline {subsubsection}{Power LEDs}{16}{section*.7}%
+\contentsline {subsubsection}{Potentiometers}{17}{section*.8}%
+\contentsline {subsection}{\numberline {6.1.3}Transmitter}{17}{subsection.6.1.3}%
+\contentsline {subsection}{\numberline {6.1.4}Receiver}{17}{subsection.6.1.4}%
+\contentsline {section}{\numberline {6.2}Layout}{17}{section.6.2}%
+\contentsline {chapter}{\numberline {7}Digital Processing }{18}{chapter.7}%
+\contentsline {chapter}{\numberline {8}Networking }{19}{chapter.8}%
+\contentsline {chapter}{\numberline {9}Results }{20}{chapter.9}%
+\contentsline {chapter}{\numberline {10}Issues }{21}{chapter.10}%
