@@ -44,4 +44,29 @@ All of these components were designed, engineered, and interfaced from scratch w
 of 2000 dollars.
 
 \section{FMCW Radar PCB}
-The heart of the project is a standalone PCB capable of FMCW radar.
+\begin{figure}[H]
+  \centering
+  \scalebox{.11}{\includegraphics{ProjectImages/pcb_1.jpg}}
+\caption{Mithril PCB}
+\label{img:mithrilPCB_1}
+\end{figure}
+The heart of the project is a standalone PCB capable of FMCW radar and phased array beamforming, which can be seen in Image \ref{img:mithrilPCB_1}.
+The PCB has a transmitting and receiving portion, each with several stages. The TX portion has a stage for signal synthesis,
+phase shifting, and amplification. The RX portion has a stage for amplification, mixing, and baseband filtering/amplifying.
+There are also GPIO pins for interfacing with the microcontroller, as well as test pins for analyzing the signals we receive.
+This was foreign ground for the entire team, and was started by first researching common RF chains, picking parts that could handle
+the afformentioned stages, designing the schematic and layout in ORCad, and then printing and assembling the board. Afterwards,
+we tested for weeks to find different issues and workarounds which will be mentioned later.
+
+\section{Digital Processing}
+The digital processing was handled entirely by the \href{https://www.st.com/en/evaluation-tools/nucleo-f756zg.html}{STM-F756ZG}.
+Two of them were used in the final implementation, where one was responsible for generating a ramp voltage which will be discussed
+later, and the other responsible for sampling the radar's received signal, windowing the signal, taking the FFT, transmitting 
+the FFT over UART, and receiving commands over UART to program the phase shifter on the PCB via its GPIO pins. This was a lot of tasks,
+and all of it was programmed to run in a superloop with the help of DMA and interrupts.
+
+\section{Networking}
+How the fuck does a mesh network work borger.
+
+
+

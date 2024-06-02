@@ -112,3 +112,83 @@ and a noise figure of .6 dB. We also can look at the OP1dB which has a figure of
 straight from an antenna, the signal will be super weak and there is a low likelihood it will reach the OP1dB.
 
 \section{Mixer/LO Amp}
+\begin{figure}[H]
+  \centering
+  \scalebox{.7}{\includegraphics{DatasheetImages/mixertable.png}}
+  \caption{Mixer Table}
+  \label{img:mixertable}
+\end{figure}
+\begin{figure}[H]
+  \centering
+  \scalebox{.7}{\includegraphics{DatasheetImages/mixerharmonics.png}}
+  \caption{Mixer Harmonics Table}
+  \label{img:mixerharmonics}
+\end{figure}
+
+Now that our received signal is amplified we must down-convert it in order to sample and process it. The process for doing
+this is called heterodyning or mixing, and the theory behind this can be found in detail in Chapter \ref{Radar Theory}. 
+A mixer has three ports, the local oscillator, RF signal, and output. The local oscillator and RF signal are multiplied
+to produce the sum and difference of the LO and RF signals on the output port. We are mainly interested in the difference,
+also called the Intermediate Frequency (IF) since it is a low frequency and can be sampled easily.
+In our case, we take a copy of the VCO as the local oscillator and then mix this with the amplified return signal 
+to produce our intermediate frequency. To achieve this, we used a discontinued mixer from Analog Devices which
+can be found \href{https://www.arrow.com/en/products/hmc400ms8etr/analog-devices}{here}. 
+Looking at the mixer's specifications table in Figure \ref{img:mixertable}, we can 
+see some new properties. The conversion loss is the output IF power delivered minus the available RF input signal power. The
+LO to RF Isolation is how much of the local oscillator signal leaks into the RF port, and the LO to IF Isolation is how much
+the local oscillator signal leaks into the output port. This is a passive component, meaning it does not require power and
+solely operates off the power of the LO and RF signals. Therefore we see in the table that the LO Input must be 16-18 dBm to drive
+the mixer. Essentially the local oscillator powers the mixer, and its harmonics will therefore be prominent in the IF port due to
+leakage. We can see in Figure \ref{img:mixerharmonics} that at 1.85 GHz the manufacturer tells us the strength of LO harmonics 
+up to the fourth order. At the top it says spur which means spurious (unwanted) outputs due to the nonlinearity of the mixer.
+Essentially this table tells us that there will be unwanted spectral components in the output, which is something we did not
+pay enough attention to and will discuss in Chapter \ref{Issues}.
+\begin{figure}[H]
+  \centering
+  \scalebox{.7}{\includegraphics{DatasheetImages/loamptable.png}}
+  \caption{LO Amp Table}
+  \label{img:loamptable}
+\end{figure}
+
+As we said before, the mixer is a passive component which is driven by the LO which needs a power level of 16-18 dBm.
+After splitting our VCO's output four ways, we have about a ~2 dBm signal that we must amplify. So, we chose an RF broadband
+amplifier from NXP which can be found \href{https://www.digikey.com/en/products/detail/nxp-usa-inc/MMG3014NT1/1971761}{here}. As
+we can see in Figure \ref{img:loamptable}, the amp has a gain of around 15 dB for our frequency and an OP1dB of 25.8 dB which is
+a lot of headroom.
+
+\section{IF Amplifiers and Filters}
+Now, our return signal has been downconverted, but the power of that signal is very weak. As well as this, there are unwanted
+spectral components in that signal that are bi-products of the mixer that we need to get rid of. This means we need amplifiers and
+filters to make our signal ready to be sampled and processed in the microcontroller. First we used a super simple op-amp
+that served as a voltage follower which can be found \href{https://www.digikey.com/en/products/detail/microchip-technology/MCP6001UT-I-OT/562450}{here}.
+This was used to create a virtual ground for our biasing. Then we use a dual channel op-amp from TI for our variable gain
+amplifier which can be found \href{https://www.mouser.com/ProductDetail/Texas-Instruments/LM2904DR?qs=5BZzbFV4k2vkQqOl3Q8qPg%3D%3D}{here}.
+
+\begin{figure}[H]
+  \centering
+  \scalebox{.7}{\includegraphics{DatasheetImages/outputswing.png}}
+  \caption{Output Swing Characteristics}
+  \label{img:outputswing}
+\end{figure}
+
+Honestly, when selecting parts we figured all operational amplifiers just acted the same way. However, after printing and manufacturing
+we ran into problems which will be discussed in Chapter \ref{Issues} that could have been remedied if we paid more attention to
+the Op-Amps we were using. The main problem is that these operational amplifiers are not "Rail-to-Rail".
+While rail-to-rail amplifiers guarantee that they do not saturate until the positive and negative voltages you've supplied it,
+other amplifiers have what is called voltage swing. As we can see in Figure \ref{img:outputswing}, the range of voltage
+that the operational amplifier can achieve is not its rails, but specifies how much lower than its rail it will be. This is 
+something to look out for when selecting an Op-Amp.
+
+\begin{figure}[H]
+  \centering
+  \scalebox{.7}{\includegraphics{DatasheetImages/filterspecs.png}}
+  \caption{Filter Features}
+  \label{img:filterspecs}
+\end{figure}
+
+After amplifying the signal, we wanted to filter out unwanted spectral components by using a strong filter. Instead of designing
+this ourselves, we decided to use a 4th Order LPF which can be found \href{https://www.digikey.com/en/products/detail/analog-devices-inc/LTC1563-2IGN-PBF/962958}{here}.
+By looking at Figure \ref{img:filterspecs}, we can see that this is an integrated circuit with a flexible cutoff frequency.
+It also says that it is a rail-to-rail input and output circuit, which is an important feature to note as discussed with the amplifiers.
+A fourth order filter just means that this filter has four filters with the same cutoff frequency cascaded upon each other, which
+yields a steeper frequency response and attenuates are unwanted signals further.
