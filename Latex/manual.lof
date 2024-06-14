@@ -2,31 +2,32 @@
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {2.1}{\ignorespaces Flowchart of the Mithril system}}{2}{figure.2.1}%
 \contentsline {figure}{\numberline {2.2}{\ignorespaces Mithril PCB}}{3}{figure.2.2}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Sample Mesh Network Configuration}}{5}{figure.2.3}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Architecture Overview}}{7}{figure.5.1}%
-\contentsline {figure}{\numberline {5.2}{\ignorespaces VCO Datasheet Table}}{8}{figure.5.2}%
-\contentsline {figure}{\numberline {5.3}{\ignorespaces Tuning Voltage Graph}}{9}{figure.5.3}%
-\contentsline {figure}{\numberline {5.4}{\ignorespaces Power Amplifier Table}}{11}{figure.5.4}%
-\contentsline {figure}{\numberline {5.5}{\ignorespaces Low-Noise Amplifier Table}}{12}{figure.5.5}%
-\contentsline {figure}{\numberline {5.6}{\ignorespaces Mixer Table}}{13}{figure.5.6}%
-\contentsline {figure}{\numberline {5.7}{\ignorespaces Mixer Harmonics Table}}{13}{figure.5.7}%
-\contentsline {figure}{\numberline {5.8}{\ignorespaces LO Amp Table}}{14}{figure.5.8}%
-\contentsline {figure}{\numberline {5.9}{\ignorespaces Output Swing Characteristics}}{15}{figure.5.9}%
-\contentsline {figure}{\numberline {5.10}{\ignorespaces Filter Features}}{15}{figure.5.10}%
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Architecture Overview}}{8}{figure.5.1}%
+\contentsline {figure}{\numberline {5.2}{\ignorespaces VCO Datasheet Table}}{9}{figure.5.2}%
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Tuning Voltage Graph}}{10}{figure.5.3}%
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Power Amplifier Table}}{12}{figure.5.4}%
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Low-Noise Amplifier Table}}{13}{figure.5.5}%
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Mixer Table}}{14}{figure.5.6}%
+\contentsline {figure}{\numberline {5.7}{\ignorespaces Mixer Harmonics Table}}{14}{figure.5.7}%
+\contentsline {figure}{\numberline {5.8}{\ignorespaces LO Amp Table}}{15}{figure.5.8}%
+\contentsline {figure}{\numberline {5.9}{\ignorespaces Output Swing Characteristics}}{16}{figure.5.9}%
+\contentsline {figure}{\numberline {5.10}{\ignorespaces Filter Features}}{16}{figure.5.10}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {6.1}{\ignorespaces Component Database Search}}{17}{figure.6.1}%
-\contentsline {figure}{\numberline {6.2}{\ignorespaces Schematic/Footprint Examples}}{18}{figure.6.2}%
-\contentsline {figure}{\numberline {6.3}{\ignorespaces Editing Schematic Parts}}{18}{figure.6.3}%
-\contentsline {figure}{\numberline {6.4}{\ignorespaces Wires and Net Alias}}{18}{figure.6.4}%
-\contentsline {figure}{\numberline {6.5}{\ignorespaces Off Page Connectors}}{19}{figure.6.5}%
-\contentsline {figure}{\numberline {6.6}{\ignorespaces Coupling Capacitor}}{20}{figure.6.6}%
-\contentsline {figure}{\numberline {6.7}{\ignorespaces DC Blocking Capacitor}}{20}{figure.6.7}%
-\contentsline {figure}{\numberline {6.8}{\ignorespaces Capacitance of a Coupling or DC Blocking Capacitor}}{20}{figure.6.8}%
-\contentsline {figure}{\numberline {6.9}{\ignorespaces Test Pin}}{21}{figure.6.9}%
-\contentsline {figure}{\numberline {6.10}{\ignorespaces Power LEDs}}{21}{figure.6.10}%
-\contentsline {figure}{\numberline {6.11}{\ignorespaces Potentiometers}}{22}{figure.6.11}%
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Component Database Search}}{18}{figure.6.1}%
+\contentsline {figure}{\numberline {6.2}{\ignorespaces Schematic/Footprint Examples}}{19}{figure.6.2}%
+\contentsline {figure}{\numberline {6.3}{\ignorespaces Editing Schematic Parts}}{19}{figure.6.3}%
+\contentsline {figure}{\numberline {6.4}{\ignorespaces Wires and Net Alias}}{19}{figure.6.4}%
+\contentsline {figure}{\numberline {6.5}{\ignorespaces Off Page Connectors}}{20}{figure.6.5}%
+\contentsline {figure}{\numberline {6.6}{\ignorespaces Coupling Capacitor}}{21}{figure.6.6}%
+\contentsline {figure}{\numberline {6.7}{\ignorespaces DC Blocking Capacitor}}{21}{figure.6.7}%
+\contentsline {figure}{\numberline {6.8}{\ignorespaces Capacitance of a Coupling or DC Blocking Capacitor}}{21}{figure.6.8}%
+\contentsline {figure}{\numberline {6.9}{\ignorespaces Test Pin}}{22}{figure.6.9}%
+\contentsline {figure}{\numberline {6.10}{\ignorespaces Power LEDs}}{22}{figure.6.10}%
+\contentsline {figure}{\numberline {6.11}{\ignorespaces Potentiometers}}{23}{figure.6.11}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
