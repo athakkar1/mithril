@@ -1,29 +1,29 @@
 \begin{theindex}
 
   \item Chapter
-    \subitem Digital Processing, 23
+    \subitem Digital Processing, 25
     \subitem Introduction, 1
-    \subitem Issues, 26
-    \subitem Networking, 24
+    \subitem Issues, 28
+    \subitem Networking, 26
     \subitem Part Selection, 7
     \subitem PCB, 17
     \subitem Project Description, 2
     \subitem Radar Theory, 6
     \subitem Resources, 5
-    \subitem Results, 25
+    \subitem Results, 27
 
   \indexspace
 
-  \item Digital Processing, 23
+  \item Digital Processing, 25
 
   \indexspace
 
   \item Introduction, 1
-  \item Issues, 26
+  \item Issues, 28
 
   \indexspace
 
-  \item Networking, 24
+  \item Networking, 26
 
   \indexspace
 
@@ -35,6 +35,6 @@
 
   \item Radar Theory, 6
   \item Resources, 5
-  \item Results, 25
+  \item Results, 27
 
 \end{theindex}

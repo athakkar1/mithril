@@ -22,10 +22,10 @@
 \contentsline {subsubsection}{Test Pins and Grounds}{21}{section*.6}%
 \contentsline {subsubsection}{Power LEDs}{21}{section*.7}%
 \contentsline {subsubsection}{Potentiometers}{22}{section*.8}%
-\contentsline {subsection}{\numberline {6.1.3}Transmitter}{22}{subsection.6.1.3}%
-\contentsline {subsection}{\numberline {6.1.4}Receiver}{22}{subsection.6.1.4}%
-\contentsline {section}{\numberline {6.2}Layout}{22}{section.6.2}%
-\contentsline {chapter}{\numberline {7}Digital Processing }{23}{chapter.7}%
-\contentsline {chapter}{\numberline {8}Networking }{24}{chapter.8}%
-\contentsline {chapter}{\numberline {9}Results }{25}{chapter.9}%
-\contentsline {chapter}{\numberline {10}Issues }{26}{chapter.10}%
+\contentsline {subsection}{\numberline {6.1.3}Transmitter}{23}{subsection.6.1.3}%
+\contentsline {subsection}{\numberline {6.1.4}Receiver}{24}{subsection.6.1.4}%
+\contentsline {section}{\numberline {6.2}Layout}{24}{section.6.2}%
+\contentsline {chapter}{\numberline {7}Digital Processing }{25}{chapter.7}%
+\contentsline {chapter}{\numberline {8}Networking }{26}{chapter.8}%
+\contentsline {chapter}{\numberline {9}Results }{27}{chapter.9}%
+\contentsline {chapter}{\numberline {10}Issues }{28}{chapter.10}%

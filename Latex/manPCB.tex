@@ -155,6 +155,38 @@ the output to CCW, and CW to ground. This can help with changing gains and cutof
 assembled.
 
 \subsection{Transmitter}
+\begin{figure}[H]
+  \centering
+  \scalebox{.5}{\includegraphics{CaptureImages/transmitterfull.png}}
+\caption{Transmitter Schematic}
+\label{img:transmitterfull}
+\end{figure}
+The first step in creating a PCB is fleshing out the schematic. We already decided on what parts to use in Chapter \ref{Part Selection},
+and now was the time to create a circuit which interfaces the parts together to make a fully functioning system.
+As can be seen in Figure \ref{img:transmitterfull}, the stages of the RF chain are labeled reflecting what was discussed in the
+Part Selection chapter. Essentially all of the parts shown here are connected to resistors, capacitors, and inductors according
+to the example schematics in their respective datasheets. In the bottom left of the schematic we can see some LEDs
+that are connected to power just to make sure the board is being powered and our GPIO connector which will be used to control our
+parts. 
+
+The signal path starts with synthesis at the VCO. The VCO connects to 5 volts and is controlled by a tuning voltage will
+determine the frequency at the output port of the VCO. This Vtune wire is connected to the GPIO header.
+
+This output signal is then connected to a power divider which splits it four ways. Two of the split signals will
+go to the next stage in the RF chain, and the other two are used as local oscillators in the receiver chain. 
+This can be seen by two ports of the power divider being connected to off page connectors which can be accessed by the
+receiver in another schematic page.
+
+The next stage of the RF chain in the transmitter portion are the phase shifters. The phase shifters will change the phase
+of the two identical signals which essentially means a time delay. This causes construction and destruction when the
+two signals propogate through the air, and allows for concentrated energy in one direction. We chose 8 bit digital 
+phase shifters that have both a serial and parallel interface. The part is connected to 3.3 volts, and has a lot of control and
+data pins that we connected to our GPIO header to allow for control by our microcontroller. The phase shifter and its
+operation will be discussed more in Chapter \ref{Digital Processing}. 
+
+Finally, the signal passes through our power amplifier with a small signal gain of 17.1 dBm and out of an SMA connector
+that connects to our antennas.
+
 \subsection{Receiver}
 
 \section{Layout}
