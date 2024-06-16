@@ -66,7 +66,20 @@ the FFT over UART, and receiving commands over UART to program the phase shifter
 and all of it was programmed to run in a superloop with the help of DMA and interrupts.
 
 \section{Networking}
-How the fuck does a mesh network work borger.
+Mithril relies on the idea of using smaller, cheaper radar PCB nodes which work together to achieve the same sort of capabiltiy as a much larger system. To achieve this PCB radar nodes must be able to communciate with one another and be able to coordinate and send data in a safe and secure manner. Furthermore, the network must be able to easily add new nodes into the system as well as be able to handle if and when nodes are destroyed or if communication becomes impossible. To achieve this we have implemeneted a mesh network topology for our defense system.
+
+A mesh network is a type of network topology in which each node in the network can communicate with multiple other nodes in the network, creating a highly redundant and resilient network architecture. In a mesh network, each node acts as both a sender and a receiver, relaying data through the network until it reaches its intended destination. This allows for the creation of a self-configuring and self-healing network that can be quickly deployed and is resilient to failures. Figure \ref{Figure::Sample Mesh}  shows a typical mesh network configuration.
 
 
+\begin{figure}[H]
+  \centering
+  \scalebox{0.5}{\includegraphics{Figures/Sample_mesh.jpg}}
+  \caption{\label{Figure::Sample Mesh} Sample Mesh Network Configuration}
+  \end{figure}
+
+  Mesh networks have numerous applications, and one of the most promising is for Internet of Things (IoT) devices. IoT devices typically rely on wireless communication, but traditional wireless networks may not be sufficient for large-scale deployments. An ad-hoc mesh network can provide the necessary scalability and reliability for IoT devices, allowing them to communicate with each other and with central servers without relying on a single point of failure. This makes them ideal for scenarios where traditional networks may not be available or feasible, such as in disaster response situations or in remote locations both possible locations where Mithril might be employed.
+
+  To actually implement the mesh network we will use Raspberry Pi's to handle all the software and wireless connectivity capabilities. Raspberry Pi's are small, low-cost, single-board computers which provide incredible performance despite their small size and cost. Raspberry Pi's are roughly the size of a credit card and come with various input and output ports, including HDMI, USB, Ethernet, and GPIO (General Purpose Input/Output) pins. They can run a variety of operating systems, including Linux-based distributions such as Raspbian and Ubuntu, and can be programmed in various programming languages, including Python, C, and Java. Because of their small size, low power consumption, and versatility, Raspberry Pi's are an excellent platform for the creation of low-cost and flexible ad-hoc mesh networks. Mithril will utilize a series of Raspberry Pi's along with some USB Wi-Fi dongles to implement an ad-hoc network which will trasmit radar data. Mithril achieves this this by utilizing several Linux software libraries together to create a framework for a Raspberry-Pi enabled mesh network.
+
+  With the nodes setup for wireless network capabilties Mithril needs some form of protocol to actually communciate and send information over the mesh network. To this end, Mithril utilizes the MQTT network protocol to send the telemetry information acquired by the PCB radar nodes. MQTT is a lightweight, publish-susbcribe, machine to machine network protocol for message queue/message queuing. Nodes on the mesh network utilizing MQTT can publish their data under a certain "topic" which other nodes on the network can susbcribe to and receive the "messages" which are published under the topics. We utilize Eclipse Paho which is a python library which provides functionality for implementing MQTT v5.0. It provides a client class which enables applications to connect to an MQTT broker to publish messages, and to subscribe to topics and receive published messages. It also provides some helper functions to make publishing one off messages to an MQTT server very straightforward.
 
