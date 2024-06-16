@@ -184,10 +184,45 @@ phase shifters that have both a serial and parallel interface. The part is conne
 data pins that we connected to our GPIO header to allow for control by our microcontroller. The phase shifter and its
 operation will be discussed more in Chapter \ref{Digital Processing}. 
 
-Finally, the signal passes through our power amplifier with a small signal gain of 17.1 dBm and out of an SMA connector
-that connects to our antennas.
+Finally, the signal passes through our power amplifier with a small signal gain of 17.1 dBm which should help it propogate
+through the air for a longer period of time without dissipating. The amplified signal will then propogate through two transmitting
+antennas (our small phased array of antennas) to construct and destruct forming a beam of EMF.
 
 \subsection{Receiver}
+\begin{figure}[H]
+  \centering
+  \scalebox{.5}{\includegraphics{CaptureImages/receiverfull.png}}
+\caption{RF Portion of Receiver Schematic}
+\label{img:receiverschem}
+\end{figure}
+After our signal propogates through the air, it should hit some objects and reflect back to the physical system, and the
+goal is to capture this signal and make it digestible to analyze. The first step is capturing the signal, which is accomplished
+through the RF portion of the receiving schematic shown in Figure \ref{img:receiverschem}.
+
+First, we have two receiving antennas where the reflected signal should induce a signal in the antennas. We have two
+receiving antennas to distinguish the angle of arrival as discussed in \ref{Radar Theory}.
+
+The very small signal induced in the antennas will then pass through a low-noise amplifier which is supposed to amplify our small
+signal to be used in the later stages of the chain. The reason a low-noise amplifier is used in a receiving RF chain is because
+the first stage of a receiver is the most impactful on its signal-to-noise ratio, or how strong the signal has to be to be
+distinguishable from noise. This is discussed more in depth in Chapter \ref{Radar Theory}. This part is powered by 5 volts, and
+also has an enable pin that can set the gain of the LNA and disable it if need be. There is also a pin called "EP" which stands
+for exposed pad. it is essentially a big ground pad that is used as a heat sink, distributing heat to the ground plane.
+
+After being amplified, the signal is fed into a mixer. The mixer is supposed to output the sum and difference of two RF signals.
+One of these is our amplified return signal, the other is a copy of out transmitted signal (LO). This transmitted signal comes from
+an off-page connector which is connected to the power divider in the transmitter schematic, and is then amplified by a power
+amplifier according to the mixer's LO specifications. The mixer feeds these signals into the RF and LO ports respectively, and
+outputs the sum and difference of these signals out of the IF or intermediate frequency port.
+
+\begin{figure}[H]
+  \centering
+  \scalebox{.5}{\includegraphics{CaptureImages/basebandamp.png}}
+\caption{IF Amplifier Stage}
+\label{img:ifamplifier}
+\end{figure}
+
+
 
 \section{Layout}
 \
