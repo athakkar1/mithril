@@ -212,7 +212,9 @@ for exposed pad. it is essentially a big ground pad that is used as a heat sink,
 After being amplified, the signal is fed into a mixer. The mixer is supposed to output the sum and difference of two RF signals.
 One of these is our amplified return signal, the other is a copy of out transmitted signal (LO). This transmitted signal comes from
 an off-page connector which is connected to the power divider in the transmitter schematic, and is then amplified by a power
-amplifier according to the mixer's LO specifications. The mixer feeds these signals into the RF and LO ports respectively, and
+amplifier according to the mixer's LO specifications. The reason it is amplified is because the mixer is a passive
+component, meaning it does not use an external power source for its functionality.
+The mixer feeds these signals into the RF and LO ports respectively, and
 outputs the sum and difference of these signals out of the IF or intermediate frequency port.
 
 \begin{figure}[H]
@@ -222,7 +224,35 @@ outputs the sum and difference of these signals out of the IF or intermediate fr
 \label{img:ifamplifier}
 \end{figure}
 
+After the sum and difference of our VCO copy (Local Oscillator) and return signal
+are outputted from the mixer, we need to do some post-processing to make sense of it.
+The first stage of the intermediate frequency processing is in our case
+amplification (which turned out to be a bad idea as can be seen in Chapter \ref{Issues}).
+As mentioned in \ref{Part Selection}, our mixers output has a reference of 0v or ground.
+This means that it contains positive and negative voltage as part of its signal. However,
+we decided to use single supply amplifiers. This means its theoretical rails are 0v (ground)
+to Vcc (3.3v in this case). Therefore, we need to bias our mixer output around the middle of our rails
+to avoid clipping and to take advantage of the full bandwidth of the amp.
 
+The bottom left of Figure \ref{img:ifamplifier} shows our biasing circuit,
+which is a simple voltage division using equal resistors and a voltage follower
+to keep the voltage steady. This becomes our new "virtual ground", or reference voltage
+when dealing with the amplifier. Looking at the dual amp in the center of Figure \ref{img:ifamplifier}, we can see that the mixer output (labeled IF1 and IF2) is
+biased with our DC voltage from the biasing circuit, effectively making the new reference 3.3/2 volts. 
+
+\begin{figure}[H]
+  \centering
+  \scalebox{.5}{\includegraphics{Diagrams/non-inverting-amp.jpg}}
+\caption{Non-Inverting Amplifier Circuit}
+\label{img:noninverting}
+\end{figure}
+
+The amplifier setup itself was taken from a Finnish engineer named Henrik Forsten whose blog we followed closely and can be found
+\href{https://hforsten.com/6-ghz-frequency-modulated-radar.html}{here}. Essentially, it follows a basic non-inverting amplifier
+circuit which can be seen in Figure \ref{img:noninverting}. The output of the amplifier feeds to a potentiometer (R2), 
+and shares a node with resistance tied to ground (R1) and the negative input of the amplifier. The potentiometer makes this
+a variable-gain amplifier, since we can change R2 to different resistance values to fine tune the amplification based on how
+small or large the mixer's output is.
 
 \section{Layout}
 \
