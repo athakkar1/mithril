@@ -252,7 +252,18 @@ The amplifier setup itself was taken from a Finnish engineer named Henrik Forste
 circuit which can be seen in Figure \ref{img:noninverting}. The output of the amplifier feeds to a potentiometer (R2), 
 and shares a node with resistance tied to ground (R1) and the negative input of the amplifier. The potentiometer makes this
 a variable-gain amplifier, since we can change R2 to different resistance values to fine tune the amplification based on how
-small or large the mixer's output is.
+small or large the mixer's output is. The ground for the power supply in the amplifier is connected to the power supply, but 
+we simply replaced everywhere there would have been ground in the rest of the circuit with our "virtual ground" from the biasing circuit
+to make the reference 3.3/2 volts.
+
+\begin{figure}[H]
+  \centering
+  \scalebox{.5}{\includegraphics{CaptureImages/filters.png}}
+\caption{Low Pass Filters}
+\label{img:lpf}
+\end{figure}
+
+
 
 \section{Layout}
 \
