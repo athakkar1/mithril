@@ -263,7 +263,24 @@ to make the reference 3.3/2 volts.
 \label{img:lpf}
 \end{figure}
 
+At this point, our intermediate frequency signal is amplified, but might still have
+noise from the antenna or high frequency components from the mixer. In order to remove
+these unwanted frequencies from our signal, we want to apply some filtering to only leave
+the intermediate frequency of interest. We added fourth-order butterworth LPFs after
+the amplifiers to attenuate these other signals. As we can see in \ref{img:lpf}, the 
+chip takes multiple resistance values that determine its cutoff frequency.
 
+\begin{figure}[H]
+  \begin{equation}
+    R = 10k \left(\frac{256kHz}{f_C}\right); \quad f_C = \text{Cutoff Frequency}
+    \end{equation}
+    \caption{Cutoff Frequency Equation for LPF}
+    \label{eq:LPF}
+  \end{figure}
+
+The resistances can be determined by Equation \ref{eq:LPF}, and in our case
+we used 90.9k resistors to achieve a cutoff frequency of 28 kHz. This filtered
+signal then goes to a GPIO pin which will be sampled by a microcontroller.
 
 \section{Layout}
 \
