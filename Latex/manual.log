@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.4.29)  7 JUL 2024 12:46
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.4.29)  4 AUG 2024 16:25
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -972,50 +972,50 @@ runsystem(for ^%i in (pygmentize.exe pygmentize.bat pygmentize.cmd) do set > man
 
 runsystem(del manual.aex)...executed.
 
-LaTeX Font Info:    Trying to load font information for OT1+txr on input line 255.
+LaTeX Font Info:    Trying to load font information for OT1+txr on input line 256.
  (D:\mixtex\tex/latex/txfonts\ot1txr.fd
 File: ot1txr.fd 2000/12/15 v3.1
 ) (D:\mixtex\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2024-03-14 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count409
 \l__pdf_internal_box=\box139
-) (manual.aux (prologue.aux) (manIntroduction.aux) (manProjectDescription.aux) (manResources.aux) (manRadarTheory.aux) (manPartSelection.aux) (manPCB.aux) (manDigitalProcessing.aux) (manNetworking.aux) (manResults.aux) (manIssues.aux))
+) (manual.aux (prologue.aux) (manIntroduction.aux) (manProjectDescription.aux) (manResources.aux) (manRadarTheory.aux) (manPartSelection.aux) (manSchematic.aux) (manLayout.aux) (manDigitalProcessing.aux) (manNetworking.aux) (manResults.aux) (manIssues.aux))
 \openout1 = `manual.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 255.
-LaTeX Font Info:    Trying to load font information for OML+txmi on input line 255.
+LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 256.
+LaTeX Font Info:    Trying to load font information for OML+txmi on input line 256.
  (D:\mixtex\tex/latex/txfonts\omltxmi.fd
 File: omltxmi.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 255.
-LaTeX Font Info:    Checking defaults for OMS/txsy/m/n on input line 255.
-LaTeX Font Info:    Trying to load font information for OMS+txsy on input line 255.
+LaTeX Font Info:    ... okay on input line 256.
+LaTeX Font Info:    Checking defaults for OMS/txsy/m/n on input line 256.
+LaTeX Font Info:    Trying to load font information for OMS+txsy on input line 256.
  (D:\mixtex\tex/latex/txfonts\omstxsy.fd
 File: omstxsy.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 255.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 255.
-LaTeX Font Info:    ... okay on input line 255.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 255.
-LaTeX Font Info:    ... okay on input line 255.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 255.
-LaTeX Font Info:    ... okay on input line 255.
-LaTeX Font Info:    Checking defaults for OMX/txex/m/n on input line 255.
-LaTeX Font Info:    Trying to load font information for OMX+txex on input line 255.
+LaTeX Font Info:    ... okay on input line 256.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 256.
+LaTeX Font Info:    ... okay on input line 256.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 256.
+LaTeX Font Info:    ... okay on input line 256.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 256.
+LaTeX Font Info:    ... okay on input line 256.
+LaTeX Font Info:    Checking defaults for OMX/txex/m/n on input line 256.
+LaTeX Font Info:    Trying to load font information for OMX+txex on input line 256.
  (D:\mixtex\tex/latex/txfonts\omxtxex.fd
 File: omxtxex.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 255.
-LaTeX Font Info:    Checking defaults for U/txexa/m/n on input line 255.
-LaTeX Font Info:    Trying to load font information for U+txexa on input line 255.
+LaTeX Font Info:    ... okay on input line 256.
+LaTeX Font Info:    Checking defaults for U/txexa/m/n on input line 256.
+LaTeX Font Info:    Trying to load font information for U+txexa on input line 256.
  (D:\mixtex\tex/latex/txfonts\utxexa.fd
 File: utxexa.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 255.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 255.
-LaTeX Font Info:    ... okay on input line 255.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 255.
-LaTeX Font Info:    ... okay on input line 255.
+LaTeX Font Info:    ... okay on input line 256.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 256.
+LaTeX Font Info:    ... okay on input line 256.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 256.
+LaTeX Font Info:    ... okay on input line 256.
  (D:\mixtex\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count410
@@ -1035,7 +1035,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
  (D:\mixtex\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-Package hyperref Info: Link coloring ON on input line 255.
+Package hyperref Info: Link coloring ON on input line 256.
  (manual.out) (manual.out)
 \@outlinefile=\write9
 \openout9 = `manual.out'.
@@ -1092,13 +1092,13 @@ File: utxsyc.fd 2000/12/15 v3.1
 
  [5
 
-] (manual.lof)
+] (manual.lof [6
+
+])
 \tf@lof=\write12
 \openout12 = `manual.lof'.
 
- [6
-
-])
+ [7])
 \openout2 = `manIntroduction.aux'.
 
  (manIntroduction.tex
@@ -1127,7 +1127,7 @@ Chapter 2.
 
 
 ]
-<ProjectImages/pcb_1.jpg, id=304, 4047.12pt x 3035.34pt>
+<ProjectImages/pcb_1.jpg, id=355, 4047.12pt x 3035.34pt>
 File: ProjectImages/pcb_1.jpg Graphic file (type jpg)
 <use ProjectImages/pcb_1.jpg>
 Package pdftex.def Info: ProjectImages/pcb_1.jpg  used on input line 49.
@@ -1141,7 +1141,7 @@ Package fancyhdr Warning: \headheight is too small (14.45377pt):
 (fancyhdr)                \addtolength{\topmargin}{-0.04622pt}.
 
 [3 <./ProjectImages/pcb_1.jpg>]
-<Figures/Sample_mesh.jpg, id=312, 521.95pt x 584.1825pt>
+<Figures/Sample_mesh.jpg, id=363, 521.95pt x 584.1825pt>
 File: Figures/Sample_mesh.jpg Graphic file (type jpg)
 <use Figures/Sample_mesh.jpg>
 Package pdftex.def Info: Figures/Sample_mesh.jpg  used on input line 76.
@@ -1195,7 +1195,7 @@ Chapter 4.
 
  (manPartSelection.tex
 Chapter 5.
-<Diagrams/overview.png, id=349, 476.78125pt x 450.18187pt>
+<Diagrams/overview.png, id=401, 476.78125pt x 450.18187pt>
 File: Diagrams/overview.png Graphic file (type png)
 <use Diagrams/overview.png>
 Package pdftex.def Info: Diagrams/overview.png  used on input line 8.
@@ -1206,12 +1206,12 @@ Package pdftex.def Info: Diagrams/overview.png  used on input line 8.
 
 
  <./Diagrams/overview.png>]
-<DatasheetImages/vcotable.png, id=359, 606.76688pt x 342.5297pt>
+<DatasheetImages/vcotable.png, id=411, 606.76688pt x 342.5297pt>
 File: DatasheetImages/vcotable.png Graphic file (type png)
 <use DatasheetImages/vcotable.png>
 Package pdftex.def Info: DatasheetImages/vcotable.png  used on input line 34.
 (pdftex.def)             Requested size: 606.7654pt x 342.52885pt.
-<DatasheetImages/vcotuningtable.png, id=360, 514.17094pt x 519.44063pt>
+<DatasheetImages/vcotuningtable.png, id=412, 514.17094pt x 519.44063pt>
 File: DatasheetImages/vcotuningtable.png Graphic file (type png)
 <use DatasheetImages/vcotuningtable.png>
 Package pdftex.def Info: DatasheetImages/vcotuningtable.png  used on input line 40.
@@ -1226,6 +1226,9 @@ Package fancyhdr Warning: \headheight is too small (14.45377pt):
 
 [10 <./DatasheetImages/vcotable.png>]
 
+LaTeX Warning: Reference `PCB' on page 11 undefined on input line 61.
+
+
 Package fancyhdr Warning: \headheight is too small (14.45377pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
@@ -1233,7 +1236,7 @@ Package fancyhdr Warning: \headheight is too small (14.45377pt):
 (fancyhdr)                \addtolength{\topmargin}{-0.04622pt}.
 
 [11 <./DatasheetImages/vcotuningtable.png>]
-<DatasheetImages/poweramptable.png, id=380, 746.03719pt x 456.20438pt>
+<DatasheetImages/poweramptable.png, id=431, 746.03719pt x 456.20438pt>
 File: DatasheetImages/poweramptable.png Graphic file (type png)
 <use DatasheetImages/poweramptable.png>
 Package pdftex.def Info: DatasheetImages/poweramptable.png  used on input line 80.
@@ -1247,7 +1250,7 @@ Package fancyhdr Warning: \headheight is too small (14.45377pt):
 (fancyhdr)                \addtolength{\topmargin}{-0.04622pt}.
 
 [12]
-<DatasheetImages/lnatable.png, id=387, 574.39594pt x 302.63063pt>
+<DatasheetImages/lnatable.png, id=439, 574.39594pt x 302.63063pt>
 File: DatasheetImages/lnatable.png Graphic file (type png)
 <use DatasheetImages/lnatable.png>
 Package pdftex.def Info: DatasheetImages/lnatable.png  used on input line 101.
@@ -1261,7 +1264,7 @@ Package fancyhdr Warning: \headheight is too small (14.45377pt):
 (fancyhdr)                \addtolength{\topmargin}{-0.04622pt}.
 
 [13 <./DatasheetImages/poweramptable.png>]
-<DatasheetImages/mixertable.png, id=397, 682.80093pt x 260.47313pt>
+<DatasheetImages/mixertable.png, id=448, 682.80093pt x 260.47313pt>
 File: DatasheetImages/mixertable.png Graphic file (type png)
 <use DatasheetImages/mixertable.png>
 Package pdftex.def Info: DatasheetImages/mixertable.png  used on input line 117.
@@ -1271,7 +1274,7 @@ Overfull \hbox (8.2024pt too wide) in paragraph at lines 117--118
  [][] 
  []
 
-<DatasheetImages/mixerharmonics.png, id=398, 331.2375pt x 222.07968pt>
+<DatasheetImages/mixerharmonics.png, id=449, 331.2375pt x 222.07968pt>
 File: DatasheetImages/mixerharmonics.png Graphic file (type png)
 <use DatasheetImages/mixerharmonics.png>
 Package pdftex.def Info: DatasheetImages/mixerharmonics.png  used on input line 123.
@@ -1284,7 +1287,7 @@ Package fancyhdr Warning: \headheight is too small (14.45377pt):
 (fancyhdr)                \addtolength{\topmargin}{-0.04622pt}.
 
 [14 <./DatasheetImages/lnatable.png>]
-<DatasheetImages/loamptable.png, id=409, 264.99pt x 210.03468pt>
+<DatasheetImages/loamptable.png, id=460, 264.99pt x 210.03468pt>
 File: DatasheetImages/loamptable.png Graphic file (type png)
 <use DatasheetImages/loamptable.png>
 Package pdftex.def Info: DatasheetImages/loamptable.png  used on input line 148.
@@ -1298,7 +1301,7 @@ Package fancyhdr Warning: \headheight is too small (14.45377pt):
 (fancyhdr)                \addtolength{\topmargin}{-0.04622pt}.
 
 [15 <./DatasheetImages/mixertable.png> <./DatasheetImages/mixerharmonics.png>]
-<DatasheetImages/outputswing.png, id=420, 750.55406pt x 121.95563pt>
+<DatasheetImages/outputswing.png, id=471, 750.55406pt x 121.95563pt>
 File: DatasheetImages/outputswing.png Graphic file (type png)
 <use DatasheetImages/outputswing.png>
 Package pdftex.def Info: DatasheetImages/outputswing.png  used on input line 169.
@@ -1316,7 +1319,7 @@ Package fancyhdr Warning: \headheight is too small (14.45377pt):
 (fancyhdr)                \addtolength{\topmargin}{-0.04622pt}.
 
 [16 <./DatasheetImages/loamptable.png>]
-<DatasheetImages/filterspecs.png, id=428, 356.0803pt x 408.77719pt>
+<DatasheetImages/filterspecs.png, id=479, 356.0803pt x 408.77719pt>
 File: DatasheetImages/filterspecs.png Graphic file (type png)
 <use DatasheetImages/filterspecs.png>
 Package pdftex.def Info: DatasheetImages/filterspecs.png  used on input line 184.
@@ -1338,35 +1341,35 @@ Package fancyhdr Warning: \headheight is too small (14.45377pt):
 (fancyhdr)                \addtolength{\topmargin}{-0.04622pt}.
 
 [18]
-\openout2 = `manPCB.aux'.
+\openout2 = `manSchematic.aux'.
 
- (manPCB.tex
+ (manSchematic.tex
 Chapter 6.
-<CaptureImages/ultralib.png, id=441, 1445.4pt x 782.17218pt>
+<CaptureImages/ultralib.png, id=493, 1445.4pt x 782.17218pt>
 File: CaptureImages/ultralib.png Graphic file (type png)
 <use CaptureImages/ultralib.png>
-Package pdftex.def Info: CaptureImages/ultralib.png  used on input line 11.
+Package pdftex.def Info: CaptureImages/ultralib.png  used on input line 10.
 (pdftex.def)             Requested size: 1445.39648pt x 782.17027pt.
+<CaptureImages/ultralibexample.png, id=495, 921.4425pt x 42.1575pt>
+File: CaptureImages/ultralibexample.png Graphic file (type png)
+<use CaptureImages/ultralibexample.png>
+Package pdftex.def Info: CaptureImages/ultralibexample.png  used on input line 22.
+(pdftex.def)             Requested size: 921.44026pt x 42.15738pt.
 [19
 
 
 
 
  <./CaptureImages/ultralib.png>]
-<CaptureImages/ultralibexample.png, id=449, 921.4425pt x 42.1575pt>
-File: CaptureImages/ultralibexample.png Graphic file (type png)
-<use CaptureImages/ultralibexample.png>
-Package pdftex.def Info: CaptureImages/ultralibexample.png  used on input line 23.
-(pdftex.def)             Requested size: 921.44026pt x 42.15738pt.
-<CaptureImages/editpin.png, id=451, 1295.59032pt x 577.40718pt>
+<CaptureImages/editpin.png, id=502, 1295.59032pt x 577.40718pt>
 File: CaptureImages/editpin.png Graphic file (type png)
 <use CaptureImages/editpin.png>
-Package pdftex.def Info: CaptureImages/editpin.png  used on input line 36.
+Package pdftex.def Info: CaptureImages/editpin.png  used on input line 35.
 (pdftex.def)             Requested size: 1295.58716pt x 577.40578pt.
-<CaptureImages/wirealias.png, id=453, 928.97063pt x 285.31593pt>
+<CaptureImages/wirealias.png, id=504, 928.97063pt x 285.31593pt>
 File: CaptureImages/wirealias.png Graphic file (type png)
 <use CaptureImages/wirealias.png>
-Package pdftex.def Info: CaptureImages/wirealias.png  used on input line 46.
+Package pdftex.def Info: CaptureImages/wirealias.png  used on input line 45.
 (pdftex.def)             Requested size: 928.96837pt x 285.31523pt.
 
 
@@ -1377,23 +1380,23 @@ Package fancyhdr Warning: \headheight is too small (14.45377pt):
 (fancyhdr)                \addtolength{\topmargin}{-0.04622pt}.
 
 [20 <./CaptureImages/ultralibexample.png> <./CaptureImages/editpin.png> <./CaptureImages/wirealias.png>]
-<CaptureImages/offpageconn.png, id=462, 1440.88312pt x 726.46407pt>
+<CaptureImages/offpageconn.png, id=513, 1440.88312pt x 726.46407pt>
 File: CaptureImages/offpageconn.png Graphic file (type png)
 <use CaptureImages/offpageconn.png>
-Package pdftex.def Info: CaptureImages/offpageconn.png  used on input line 63.
+Package pdftex.def Info: CaptureImages/offpageconn.png  used on input line 62.
 (pdftex.def)             Requested size: 1440.87961pt x 726.4623pt.
-<CaptureImages/coupling.png, id=464, 693.34032pt x 407.27156pt>
+<CaptureImages/coupling.png, id=515, 693.34032pt x 407.27156pt>
 File: CaptureImages/coupling.png Graphic file (type png)
 <use CaptureImages/coupling.png>
-Package pdftex.def Info: CaptureImages/coupling.png  used on input line 77.
+Package pdftex.def Info: CaptureImages/coupling.png  used on input line 76.
 (pdftex.def)             Requested size: 693.33862pt x 407.27055pt.
-<CaptureImages/dcblocking.png, id=465, 654.94687pt x 197.98969pt>
+<CaptureImages/dcblocking.png, id=516, 654.94687pt x 197.98969pt>
 File: CaptureImages/dcblocking.png Graphic file (type png)
 <use CaptureImages/dcblocking.png>
-Package pdftex.def Info: CaptureImages/dcblocking.png  used on input line 83.
+Package pdftex.def Info: CaptureImages/dcblocking.png  used on input line 82.
 (pdftex.def)             Requested size: 654.94528pt x 197.9892pt.
 
-Overfull \hbox (2.27998pt too wide) in paragraph at lines 75--87
+Overfull \hbox (2.27998pt too wide) in paragraph at lines 74--86
 []$[]$ $[]$ 
  []
 
@@ -1404,11 +1407,11 @@ Package fancyhdr Warning: \headheight is too small (14.45377pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-0.04622pt}.
 
-[21 <./CaptureImages/offpageconn.png>]
-<CaptureImages/testpin.png, id=474, 484.05844pt x 392.96812pt>
+[21 <./CaptureImages/offpageconn.png> <./CaptureImages/coupling.png> <./CaptureImages/dcblocking.png>]
+<CaptureImages/testpin.png, id=527, 484.05844pt x 392.96812pt>
 File: CaptureImages/testpin.png Graphic file (type png)
 <use CaptureImages/testpin.png>
-Package pdftex.def Info: CaptureImages/testpin.png  used on input line 113.
+Package pdftex.def Info: CaptureImages/testpin.png  used on input line 112.
 (pdftex.def)             Requested size: 484.05725pt x 392.96715pt.
 
 
@@ -1418,33 +1421,24 @@ Package fancyhdr Warning: \headheight is too small (14.45377pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-0.04622pt}.
 
-[22 <./CaptureImages/coupling.png> <./CaptureImages/dcblocking.png>]
-<CaptureImages/leds.png, id=486, 525.46312pt x 279.29344pt>
+[22 <./CaptureImages/testpin.png>]
+<CaptureImages/leds.png, id=537, 525.46312pt x 279.29344pt>
 File: CaptureImages/leds.png Graphic file (type png)
 <use CaptureImages/leds.png>
-Package pdftex.def Info: CaptureImages/leds.png  used on input line 133.
+Package pdftex.def Info: CaptureImages/leds.png  used on input line 132.
 (pdftex.def)             Requested size: 525.46184pt x 279.29276pt.
-<CaptureImages/pot.png, id=487, 734.745pt x 392.96812pt>
+<CaptureImages/pot.png, id=538, 734.745pt x 392.96812pt>
 File: CaptureImages/pot.png Graphic file (type png)
 <use CaptureImages/pot.png>
-Package pdftex.def Info: CaptureImages/pot.png  used on input line 144.
+Package pdftex.def Info: CaptureImages/pot.png  used on input line 143.
 (pdftex.def)             Requested size: 734.7432pt x 392.96715pt.
-
-
-Package fancyhdr Warning: \headheight is too small (14.45377pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-0.04622pt}.
-
-[23 <./CaptureImages/testpin.png> <./CaptureImages/leds.png>]
-<CaptureImages/transmitterfull.png, id=498, 1003.49907pt x 639.89063pt>
+<CaptureImages/transmitterfull.png, id=541, 1003.49907pt x 639.89063pt>
 File: CaptureImages/transmitterfull.png Graphic file (type png)
 <use CaptureImages/transmitterfull.png>
-Package pdftex.def Info: CaptureImages/transmitterfull.png  used on input line 160.
+Package pdftex.def Info: CaptureImages/transmitterfull.png  used on input line 159.
 (pdftex.def)             Requested size: 1003.49661pt x 639.88905pt.
 
-Overfull \hbox (31.99332pt too wide) in paragraph at lines 160--161
+Overfull \hbox (31.99332pt too wide) in paragraph at lines 159--160
  [][] 
  []
 
@@ -1455,7 +1449,7 @@ Package fancyhdr Warning: \headheight is too small (14.45377pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-0.04622pt}.
 
-[24 <./CaptureImages/pot.png>]
+[23 <./CaptureImages/leds.png> <./CaptureImages/pot.png>]
 
 Package fancyhdr Warning: \headheight is too small (14.45377pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1463,11 +1457,11 @@ Package fancyhdr Warning: \headheight is too small (14.45377pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-0.04622pt}.
 
-[25 <./CaptureImages/transmitterfull.png>]
-<CaptureImages/receiverfull.png, id=514, 827.34094pt x 609.02531pt>
+[24 <./CaptureImages/transmitterfull.png>]
+<CaptureImages/receiverfull.png, id=557, 827.34094pt x 609.02531pt>
 File: CaptureImages/receiverfull.png Graphic file (type png)
 <use CaptureImages/receiverfull.png>
-Package pdftex.def Info: CaptureImages/receiverfull.png  used on input line 194.
+Package pdftex.def Info: CaptureImages/receiverfull.png  used on input line 193.
 (pdftex.def)             Requested size: 827.33893pt x 609.02382pt.
 
 
@@ -1477,11 +1471,11 @@ Package fancyhdr Warning: \headheight is too small (14.45377pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-0.04622pt}.
 
-[26 <./CaptureImages/receiverfull.png>]
-<CaptureImages/basebandamp.png, id=523, 844.65562pt x 644.4075pt>
+[25 <./CaptureImages/receiverfull.png>]
+<CaptureImages/basebandamp.png, id=566, 844.65562pt x 644.4075pt>
 File: CaptureImages/basebandamp.png Graphic file (type png)
 <use CaptureImages/basebandamp.png>
-Package pdftex.def Info: CaptureImages/basebandamp.png  used on input line 222.
+Package pdftex.def Info: CaptureImages/basebandamp.png  used on input line 221.
 (pdftex.def)             Requested size: 844.65356pt x 644.40593pt.
 
 
@@ -1491,16 +1485,16 @@ Package fancyhdr Warning: \headheight is too small (14.45377pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-0.04622pt}.
 
-[27 <./CaptureImages/basebandamp.png>]
-<Diagrams/non-inverting-amp.jpg, id=533, 376.40625pt x 250.9375pt>
+[26 <./CaptureImages/basebandamp.png>]
+<Diagrams/non-inverting-amp.jpg, id=576, 376.40625pt x 250.9375pt>
 File: Diagrams/non-inverting-amp.jpg Graphic file (type jpg)
 <use Diagrams/non-inverting-amp.jpg>
-Package pdftex.def Info: Diagrams/non-inverting-amp.jpg  used on input line 245.
+Package pdftex.def Info: Diagrams/non-inverting-amp.jpg  used on input line 244.
 (pdftex.def)             Requested size: 376.40532pt x 250.93687pt.
-<CaptureImages/filters.png, id=536, 651.18282pt x 600.74437pt>
+<CaptureImages/filters.png, id=579, 651.18282pt x 600.74437pt>
 File: CaptureImages/filters.png Graphic file (type png)
 <use CaptureImages/filters.png>
-Package pdftex.def Info: CaptureImages/filters.png  used on input line 261.
+Package pdftex.def Info: CaptureImages/filters.png  used on input line 260.
 (pdftex.def)             Requested size: 651.18123pt x 600.7429pt.
 
 
@@ -1510,7 +1504,7 @@ Package fancyhdr Warning: \headheight is too small (14.45377pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-0.04622pt}.
 
-[28 <./Diagrams/non-inverting-amp.jpg>])
+[27 <./Diagrams/non-inverting-amp.jpg>])
 
 Package fancyhdr Warning: \headheight is too small (14.45377pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1518,12 +1512,113 @@ Package fancyhdr Warning: \headheight is too small (14.45377pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-0.04622pt}.
 
-[29 <./CaptureImages/filters.png>]
+[28 <./CaptureImages/filters.png>]
+\openout2 = `manLayout.aux'.
+
+ (manLayout.tex
+Chapter 7.
+<AllegroImages/layersOverview.jpg, id=593, 433.62pt x 178.6675pt>
+File: AllegroImages/layersOverview.jpg Graphic file (type jpg)
+<use AllegroImages/layersOverview.jpg>
+Package pdftex.def Info: AllegroImages/layersOverview.jpg  used on input line 14.
+(pdftex.def)             Requested size: 433.61894pt x 178.66705pt.
+[29
+
+
+
+
+ <./AllegroImages/layersOverview.jpg>]
+<AllegroImages/tracesandvias.png, id=600, 557.83406pt x 586.44093pt>
+File: AllegroImages/tracesandvias.png Graphic file (type png)
+<use AllegroImages/tracesandvias.png>
+Package pdftex.def Info: AllegroImages/tracesandvias.png  used on input line 39.
+(pdftex.def)             Requested size: 557.83269pt x 586.43948pt.
+
+
+Package fancyhdr Warning: \headheight is too small (14.45377pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-0.04622pt}.
+
+[30]
+<AllegroImages/layoutfull.png, id=609, 1443.89438pt x 782.925pt>
+File: AllegroImages/layoutfull.png Graphic file (type png)
+<use AllegroImages/layoutfull.png>
+Package pdftex.def Info: AllegroImages/layoutfull.png  used on input line 56.
+(pdftex.def)             Requested size: 1443.89085pt x 782.9231pt.
+
+Overfull \hbox (107.79253pt too wide) in paragraph at lines 56--57
+ [][] 
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (14.45377pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-0.04622pt}.
+
+[31 <./AllegroImages/tracesandvias.png>]
+<AllegroImages/designworkflow.png, id=615, 350.81062pt x 404.26031pt>
+File: AllegroImages/designworkflow.png Graphic file (type png)
+<use AllegroImages/designworkflow.png>
+Package pdftex.def Info: AllegroImages/designworkflow.png  used on input line 67.
+(pdftex.def)             Requested size: 350.80975pt x 404.25932pt.
+
+
+Package fancyhdr Warning: \headheight is too small (14.45377pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-0.04622pt}.
+
+[32 <./AllegroImages/layoutfull.png>]
+<AllegroImages/windowsTab.png, id=621, 719.68875pt x 453.94594pt>
+File: AllegroImages/windowsTab.png Graphic file (type png)
+<use AllegroImages/windowsTab.png>
+Package pdftex.def Info: AllegroImages/windowsTab.png  used on input line 78.
+(pdftex.def)             Requested size: 719.687pt x 453.94482pt.
+
+Overfull \hbox (34.0237pt too wide) in paragraph at lines 78--79
+ [][] 
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (14.45377pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-0.04622pt}.
+
+[33 <./AllegroImages/designworkflow.png>]
+<AllegroImages/setupPane.png, id=627, 350.05782pt x 253.69781pt>
+File: AllegroImages/setupPane.png Graphic file (type png)
+<use AllegroImages/setupPane.png>
+Package pdftex.def Info: AllegroImages/setupPane.png  used on input line 88.
+(pdftex.def)             Requested size: 350.05695pt x 253.69719pt.
+
+
+Package fancyhdr Warning: \headheight is too small (14.45377pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-0.04622pt}.
+
+[34 <./AllegroImages/windowsTab.png> <./AllegroImages/setupPane.png>])
+
+Package fancyhdr Warning: \headheight is too small (14.45377pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-0.04622pt}.
+
+[35]
 \openout2 = `manDigitalProcessing.aux'.
 
  (manDigitalProcessing.tex
-Chapter 7.
-) [30
+Chapter 8.
+) [36
 
 
 
@@ -1532,8 +1627,8 @@ Chapter 7.
 \openout2 = `manNetworking.aux'.
 
  (manNetworking.tex
-Chapter 8.
-) [31
+Chapter 9.
+) [37
 
 
 
@@ -1542,8 +1637,8 @@ Chapter 8.
 \openout2 = `manResults.aux'.
 
  (manResults.tex
-Chapter 9.
-) [32
+Chapter 10.
+) [38
 
 
 
@@ -1552,8 +1647,8 @@ Chapter 9.
 \openout2 = `manIssues.aux'.
 
  (manIssues.tex
-Chapter 10.
-) [33
+Chapter 11.
+) [39
 
 
 
@@ -1561,31 +1656,35 @@ Chapter 10.
 ]
 runsystem(makeindex manual.idx)...executed safely (allowed).
 
- (manual.ind) [34
+ (manual.ind) [40
 
 
 
 
-] (manual.aux (prologue.aux) (manIntroduction.aux) (manProjectDescription.aux) (manResources.aux) (manRadarTheory.aux) (manPartSelection.aux) (manPCB.aux) (manDigitalProcessing.aux) (manNetworking.aux) (manResults.aux) (manIssues.aux))
+] (manual.aux (prologue.aux) (manIntroduction.aux) (manProjectDescription.aux) (manResources.aux) (manRadarTheory.aux) (manPartSelection.aux) (manSchematic.aux) (manLayout.aux) (manDigitalProcessing.aux) (manNetworking.aux) (manResults.aux) (manIssues.aux))
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-03-14>
  ***********
+
+
+LaTeX Warning: There were undefined references.
+
 Package rerunfilecheck Info: File `manual.out' has not changed.
-(rerunfilecheck)             Checksum: 0CBB77CD594F3B7B3F42F9EF1514F4DC;5271.
+(rerunfilecheck)             Checksum: 552CCF1B6F40549EFF0653E321F2812D;6344.
  ) 
 Here is how much of TeX's memory you used:
- 47450 strings out of 474423
- 1083369 string characters out of 5758133
- 1938496 words of memory out of 5000000
- 68994 multiletter control sequences out of 15000+600000
+ 47549 strings out of 474423
+ 1086090 string characters out of 5758133
+ 1939496 words of memory out of 5000000
+ 69070 multiletter control sequences out of 15000+600000
  585684 words of font info for 100 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  99i,12n,107p,1182b,844s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <D:/mixtex/fonts/type1/public/txfonts/rtcxr.pfb><D:/mixtex/fonts/type1/public/txfonts/rtxb.pfb><D:/mixtex/fonts/type1/public/txfonts/rtxmi.pfb><D:/mixtex/fonts/type1/public/txfonts/rtxr.pfb><D:/mixtex/fonts/type1/public/txfonts/txex.pfb><D:/mixtex/fonts/type1/public/txfonts/txtt.pfb><D:/mixtex/fonts/type1/urw/times/utmb8a.pfb><D:/mixtex/fonts/type1/urw/times/utmr8a.pfb><D:/mixtex/fonts/type1/urw/times/utmri8a.pfb>
-Output written on manual.pdf (40 pages, 2870375 bytes).
+Output written on manual.pdf (47 pages, 4330611 bytes).
 PDF statistics:
- 640 PDF objects out of 1000 (max. 8388607)
- 120 named destinations out of 1000 (max. 500000)
- 452 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 731 PDF objects out of 1000 (max. 8388607)
+ 136 named destinations out of 1000 (max. 500000)
+ 538 words of extra memory for PDF output out of 10000 (max. 10000000)
 
