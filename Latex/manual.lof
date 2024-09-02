@@ -22,12 +22,25 @@
 \contentsline {figure}{\numberline {6.3}{\ignorespaces Editing Schematic Parts}}{20}{figure.6.3}%
 \contentsline {figure}{\numberline {6.4}{\ignorespaces Wires and Net Alias}}{20}{figure.6.4}%
 \contentsline {figure}{\numberline {6.5}{\ignorespaces Off Page Connectors}}{21}{figure.6.5}%
-\contentsline {figure}{\numberline {6.6}{\ignorespaces Coupling Capacitor}}{22}{figure.6.6}%
-\contentsline {figure}{\numberline {6.7}{\ignorespaces DC Blocking Capacitor}}{22}{figure.6.7}%
+\contentsline {figure}{\numberline {6.6}{\ignorespaces Coupling Capacitor}}{21}{figure.6.6}%
+\contentsline {figure}{\numberline {6.7}{\ignorespaces DC Blocking Capacitor}}{21}{figure.6.7}%
 \contentsline {figure}{\numberline {6.8}{\ignorespaces Capacitance of a Coupling or DC Blocking Capacitor}}{22}{figure.6.8}%
-\contentsline {figure}{\numberline {6.9}{\ignorespaces Test Pin}}{23}{figure.6.9}%
+\contentsline {figure}{\numberline {6.9}{\ignorespaces Test Pin}}{22}{figure.6.9}%
 \contentsline {figure}{\numberline {6.10}{\ignorespaces Power LEDs}}{23}{figure.6.10}%
-\contentsline {figure}{\numberline {6.11}{\ignorespaces Potentiometers}}{24}{figure.6.11}%
+\contentsline {figure}{\numberline {6.11}{\ignorespaces Potentiometers}}{23}{figure.6.11}%
+\contentsline {figure}{\numberline {6.12}{\ignorespaces Transmitter Schematic}}{24}{figure.6.12}%
+\contentsline {figure}{\numberline {6.13}{\ignorespaces RF Portion of Receiver Schematic}}{25}{figure.6.13}%
+\contentsline {figure}{\numberline {6.14}{\ignorespaces IF Amplifier Stage}}{26}{figure.6.14}%
+\contentsline {figure}{\numberline {6.15}{\ignorespaces Non-Inverting Amplifier Circuit}}{27}{figure.6.15}%
+\contentsline {figure}{\numberline {6.16}{\ignorespaces Low Pass Filters}}{28}{figure.6.16}%
+\contentsline {figure}{\numberline {6.17}{\ignorespaces Cutoff Frequency Equation for LPF}}{28}{figure.6.17}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {7.1}{\ignorespaces PCB Layers}}{29}{figure.7.1}%
+\contentsline {figure}{\numberline {7.2}{\ignorespaces Traces and Vias from Mithril Board}}{31}{figure.7.2}%
+\contentsline {figure}{\numberline {7.3}{\ignorespaces Allegro Layout}}{32}{figure.7.3}%
+\contentsline {figure}{\numberline {7.4}{\ignorespaces Design Workflow}}{33}{figure.7.4}%
+\contentsline {figure}{\numberline {7.5}{\ignorespaces How to Display Design Workflow}}{34}{figure.7.5}%
+\contentsline {figure}{\numberline {7.6}{\ignorespaces Design Setup}}{34}{figure.7.6}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
