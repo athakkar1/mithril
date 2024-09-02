@@ -1,22 +1,33 @@
 import paho.mqtt.client as mqtt
 import time
 import serial
-import msvcrt
+import sys
+import select
+import platform
 
 broker_address = "localhost"
 broker_port = 1883
 topic1 = "FFT"
 topic2 = "Beam"
 data_file_path = "data.txt"
-serial_file_path = "COM4"
+serial_file_path = "/dev/ttyACM0"
+os = platform.system()
+if os == "Windows":
+   import msvcrt
 
 def read_from_serial(serial_path):
    data = ''
    #take note of baud rate in the second input to Serial
    serial_port = serial.Serial(serial_path, 921600, timeout = 1)
-   if msvcrt.kbhit():
-      char = msvcrt.getwche()       
-      serial_port.write(char.encode())  # send the character over the UART
+   if os == 'Linux':
+      r, _, _ = select.select([sys.stdin], [], [], 0.1)
+      if r:
+         char = sys.stdin.read(1)
+         serial_port.write(char.encode())  # send the character over the UART
+   elif os == 'Windows':
+      if msvcrt.kbhit():
+         char = msvcrt.getwche()       
+         serial_port.write(char.encode())
    while True:
       while serial_port.in_waiting > 0:
         data = serial_port.readline().decode('utf-8', errors='ignore').strip()
