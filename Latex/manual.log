@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.4.29)  4 AUG 2024 16:25
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.4.29)  7 SEP 2024 20:25
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -36,19 +36,26 @@ File: size12.clo 2023/05/17 v1.4n Standard LaTeX file (size option)
 Writing index file manual.idx
 (D:\mixtex\tex/latex/graphics\color.sty
 Package: color 2022/01/06 v1.3d Standard LaTeX Color (DPC)
- (D:\mixtex\tex/latex/graphics-cfg\color.cfg
+
+(D:\mixtex\tex/latex/graphics-cfg\color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package color Info: Driver file: pdftex.def on input line 149.
- (D:\mixtex\tex/latex/graphics-def\pdftex.def
+
+(D:\mixtex\tex/latex/graphics-def\pdftex.def
 File: pdftex.def 2024/04/13 v1.2c Graphics/color driver for pdftex
-) (D:\mixtex\tex/latex/graphics\mathcolor.ltx)) (D:\mixtex\tex/latex/psfrag\psfrag.sty
+)
+(D:\mixtex\tex/latex/graphics\mathcolor.ltx))
+(D:\mixtex\tex/latex/psfrag\psfrag.sty
 Package: psfrag 1998/04/11 v3.04 PSfrag (MCG)
- (D:\mixtex\tex/latex/graphics\graphics.sty
+
+(D:\mixtex\tex/latex/graphics\graphics.sty
 Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
- (D:\mixtex\tex/latex/graphics\trig.sty
+
+(D:\mixtex\tex/latex/graphics\trig.sty
 Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
-) (D:\mixtex\tex/latex/graphics-cfg\graphics.cfg
+)
+(D:\mixtex\tex/latex/graphics-cfg\graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 107.
@@ -56,13 +63,16 @@ Package graphics Info: Driver file: pdftex.def on input line 107.
 \pfg@pcount=\count197
 \pfg@scount=\count198
 \pfg@temp=\write4
-) (D:\mixtex\tex/latex/tools\verbatim.sty
+)
+(D:\mixtex\tex/latex/tools\verbatim.sty
 Package: verbatim 2023-11-06 v1.5v LaTeX2e package for verbatim enhancements
 \every@verbatim=\toks17
 \verbatim@line=\toks18
 \verbatim@in@stream=\read2
-) (D:\mixtex\tex/latex/fancyhdr\fancyhdr.sty
+)
+(D:\mixtex\tex/latex/fancyhdr\fancyhdr.sty
 Package: fancyhdr 2024/04/23 v4.2 Extensive control of page headers and footers
+
 \f@nch@headwidth=\skip51
 \f@nch@O@elh=\skip52
 \f@nch@O@erh=\skip53
@@ -72,23 +82,30 @@ Package: fancyhdr 2024/04/23 v4.2 Extensive control of page headers and footers
 \f@nch@O@erf=\skip57
 \f@nch@O@olf=\skip58
 \f@nch@O@orf=\skip59
-) (D:\mixtex\tex/latex/minted\minted.sty
+)
+(D:\mixtex\tex/latex/minted\minted.sty
 Package: minted 2023/12/18 v2.9 Yet another Pygments shim for LaTeX
  (D:\mixtex\tex/latex/graphics\keyval.sty
 Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
 \KV@toks@=\toks19
 ) (D:\mixtex\tex/latex/kvoptions\kvoptions.sty
 Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
- (D:\mixtex\tex/generic/ltxcmds\ltxcmds.sty
+
+(D:\mixtex\tex/generic/ltxcmds\ltxcmds.sty
 Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
-) (D:\mixtex\tex/latex/kvsetkeys\kvsetkeys.sty
+)
+(D:\mixtex\tex/latex/kvsetkeys\kvsetkeys.sty
 Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
-)) (D:\mixtex\tex/latex/fvextra\fvextra.sty
-Package: fvextra 2023/11/28 v1.6.1 fvextra - extensions and patches for fancyvrb
- (D:\mixtex\tex/latex/etoolbox\etoolbox.sty
+))
+(D:\mixtex\tex/latex/fvextra\fvextra.sty
+Package: fvextra 2023/11/28 v1.6.1 fvextra - extensions and patches for fancyvr
+b
+
+(D:\mixtex\tex/latex/etoolbox\etoolbox.sty
 Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
 \etb@tempcnta=\count199
-) (D:\mixtex\tex/latex/fancyvrb\fancyvrb.sty
+)
+(D:\mixtex\tex/latex/fancyvrb\fancyvrb.sty
 Package: fancyvrb 2024/01/20 4.5c verbatim text (tvz,hv)
 \FV@CodeLineNo=\count266
 \FV@InFile=\read3
@@ -96,9 +113,12 @@ Package: fancyvrb 2024/01/20 4.5c verbatim text (tvz,hv)
 \c@FancyVerbLine=\count267
 \FV@StepNumber=\count268
 \FV@OutFile=\write5
-) (D:\mixtex\tex/latex/upquote\upquote.sty
-Package: upquote 2012/04/19 v1.3 upright-quote and grave-accent glyphs in verbatim
-) (D:\mixtex\tex/latex/lineno\lineno.sty
+)
+(D:\mixtex\tex/latex/upquote\upquote.sty
+Package: upquote 2012/04/19 v1.3 upright-quote and grave-accent glyphs in verba
+tim
+)
+(D:\mixtex\tex/latex/lineno\lineno.sty
 Package: lineno 2023/05/20 line numbers on paragraphs v5.3
 \linenopenalty=\count269
 \output=\toks20
@@ -146,33 +166,45 @@ LaTeX Info: Redefining \\ on input line 3180.
 \FV@LineWidth=\dimen151
 ) (D:\mixtex\tex/latex/base\ifthen.sty
 Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
-) (D:\mixtex\tex/latex/tools\shellesc.sty
+)
+(D:\mixtex\tex/latex/tools\shellesc.sty
 Package: shellesc 2023/07/08 v1.0d unified shell escape interface for LaTeX
 Package shellesc Info: Unrestricted shell escape enabled on input line 75.
-) (D:\mixtex\tex/latex/ifplatform\ifplatform.sty
+)
+(D:\mixtex\tex/latex/ifplatform\ifplatform.sty
 Package: ifplatform 2017/10/13 v0.4a Testing for the operating system
- (D:\mixtex\tex/generic/pdftexcmds\pdftexcmds.sty
-Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO)
- (D:\mixtex\tex/generic/infwarerr\infwarerr.sty
+
+(D:\mixtex\tex/generic/pdftexcmds\pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(D:\mixtex\tex/generic/infwarerr\infwarerr.sty
 Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
-) (D:\mixtex\tex/generic/iftex\iftex.sty
+)
+(D:\mixtex\tex/generic/iftex\iftex.sty
 Package: iftex 2022/02/03 v1.0f TeX engine tests
 )
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
-) (D:\mixtex\tex/generic/catchfile\catchfile.sty
+)
+(D:\mixtex\tex/generic/catchfile\catchfile.sty
 Package: catchfile 2019/12/09 v1.8 Catch the contents of a file (HO)
- (D:\mixtex\tex/generic/etexcmds\etexcmds.sty
+
+(D:\mixtex\tex/generic/etexcmds\etexcmds.sty
 Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
-)) (D:\mixtex\tex/generic/iftex\ifluatex.sty
+))
+(D:\mixtex\tex/generic/iftex\ifluatex.sty
 Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
-)) (D:\mixtex\tex/latex/xstring\xstring.sty (D:\mixtex\tex/generic/xstring\xstring.tex
+))
+(D:\mixtex\tex/latex/xstring\xstring.sty
+(D:\mixtex\tex/generic/xstring\xstring.tex
 \xs_counta=\count293
 \xs_countb=\count294
 )
 Package: xstring 2023/08/22 v1.86 String manipulations (CT)
-) (D:\mixtex\tex/latex/framed\framed.sty
+)
+(D:\mixtex\tex/latex/framed\framed.sty
 Package: framed 2011/10/22 v 0.96: framed or shaded text with page breaks
 \OuterFrameSep=\skip61
 \fb@frw=\dimen152
@@ -197,21 +229,29 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 )
 runsystem(if not exist _minted-manual mkdir _minted-manual)...executed.
 
- (D:\mixtex\tex/latex/hyperref\hyperref.sty
+
+(D:\mixtex\tex/latex/hyperref\hyperref.sty
 Package: hyperref 2024-01-20 v7.01h Hypertext links for LaTeX
- (D:\mixtex\tex/generic/kvdefinekeys\kvdefinekeys.sty
+
+(D:\mixtex\tex/generic/kvdefinekeys\kvdefinekeys.sty
 Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
-) (D:\mixtex\tex/generic/pdfescape\pdfescape.sty
+)
+(D:\mixtex\tex/generic/pdfescape\pdfescape.sty
 Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
-) (D:\mixtex\tex/latex/hycolor\hycolor.sty
+)
+(D:\mixtex\tex/latex/hycolor\hycolor.sty
 Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
-) (D:\mixtex\tex/latex/auxhook\auxhook.sty
+)
+(D:\mixtex\tex/latex/auxhook\auxhook.sty
 Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
-) (D:\mixtex\tex/latex/hyperref\nameref.sty
+)
+(D:\mixtex\tex/latex/hyperref\nameref.sty
 Package: nameref 2023-11-26 v2.56 Cross-referencing by name of section
- (D:\mixtex\tex/latex/refcount\refcount.sty
+
+(D:\mixtex\tex/latex/refcount\refcount.sty
 Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
-) (D:\mixtex\tex/generic/gettitlestring\gettitlestring.sty
+)
+(D:\mixtex\tex/generic/gettitlestring\gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count299
@@ -219,15 +259,18 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 \@linkdim=\dimen156
 \Hy@linkcounter=\count300
 \Hy@pagecounter=\count301
- (D:\mixtex\tex/latex/hyperref\pd1enc.def
+
+(D:\mixtex\tex/latex/hyperref\pd1enc.def
 File: pd1enc.def 2024-01-20 v7.01h Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
-) (D:\mixtex\tex/generic/intcalc\intcalc.sty
+)
+(D:\mixtex\tex/generic/intcalc\intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
 \Hy@SavedSpaceFactor=\count302
- (D:\mixtex\tex/latex/hyperref\puenc.def
+
+(D:\mixtex\tex/latex/hyperref\puenc.def
 File: puenc.def 2024-01-20 v7.01h Hyperref: PDF Unicode definition (HO)
 Now handling font encoding PU ...
 ... no UTF-8 mapping file for font encoding PU
@@ -254,8 +297,10 @@ LaTeX Info: Redefining \url on input line 4784.
 \XeTeXLinkMargin=\dimen157
  (D:\mixtex\tex/generic/bitset\bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
- (D:\mixtex\tex/generic/bigintcalc\bigintcalc.sty
-Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO)
+
+(D:\mixtex\tex/generic/bigintcalc\bigintcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
+)
 ))
 \Fld@menulength=\count304
 \Field@Width=\dimen158
@@ -267,7 +312,8 @@ Package hyperref Info: backreferencing OFF on input line 6078.
 Package hyperref Info: Link coloring ON on input line 6081.
 Package hyperref Info: Link coloring with OCG OFF on input line 6088.
 Package hyperref Info: PDF/A mode OFF on input line 6093.
- (D:\mixtex\tex/latex/base\atbegshi-ltx.sty
+
+(D:\mixtex\tex/latex/base\atbegshi-ltx.sty
 Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
 package with kernel methods
 )
@@ -276,23 +322,30 @@ package with kernel methods
 \c@Hfootnote=\count307
 )
 Package hyperref Info: Driver: hpdftex.
- (D:\mixtex\tex/latex/hyperref\hpdftex.def
+
+(D:\mixtex\tex/latex/hyperref\hpdftex.def
 File: hpdftex.def 2024-01-20 v7.01h Hyperref driver for pdfTeX
- (D:\mixtex\tex/latex/base\atveryend-ltx.sty
-Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend package
+
+(D:\mixtex\tex/latex/base\atveryend-ltx.sty
+Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend pac
+kage
 with kernel methods
 )
 \Fld@listcount=\count308
 \c@bookmark@seq@number=\count309
- (D:\mixtex\tex/latex/rerunfilecheck\rerunfilecheck.sty
+
+(D:\mixtex\tex/latex/rerunfilecheck\rerunfilecheck.sty
 Package: rerunfilecheck 2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
- (D:\mixtex\tex/generic/uniquecounter\uniquecounter.sty
+
+(D:\mixtex\tex/generic/uniquecounter\uniquecounter.sty
 Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 )
-Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 285.
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+85.
 )
 \Hy@SectionHShift=\skip62
-) (D:\mixtex\tex/latex/listings\listings.sty
+)
+(D:\mixtex\tex/latex/listings\listings.sty
 \lst@mode=\count310
 \lst@gtempboxa=\box60
 \lst@token=\toks24
@@ -305,18 +358,22 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 28
 \lst@newlines=\count314
 \lst@lineno=\count315
 \lst@maxwidth=\dimen163
- (D:\mixtex\tex/latex/listings\lstpatch.sty
+
+(D:\mixtex\tex/latex/listings\lstpatch.sty
 File: lstpatch.sty 2024/03/11 1.10a (Carsten Heinz)
-) (D:\mixtex\tex/latex/listings\lstmisc.sty
+)
+(D:\mixtex\tex/latex/listings\lstmisc.sty
 File: lstmisc.sty 2024/03/11 1.10a (Carsten Heinz)
 \c@lstnumber=\count316
 \lst@skipnumbers=\count317
 \lst@framebox=\box61
-) (D:\mixtex\tex/latex/listings\listings.cfg
+)
+(D:\mixtex\tex/latex/listings\listings.cfg
 File: listings.cfg 2024/03/11 1.10a listings configuration
 ))
 Package: listings 2024/03/11 1.10a (Carsten Heinz)
- (D:\mixtex\tex/latex/amsfonts\amsfonts.sty
+
+(D:\mixtex\tex/latex/amsfonts\amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \@emptytoks=\toks25
 \symAMSa=\mathgroup4
@@ -324,9 +381,11 @@ Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
-) (D:\mixtex\tex/latex/amsfonts\amssymb.sty
+)
+(D:\mixtex\tex/latex/amsfonts\amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
-) (D:\mixtex\tex/latex/tools\tabularx.sty
+)
+(D:\mixtex\tex/latex/tools\tabularx.sty
 Package: tabularx 2023/07/08 v2.11c `tabularx' package (DPC)
  (D:\mixtex\tex/latex/tools\array.sty
 Package: array 2023/10/16 v2.5g Tabular extension package (FMi)
@@ -345,16 +404,20 @@ Package: array 2023/10/16 v2.5g Tabular extension package (FMi)
 \TX@delta=\dimen170
 \TX@cols=\count318
 \TX@ftn=\toks27
-) (D:\mixtex\tex/latex/colortbl\colortbl.sty
+)
+(D:\mixtex\tex/latex/colortbl\colortbl.sty
 Package: colortbl 2024/02/20 v1.0g Color table columns (DPC)
 \everycr=\toks28
 \minrowclearance=\skip65
 \rownum=\count319
-) (D:\mixtex\tex/latex/algorithms\algorithm.sty
-Package: algorithm 2009/08/24 v0.1 Document Style `algorithm' - floating environment
+)
+(D:\mixtex\tex/latex/algorithms\algorithm.sty
+Package: algorithm 2009/08/24 v0.1 Document Style `algorithm' - floating enviro
+nment
 \@float@every@algorithm=\toks29
 \c@algorithm=\count320
-) (D:\mixtex\tex/latex/algorithms\algorithmic.sty
+)
+(D:\mixtex\tex/latex/algorithms\algorithmic.sty
 Package: algorithmic 2009/08/24 v0.1 Document Style `algorithmic'
 \c@ALC@unique=\count321
 \c@ALC@line=\count322
@@ -362,9 +425,11 @@ Package: algorithmic 2009/08/24 v0.1 Document Style `algorithmic'
 \c@ALC@depth=\count324
 \ALC@tlm=\skip66
 \algorithmicindent=\skip67
-) (D:\mixtex\tex/latex/blindtext\blindtext.sty
+)
+(D:\mixtex\tex/latex/blindtext\blindtext.sty
 Package: blindtext 2012/01/06 V2.0 blindtext-Package
- (D:\mixtex\tex/latex/tools\xspace.sty
+
+(D:\mixtex\tex/latex/tools\xspace.sty
 Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
 )
 \c@blindtext=\count325
@@ -385,19 +450,26 @@ Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
 \c@blind@randommax=\count340
 \c@blind@pangramcount=\count341
 \c@blind@pangrammax=\count342
-) (D:\mixtex\tex/latex/imakeidx\imakeidx.sty
-Package: imakeidx 2016/10/15 v1.3e Package for typesetting indices in a synchronous mode
- (D:\mixtex\tex/latex/xkeyval\xkeyval.sty
+)
+(D:\mixtex\tex/latex/imakeidx\imakeidx.sty
+Package: imakeidx 2016/10/15 v1.3e Package for typesetting indices in a synchro
+nous mode
+
+(D:\mixtex\tex/latex/xkeyval\xkeyval.sty
 Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
- (D:\mixtex\tex/generic/xkeyval\xkeyval.tex (D:\mixtex\tex/generic/xkeyval\xkvutils.tex
+
+(D:\mixtex\tex/generic/xkeyval\xkeyval.tex
+(D:\mixtex\tex/generic/xkeyval\xkvutils.tex
 \XKV@toks=\toks30
 \XKV@tempa@toks=\toks31
 )
 \XKV@depth=\count343
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
-)) (D:\mixtex\tex/generic/iftex\ifxetex.sty
+))
+(D:\mixtex\tex/generic/iftex\ifxetex.sty
 Package: ifxetex 2019/10/25 v0.7 ifxetex legacy package. Use iftex instead.
-) (D:\mixtex\tex/latex/tools\multicol.sty
+)
+(D:\mixtex\tex/latex/tools\multicol.sty
 Package: multicol 2023/03/30 v1.9f multicolumn formatting (FMi)
 \c@tracingmulticols=\count344
 \mult@box=\box64
@@ -466,28 +538,43 @@ Package: multicol 2023/03/30 v1.9f multicolumn formatting (FMi)
 \mult@nat@firstbox=\box108
 \colbreak@box=\box109
 \mc@col@check@num=\count353
-)) (D:\mixtex\tex/latex/circuitikz\circuitikz.sty
-Package: circuitikz 2024/02/09{} The CircuiTikz circuit drawing package version 1.6.7
- (D:\mixtex\tex/latex/pgf/frontendlayer\tikz.sty (D:\mixtex\tex/latex/pgf/basiclayer\pgf.sty (D:\mixtex\tex/latex/pgf/utilities\pgfrcs.sty (D:\mixtex\tex/generic/pgf/utilities\pgfutil-common.tex
+))
+(D:\mixtex\tex/latex/circuitikz\circuitikz.sty
+Package: circuitikz 2024/02/09{} The CircuiTikz circuit drawing package version
+ 1.6.7
+
+(D:\mixtex\tex/latex/pgf/frontendlayer\tikz.sty
+(D:\mixtex\tex/latex/pgf/basiclayer\pgf.sty
+(D:\mixtex\tex/latex/pgf/utilities\pgfrcs.sty
+(D:\mixtex\tex/generic/pgf/utilities\pgfutil-common.tex
 \pgfutil@everybye=\toks32
 \pgfutil@tempdima=\dimen180
 \pgfutil@tempdimb=\dimen181
-) (D:\mixtex\tex/generic/pgf/utilities\pgfutil-latex.def
+)
+(D:\mixtex\tex/generic/pgf/utilities\pgfutil-latex.def
 \pgfutil@abb=\box110
-) (D:\mixtex\tex/generic/pgf/utilities\pgfrcs.code.tex (D:\mixtex\tex/generic/pgf\pgf.revision.tex)
+)
+(D:\mixtex\tex/generic/pgf/utilities\pgfrcs.code.tex
+(D:\mixtex\tex/generic/pgf\pgf.revision.tex)
 Package: pgfrcs 2023-01-15 v3.1.10 (3.1.10)
 ))
 Package: pgf 2023-01-15 v3.1.10 (3.1.10)
- (D:\mixtex\tex/latex/pgf/basiclayer\pgfcore.sty (D:\mixtex\tex/latex/graphics\graphicx.sty
+
+(D:\mixtex\tex/latex/pgf/basiclayer\pgfcore.sty
+(D:\mixtex\tex/latex/graphics\graphicx.sty
 Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
 \Gin@req@height=\dimen182
 \Gin@req@width=\dimen183
-) (D:\mixtex\tex/latex/pgf/systemlayer\pgfsys.sty (D:\mixtex\tex/generic/pgf/systemlayer\pgfsys.code.tex
+)
+(D:\mixtex\tex/latex/pgf/systemlayer\pgfsys.sty
+(D:\mixtex\tex/generic/pgf/systemlayer\pgfsys.code.tex
 Package: pgfsys 2023-01-15 v3.1.10 (3.1.10)
- (D:\mixtex\tex/generic/pgf/utilities\pgfkeys.code.tex
+
+(D:\mixtex\tex/generic/pgf/utilities\pgfkeys.code.tex
 \pgfkeys@pathtoks=\toks33
 \pgfkeys@temptoks=\toks34
- (D:\mixtex\tex/generic/pgf/utilities\pgfkeyslibraryfiltered.code.tex
+
+(D:\mixtex\tex/generic/pgf/utilities\pgfkeyslibraryfiltered.code.tex
 \pgfkeys@tmptoks=\toks35
 ))
 \pgf@x=\dimen184
@@ -510,28 +597,36 @@ Package: pgfsys 2023-01-15 v3.1.10 (3.1.10)
 \t@pgf@tokb=\toks37
 \t@pgf@tokc=\toks38
 \pgf@sys@id@count=\count358
- (D:\mixtex\tex/generic/pgf/systemlayer\pgf.cfg
+
+(D:\mixtex\tex/generic/pgf/systemlayer\pgf.cfg
 File: pgf.cfg 2023-01-15 v3.1.10 (3.1.10)
 )
 Driver file for pgf: pgfsys-pdftex.def
- (D:\mixtex\tex/generic/pgf/systemlayer\pgfsys-pdftex.def
+
+(D:\mixtex\tex/generic/pgf/systemlayer\pgfsys-pdftex.def
 File: pgfsys-pdftex.def 2023-01-15 v3.1.10 (3.1.10)
- (D:\mixtex\tex/generic/pgf/systemlayer\pgfsys-common-pdf.def
+
+(D:\mixtex\tex/generic/pgf/systemlayer\pgfsys-common-pdf.def
 File: pgfsys-common-pdf.def 2023-01-15 v3.1.10 (3.1.10)
-))) (D:\mixtex\tex/generic/pgf/systemlayer\pgfsyssoftpath.code.tex
+)))
+(D:\mixtex\tex/generic/pgf/systemlayer\pgfsyssoftpath.code.tex
 File: pgfsyssoftpath.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgfsyssoftpath@smallbuffer@items=\count359
 \pgfsyssoftpath@bigbuffer@items=\count360
-) (D:\mixtex\tex/generic/pgf/systemlayer\pgfsysprotocol.code.tex
+)
+(D:\mixtex\tex/generic/pgf/systemlayer\pgfsysprotocol.code.tex
 File: pgfsysprotocol.code.tex 2023-01-15 v3.1.10 (3.1.10)
-)) (D:\mixtex\tex/latex/xcolor\xcolor.sty
+))
+(D:\mixtex\tex/latex/xcolor\xcolor.sty
 Package: xcolor 2023/11/15 v3.01 LaTeX color extensions (UK)
- (D:\mixtex\tex/latex/graphics-cfg\color.cfg
+
+(D:\mixtex\tex/latex/graphics-cfg\color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package xcolor Info: Driver file: pdftex.def on input line 274.
 LaTeX Info: Redefining \color on input line 758.
- (D:\mixtex\tex/latex/graphics\mathcolor.ltx)
+
+(D:\mixtex\tex/latex/graphics\mathcolor.ltx)
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1350.
 Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1354.
 Package xcolor Info: Model `RGB' extended on input line 1366.
@@ -541,18 +636,35 @@ Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1370.
 Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1371.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1372.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1373.
-) (D:\mixtex\tex/generic/pgf/basiclayer\pgfcore.code.tex
+)
+(D:\mixtex\tex/generic/pgf/basiclayer\pgfcore.code.tex
 Package: pgfcore 2023-01-15 v3.1.10 (3.1.10)
- (D:\mixtex\tex/generic/pgf/math\pgfmath.code.tex (D:\mixtex\tex/generic/pgf/math\pgfmathutil.code.tex) (D:\mixtex\tex/generic/pgf/math\pgfmathparser.code.tex
+
+(D:\mixtex\tex/generic/pgf/math\pgfmath.code.tex
+(D:\mixtex\tex/generic/pgf/math\pgfmathutil.code.tex)
+(D:\mixtex\tex/generic/pgf/math\pgfmathparser.code.tex
 \pgfmath@dimen=\dimen194
 \pgfmath@count=\count361
 \pgfmath@box=\box111
 \pgfmath@toks=\toks39
 \pgfmath@stack@operand=\toks40
 \pgfmath@stack@operation=\toks41
-) (D:\mixtex\tex/generic/pgf/math\pgfmathfunctions.code.tex) (D:\mixtex\tex/generic/pgf/math\pgfmathfunctions.basic.code.tex) (D:\mixtex\tex/generic/pgf/math\pgfmathfunctions.trigonometric.code.tex) (D:\mixtex\tex/generic/pgf/math\pgfmathfunctions.random.code.tex) (D:\mixtex\tex/generic/pgf/math\pgfmathfunctions.comparison.code.tex) (D:\mixtex\tex/generic/pgf/math\pgfmathfunctions.base.code.tex) (D:\mixtex\tex/generic/pgf/math\pgfmathfunctions.round.code.tex) (D:\mixtex\tex/generic/pgf/math\pgfmathfunctions.misc.code.tex) (D:\mixtex\tex/generic/pgf/math\pgfmathfunctions.integerarithmetics.code.tex) (D:\mixtex\tex/generic/pgf/math\pgfmathcalc.code.tex) (D:\mixtex\tex/generic/pgf/math\pgfmathfloat.code.tex
+)
+(D:\mixtex\tex/generic/pgf/math\pgfmathfunctions.code.tex)
+(D:\mixtex\tex/generic/pgf/math\pgfmathfunctions.basic.code.tex)
+(D:\mixtex\tex/generic/pgf/math\pgfmathfunctions.trigonometric.code.tex)
+(D:\mixtex\tex/generic/pgf/math\pgfmathfunctions.random.code.tex)
+(D:\mixtex\tex/generic/pgf/math\pgfmathfunctions.comparison.code.tex)
+(D:\mixtex\tex/generic/pgf/math\pgfmathfunctions.base.code.tex)
+(D:\mixtex\tex/generic/pgf/math\pgfmathfunctions.round.code.tex)
+(D:\mixtex\tex/generic/pgf/math\pgfmathfunctions.misc.code.tex)
+(D:\mixtex\tex/generic/pgf/math\pgfmathfunctions.integerarithmetics.code.tex)
+(D:\mixtex\tex/generic/pgf/math\pgfmathcalc.code.tex)
+(D:\mixtex\tex/generic/pgf/math\pgfmathfloat.code.tex
 \c@pgfmathroundto@lastzeros=\count362
-)) (D:\mixtex\tex/generic/pgf/math\pgfint.code.tex) (D:\mixtex\tex/generic/pgf/basiclayer\pgfcorepoints.code.tex
+))
+(D:\mixtex\tex/generic/pgf/math\pgfint.code.tex)
+(D:\mixtex\tex/generic/pgf/basiclayer\pgfcorepoints.code.tex
 File: pgfcorepoints.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgf@picminx=\dimen195
 \pgf@picmaxx=\dimen196
@@ -568,75 +680,103 @@ File: pgfcorepoints.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgf@yy=\dimen262
 \pgf@zx=\dimen263
 \pgf@zy=\dimen264
-) (D:\mixtex\tex/generic/pgf/basiclayer\pgfcorepathconstruct.code.tex
+)
+(D:\mixtex\tex/generic/pgf/basiclayer\pgfcorepathconstruct.code.tex
 File: pgfcorepathconstruct.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgf@path@lastx=\dimen265
 \pgf@path@lasty=\dimen266
-) (D:\mixtex\tex/generic/pgf/basiclayer\pgfcorepathusage.code.tex
+)
+(D:\mixtex\tex/generic/pgf/basiclayer\pgfcorepathusage.code.tex
 File: pgfcorepathusage.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgf@shorten@end@additional=\dimen267
 \pgf@shorten@start@additional=\dimen268
-) (D:\mixtex\tex/generic/pgf/basiclayer\pgfcorescopes.code.tex
+)
+(D:\mixtex\tex/generic/pgf/basiclayer\pgfcorescopes.code.tex
 File: pgfcorescopes.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgfpic=\box112
 \pgf@hbox=\box113
 \pgf@layerbox@main=\box114
 \pgf@picture@serial@count=\count363
-) (D:\mixtex\tex/generic/pgf/basiclayer\pgfcoregraphicstate.code.tex
+)
+(D:\mixtex\tex/generic/pgf/basiclayer\pgfcoregraphicstate.code.tex
 File: pgfcoregraphicstate.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgflinewidth=\dimen269
-) (D:\mixtex\tex/generic/pgf/basiclayer\pgfcoretransformations.code.tex
+)
+(D:\mixtex\tex/generic/pgf/basiclayer\pgfcoretransformations.code.tex
 File: pgfcoretransformations.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgf@pt@x=\dimen270
 \pgf@pt@y=\dimen271
 \pgf@pt@temp=\dimen272
-) (D:\mixtex\tex/generic/pgf/basiclayer\pgfcorequick.code.tex
+)
+(D:\mixtex\tex/generic/pgf/basiclayer\pgfcorequick.code.tex
 File: pgfcorequick.code.tex 2023-01-15 v3.1.10 (3.1.10)
-) (D:\mixtex\tex/generic/pgf/basiclayer\pgfcoreobjects.code.tex
+)
+(D:\mixtex\tex/generic/pgf/basiclayer\pgfcoreobjects.code.tex
 File: pgfcoreobjects.code.tex 2023-01-15 v3.1.10 (3.1.10)
-) (D:\mixtex\tex/generic/pgf/basiclayer\pgfcorepathprocessing.code.tex
+)
+(D:\mixtex\tex/generic/pgf/basiclayer\pgfcorepathprocessing.code.tex
 File: pgfcorepathprocessing.code.tex 2023-01-15 v3.1.10 (3.1.10)
-) (D:\mixtex\tex/generic/pgf/basiclayer\pgfcorearrows.code.tex
+)
+(D:\mixtex\tex/generic/pgf/basiclayer\pgfcorearrows.code.tex
 File: pgfcorearrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgfarrowsep=\dimen273
-) (D:\mixtex\tex/generic/pgf/basiclayer\pgfcoreshade.code.tex
+)
+(D:\mixtex\tex/generic/pgf/basiclayer\pgfcoreshade.code.tex
 File: pgfcoreshade.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgf@max=\dimen274
 \pgf@sys@shading@range@num=\count364
 \pgf@shadingcount=\count365
-) (D:\mixtex\tex/generic/pgf/basiclayer\pgfcoreimage.code.tex
+)
+(D:\mixtex\tex/generic/pgf/basiclayer\pgfcoreimage.code.tex
 File: pgfcoreimage.code.tex 2023-01-15 v3.1.10 (3.1.10)
-) (D:\mixtex\tex/generic/pgf/basiclayer\pgfcoreexternal.code.tex
+)
+(D:\mixtex\tex/generic/pgf/basiclayer\pgfcoreexternal.code.tex
 File: pgfcoreexternal.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgfexternal@startupbox=\box115
-) (D:\mixtex\tex/generic/pgf/basiclayer\pgfcorelayers.code.tex
+)
+(D:\mixtex\tex/generic/pgf/basiclayer\pgfcorelayers.code.tex
 File: pgfcorelayers.code.tex 2023-01-15 v3.1.10 (3.1.10)
-) (D:\mixtex\tex/generic/pgf/basiclayer\pgfcoretransparency.code.tex
+)
+(D:\mixtex\tex/generic/pgf/basiclayer\pgfcoretransparency.code.tex
 File: pgfcoretransparency.code.tex 2023-01-15 v3.1.10 (3.1.10)
-) (D:\mixtex\tex/generic/pgf/basiclayer\pgfcorepatterns.code.tex
+)
+(D:\mixtex\tex/generic/pgf/basiclayer\pgfcorepatterns.code.tex
 File: pgfcorepatterns.code.tex 2023-01-15 v3.1.10 (3.1.10)
-) (D:\mixtex\tex/generic/pgf/basiclayer\pgfcorerdf.code.tex
+)
+(D:\mixtex\tex/generic/pgf/basiclayer\pgfcorerdf.code.tex
 File: pgfcorerdf.code.tex 2023-01-15 v3.1.10 (3.1.10)
-))) (D:\mixtex\tex/generic/pgf/modules\pgfmoduleshapes.code.tex
+)))
+(D:\mixtex\tex/generic/pgf/modules\pgfmoduleshapes.code.tex
 File: pgfmoduleshapes.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgfnodeparttextbox=\box116
-) (D:\mixtex\tex/generic/pgf/modules\pgfmoduleplot.code.tex
+)
+(D:\mixtex\tex/generic/pgf/modules\pgfmoduleplot.code.tex
 File: pgfmoduleplot.code.tex 2023-01-15 v3.1.10 (3.1.10)
-) (D:\mixtex\tex/latex/pgf/compatibility\pgfcomp-version-0-65.sty
+)
+(D:\mixtex\tex/latex/pgf/compatibility\pgfcomp-version-0-65.sty
 Package: pgfcomp-version-0-65 2023-01-15 v3.1.10 (3.1.10)
 \pgf@nodesepstart=\dimen275
 \pgf@nodesepend=\dimen276
-) (D:\mixtex\tex/latex/pgf/compatibility\pgfcomp-version-1-18.sty
+)
+(D:\mixtex\tex/latex/pgf/compatibility\pgfcomp-version-1-18.sty
 Package: pgfcomp-version-1-18 2023-01-15 v3.1.10 (3.1.10)
-)) (D:\mixtex\tex/latex/pgf/utilities\pgffor.sty (D:\mixtex\tex/latex/pgf/utilities\pgfkeys.sty (D:\mixtex\tex/generic/pgf/utilities\pgfkeys.code.tex)) (D:\mixtex\tex/latex/pgf/math\pgfmath.sty (D:\mixtex\tex/generic/pgf/math\pgfmath.code.tex)) (D:\mixtex\tex/generic/pgf/utilities\pgffor.code.tex
+))
+(D:\mixtex\tex/latex/pgf/utilities\pgffor.sty
+(D:\mixtex\tex/latex/pgf/utilities\pgfkeys.sty
+(D:\mixtex\tex/generic/pgf/utilities\pgfkeys.code.tex))
+(D:\mixtex\tex/latex/pgf/math\pgfmath.sty
+(D:\mixtex\tex/generic/pgf/math\pgfmath.code.tex))
+(D:\mixtex\tex/generic/pgf/utilities\pgffor.code.tex
 Package: pgffor 2023-01-15 v3.1.10 (3.1.10)
 \pgffor@iter=\dimen277
 \pgffor@skip=\dimen278
 \pgffor@stack=\toks42
 \pgffor@toks=\toks43
-)) (D:\mixtex\tex/generic/pgf/frontendlayer/tikz\tikz.code.tex
+))
+(D:\mixtex\tex/generic/pgf/frontendlayer/tikz\tikz.code.tex
 Package: tikz 2023-01-15 v3.1.10 (3.1.10)
- (D:\mixtex\tex/generic/pgf/libraries\pgflibraryplothandlers.code.tex
+
+(D:\mixtex\tex/generic/pgf/libraries\pgflibraryplothandlers.code.tex
 File: pgflibraryplothandlers.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgf@plot@mark@count=\count366
 \pgfplotmarksize=\dimen279
@@ -657,16 +797,21 @@ File: pgflibraryplothandlers.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \tikznumberofchildren=\count368
 \tikznumberofcurrentchild=\count369
 \tikz@fig@count=\count370
- (D:\mixtex\tex/generic/pgf/modules\pgfmodulematrix.code.tex
+
+(D:\mixtex\tex/generic/pgf/modules\pgfmodulematrix.code.tex
 File: pgfmodulematrix.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgfmatrixcurrentrow=\count371
 \pgfmatrixcurrentcolumn=\count372
 \pgf@matrix@numberofcolumns=\count373
 )
 \tikz@expandcount=\count374
- (D:\mixtex\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarytopaths.code.tex
+
+(D:\mixtex\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarytopaths.code
+.tex
 File: tikzlibrarytopaths.code.tex 2023-01-15 v3.1.10 (3.1.10)
-))) (D:\mixtex\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarycalc.code.tex
+)))
+(D:\mixtex\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarycalc.code.te
+x
 File: tikzlibrarycalc.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ) (D:\mixtex\tex/generic/pgf/libraries\pgflibraryarrows.meta.code.tex
 File: pgflibraryarrows.meta.code.tex 2023-01-15 v3.1.10 (3.1.10)
@@ -674,14 +819,18 @@ File: pgflibraryarrows.meta.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgfarrowlength=\dimen289
 \pgfarrowwidth=\dimen290
 \pgfarrowlinewidth=\dimen291
-) (D:\mixtex\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarybending.code.tex
+)
+(D:\mixtex\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarybending.code
+.tex
 File: tikzlibrarybending.code.tex 2023-01-15 v3.1.10 (3.1.10)
  (D:\mixtex\tex/generic/pgf/modules\pgfmodulebending.code.tex
 File: pgfmodulebending.code.tex 2023-01-15 v3.1.10 (3.1.10)
- (D:\mixtex\tex/generic/pgf/modules\pgfmodulenonlineartransformations.code.tex
+
+(D:\mixtex\tex/generic/pgf/modules\pgfmodulenonlineartransformations.code.tex
 File: pgfmodulenonlineartransformations.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgftransformnonlinearflatness=\dimen292
-) (D:\mixtex\tex/generic/pgf/libraries\pgflibrarycurvilinear.code.tex
+)
+(D:\mixtex\tex/generic/pgf/libraries\pgflibrarycurvilinear.code.tex
 File: pgflibrarycurvilinear.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgf@curvilinear@time@a=\dimen293
 \pgf@curvilinear@length@a=\dimen294
@@ -690,7 +839,10 @@ File: pgflibrarycurvilinear.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgf@curvilinear@length@d=\dimen297
 )
 \pgf@arrows@the@rigidity=\dimen298
-)) (D:\mixtex\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibraryfpu.code.tex (D:\mixtex\tex/generic/pgf/libraries\pgflibraryfpu.code.tex)) (D:\mixtex\tex/generic/circuitikz\pgfcirc.defines.tex
+))
+(D:\mixtex\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibraryfpu.code.tex
+(D:\mixtex\tex/generic/pgf/libraries\pgflibraryfpu.code.tex))
+(D:\mixtex\tex/generic/circuitikz\pgfcirc.defines.tex
 \pgf@circ@count@a=\count375
 \pgf@circ@count@b=\count376
 \pgf@circ@count@c=\count377
@@ -705,13 +857,26 @@ File: pgflibrarycurvilinear.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgf@circ@Rlen=\dimen307
 \pgf@circ@scaled@Rlen=\dimen308
 \pgfstartlinewidth=\dimen309
-) (D:\mixtex\tex/generic/circuitikz\pgfcircutils.tex
+)
+(D:\mixtex\tex/generic/circuitikz\pgfcircutils.tex
 \ctikz@scratchbox=\box121
-) (D:\mixtex\tex/generic/circuitikz\pgfcircpath.tex) (D:\mixtex\tex/generic/circuitikz\pgfcircshapes.tex) (D:\mixtex\tex/generic/circuitikz\pgfcircmonopoles.tex) (D:\mixtex\tex/generic/circuitikz\pgfcircbipoles.tex) (D:\mixtex\tex/generic/circuitikz\pgfcirctripoles.tex
+)
+(D:\mixtex\tex/generic/circuitikz\pgfcircpath.tex)
+(D:\mixtex\tex/generic/circuitikz\pgfcircshapes.tex)
+(D:\mixtex\tex/generic/circuitikz\pgfcircmonopoles.tex)
+(D:\mixtex\tex/generic/circuitikz\pgfcircbipoles.tex)
+(D:\mixtex\tex/generic/circuitikz\pgfcirctripoles.tex
 \pgf@circ@res@count=\count378
-) (D:\mixtex\tex/generic/circuitikz\pgfcircquadpoles.tex) (D:\mixtex\tex/generic/circuitikz\pgfcircmultipoles.tex) (D:\mixtex\tex/generic/circuitikz\pgfcirclabel.tex) (D:\mixtex\tex/generic/circuitikz\pgfcircvoltage.tex
+)
+(D:\mixtex\tex/generic/circuitikz\pgfcircquadpoles.tex)
+(D:\mixtex\tex/generic/circuitikz\pgfcircmultipoles.tex)
+(D:\mixtex\tex/generic/circuitikz\pgfcirclabel.tex)
+(D:\mixtex\tex/generic/circuitikz\pgfcircvoltage.tex
 \pgfcirc@labelshift=\dimen310
-) (D:\mixtex\tex/generic/circuitikz\pgfcirccurrent.tex) (D:\mixtex\tex/generic/circuitikz\pgfcircflow.tex)) (D:\mixtex\tex/latex/tocloft\tocloft.sty
+)
+(D:\mixtex\tex/generic/circuitikz\pgfcirccurrent.tex)
+(D:\mixtex\tex/generic/circuitikz\pgfcircflow.tex))
+(D:\mixtex\tex/latex/tocloft\tocloft.sty
 Package: tocloft 2017/08/31 v2.3i parameterised ToC, etc., typesetting
 Package tocloft Info: The document has chapter divisions on input line 51.
 \cftparskip=\skip70
@@ -750,21 +915,25 @@ Package tocloft Info: The document has chapter divisions on input line 51.
 \cftbeforetabskip=\skip101
 \cfttabindent=\skip102
 \cfttabnumwidth=\skip103
-) (D:\mixtex\tex/latex/amsmath\amsmath.sty
+)
+(D:\mixtex\tex/latex/amsmath\amsmath.sty
 Package: amsmath 2023/05/13 v2.17o AMS math features
 \@mathmargin=\skip104
 
 For additional information on amsmath, use the `?' option.
 (D:\mixtex\tex/latex/amsmath\amstext.sty
 Package: amstext 2021/08/26 v2.01 AMS text
- (D:\mixtex\tex/latex/amsmath\amsgen.sty
+
+(D:\mixtex\tex/latex/amsmath\amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks44
 \ex@=\dimen311
-)) (D:\mixtex\tex/latex/amsmath\amsbsy.sty
+))
+(D:\mixtex\tex/latex/amsmath\amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen312
-) (D:\mixtex\tex/latex/amsmath\amsopn.sty
+)
+(D:\mixtex\tex/latex/amsmath\amsopn.sty
 Package: amsopn 2022/04/08 v2.04 operator names
 )
 \inf@bad=\count381
@@ -816,11 +985,14 @@ LaTeX Info: Redefining \[ on input line 2953.
 LaTeX Info: Redefining \] on input line 2954.
 )
 \linenoamsmath@ams@eqpen=\count393
- (D:\mixtex\tex/latex/tcolorbox\tcolorbox.sty
+
+(D:\mixtex\tex/latex/tcolorbox\tcolorbox.sty
 Package: tcolorbox 2024/01/10 version 6.2.0 text color boxes
- (D:\mixtex\tex/latex/environ\environ.sty
+
+(D:\mixtex\tex/latex/environ\environ.sty
 Package: environ 2014/05/04 v0.3 A new way to define environments
- (D:\mixtex\tex/latex/trimspaces\trimspaces.sty
+
+(D:\mixtex\tex/latex/trimspaces\trimspaces.sty
 Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
 ))
 \tcb@titlebox=\box124
@@ -836,7 +1008,8 @@ Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
 \tcb@temp=\box130
 \tcb@temp=\box131
 \tcb@temp=\box132
-) (D:\mixtex\tex/latex/enumitem\enumitem.sty
+)
+(D:\mixtex\tex/latex/enumitem\enumitem.sty
 Package: enumitem 2019/06/20 v3.9 Customized lists
 \labelindent=\skip107
 \enit@outerparindent=\dimen321
@@ -844,7 +1017,8 @@ Package: enumitem 2019/06/20 v3.9 Customized lists
 \enit@inbox=\box133
 \enit@count@id=\count397
 \enitdp@description=\count398
-) (D:\mixtex\tex/latex/tools\longtable.sty
+)
+(D:\mixtex\tex/latex/tools\longtable.sty
 Package: longtable 2023-11-01 v4.19 Multi-page Table package (DPC)
 \LTleft=\skip108
 \LTright=\skip109
@@ -862,7 +1036,8 @@ Package: longtable 2023-11-01 v4.19 Multi-page Table package (DPC)
 \c@LT@tables=\count402
 \c@LT@chunks=\count403
 \LT@p@ftn=\toks50
-) (D:\mixtex\tex/latex/txfonts\txfonts.sty
+)
+(D:\mixtex\tex/latex/txfonts\txfonts.sty
 Package: txfonts 2008/01/22 v3.2.1
 LaTeX Font Info:    Redeclaring symbol font `operators' on input line 21.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
@@ -953,11 +1128,14 @@ LaTeX Info: Redefining \not on input line 1043.
 \c@corollary=\count406
 \c@claim=\count407
 \c@definition=\count408
- (D:\mixtex\tex/latex/listings\lstlang1.sty
+
+(D:\mixtex\tex/latex/listings\lstlang1.sty
 File: lstlang1.sty 2024/03/11 1.10a listings language file
-) (D:\mixtex\tex/latex/listings\lstlang1.sty
+)
+(D:\mixtex\tex/latex/listings\lstlang1.sty
 File: lstlang1.sty 2024/03/11 1.10a listings language file
-) (D:\mixtex\tex/latex/listings\lstmisc.sty
+)
+(D:\mixtex\tex/latex/listings\lstmisc.sty
 File: lstmisc.sty 2024/03/11 1.10a (Carsten Heinz)
 )
 \manual@idxfile=\write8
@@ -968,29 +1146,38 @@ Writing index file manual.idx
 (D:\mixtex\tex/latex/base\textcomp.sty
 Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
 )
-runsystem(for ^%i in (pygmentize.exe pygmentize.bat pygmentize.cmd) do set > manual.aex <nul: /p x=^%~$PATH:i>> manual.aex)...executed.
+runsystem(for ^%i in (pygmentize.exe pygmentize.bat pygmentize.cmd) do set > ma
+nual.aex <nul: /p x=^%~$PATH:i>> manual.aex)...executed.
 
 runsystem(del manual.aex)...executed.
 
-LaTeX Font Info:    Trying to load font information for OT1+txr on input line 256.
+LaTeX Font Info:    Trying to load font information for OT1+txr on input line 2
+56.
  (D:\mixtex\tex/latex/txfonts\ot1txr.fd
 File: ot1txr.fd 2000/12/15 v3.1
 ) (D:\mixtex\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2024-03-14 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count409
 \l__pdf_internal_box=\box139
-) (manual.aux (prologue.aux) (manIntroduction.aux) (manProjectDescription.aux) (manResources.aux) (manRadarTheory.aux) (manPartSelection.aux) (manSchematic.aux) (manLayout.aux) (manDigitalProcessing.aux) (manNetworking.aux) (manResults.aux) (manIssues.aux))
+) (manual.aux (prologue.aux) (manIntroduction.aux) (manProjectDescription.aux) 
+(manResources.aux)
+(manRadarTheory.aux) (manPartSelection.aux) (manSchematic.aux) (manLayout.aux)
+(manDigitalProcessing.aux) (manNetworking.aux) (manResults.aux) (manIssues.aux)
+)
 \openout1 = `manual.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 256.
-LaTeX Font Info:    Trying to load font information for OML+txmi on input line 256.
+LaTeX Font Info:    Trying to load font information for OML+txmi on input line 
+256.
  (D:\mixtex\tex/latex/txfonts\omltxmi.fd
 File: omltxmi.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    ... okay on input line 256.
 LaTeX Font Info:    Checking defaults for OMS/txsy/m/n on input line 256.
-LaTeX Font Info:    Trying to load font information for OMS+txsy on input line 256.
- (D:\mixtex\tex/latex/txfonts\omstxsy.fd
+LaTeX Font Info:    Trying to load font information for OMS+txsy on input line 
+256.
+
+(D:\mixtex\tex/latex/txfonts\omstxsy.fd
 File: omstxsy.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    ... okay on input line 256.
@@ -1001,13 +1188,16 @@ LaTeX Font Info:    ... okay on input line 256.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 256.
 LaTeX Font Info:    ... okay on input line 256.
 LaTeX Font Info:    Checking defaults for OMX/txex/m/n on input line 256.
-LaTeX Font Info:    Trying to load font information for OMX+txex on input line 256.
- (D:\mixtex\tex/latex/txfonts\omxtxex.fd
+LaTeX Font Info:    Trying to load font information for OMX+txex on input line 
+256.
+
+(D:\mixtex\tex/latex/txfonts\omxtxex.fd
 File: omxtxex.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    ... okay on input line 256.
 LaTeX Font Info:    Checking defaults for U/txexa/m/n on input line 256.
-LaTeX Font Info:    Trying to load font information for U+txexa on input line 256.
+LaTeX Font Info:    Trying to load font information for U+txexa on input line 2
+56.
  (D:\mixtex\tex/latex/txfonts\utxexa.fd
 File: utxexa.fd 2000/12/15 v3.1
 )
@@ -1031,8 +1221,10 @@ LaTeX Font Info:    ... okay on input line 256.
 \everyMPtoPDFconversion=\toks52
 ) (D:\mixtex\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
-Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
- (D:\mixtex\tex/latex/00miktex\epstopdf-sys.cfg
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(D:\mixtex\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
 Package hyperref Info: Link coloring ON on input line 256.
@@ -1043,7 +1235,8 @@ Package hyperref Info: Link coloring ON on input line 256.
 \c@lstlisting=\count416
 \openout2 = `prologue.aux'.
 
- (prologue.tex
+
+(prologue.tex
 Title page
 Title page
 [1
@@ -1051,9 +1244,11 @@ Non-PDF special ignored!
 <special> header=psfrag.pro
 
 
-{C:/Users/thakk/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{D:/mixtex/fonts/enc/dvips/base/8r.enc}]
+{C:/Users/thakk/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{D:/mixtex/fon
+ts/enc/dvips/base/8r.enc}]
 Copyleft page
-LaTeX Font Info:    Trying to load font information for TS1+txr on input line 16.
+LaTeX Font Info:    Trying to load font information for TS1+txr on input line 1
+6.
 (D:\mixtex\tex/latex/txfonts\ts1txr.fd
 File: ts1txr.fd 2000/12/15 v3.1
 ) [2
@@ -1065,19 +1260,24 @@ LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <24.88> not available
  (manual.toc
 LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <12> not available
 (Font)              Font shape `OT1/txr/bx/n' tried instead on input line 1.
-LaTeX Font Info:    Trying to load font information for U+txsya on input line 1.
- (D:\mixtex\tex/latex/txfonts\utxsya.fd
+LaTeX Font Info:    Trying to load font information for U+txsya on input line 1
+.
+
+(D:\mixtex\tex/latex/txfonts\utxsya.fd
 File: utxsya.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Trying to load font information for U+txsyb on input line 1.
+LaTeX Font Info:    Trying to load font information for U+txsyb on input line 1
+.
  (D:\mixtex\tex/latex/txfonts\utxsyb.fd
 File: utxsyb.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Trying to load font information for U+txmia on input line 1.
- (D:\mixtex\tex/latex/txfonts\utxmia.fd
+LaTeX Font Info:    Trying to load font information for U+txmia on input line 1
+.
+(D:\mixtex\tex/latex/txfonts\utxmia.fd
 File: utxmia.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Trying to load font information for U+txsyc on input line 1.
+LaTeX Font Info:    Trying to load font information for U+txsyc on input line 1
+.
  (D:\mixtex\tex/latex/txfonts\utxsyc.fd
 File: utxsyc.fd 2000/12/15 v3.1
 ) [3
@@ -1107,7 +1307,8 @@ LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <17.28> not available
 (Font)              Font shape `OT1/txr/bx/n' tried instead on input line 8.
 LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <14.4> not available
 (Font)              Font shape `OT1/txr/bx/n' tried instead on input line 9.
-LaTeX Font Info:    Trying to load font information for OT1+txtt on input line 10.
+LaTeX Font Info:    Trying to load font information for OT1+txtt on input line 
+10.
 (D:\mixtex\tex/latex/txfonts\ot1txtt.fd
 File: ot1txtt.fd 2000/12/15 v3.1
 )) [1
@@ -1127,7 +1328,7 @@ Chapter 2.
 
 
 ]
-<ProjectImages/pcb_1.jpg, id=355, 4047.12pt x 3035.34pt>
+<ProjectImages/pcb_1.jpg, id=386, 4047.12pt x 3035.34pt>
 File: ProjectImages/pcb_1.jpg Graphic file (type jpg)
 <use ProjectImages/pcb_1.jpg>
 Package pdftex.def Info: ProjectImages/pcb_1.jpg  used on input line 49.
@@ -1138,10 +1339,11 @@ Package fancyhdr Warning: \headheight is too small (14.45377pt):
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
+
 (fancyhdr)                \addtolength{\topmargin}{-0.04622pt}.
 
 [3 <./ProjectImages/pcb_1.jpg>]
-<Figures/Sample_mesh.jpg, id=363, 521.95pt x 584.1825pt>
+<Figures/Sample_mesh.jpg, id=394, 521.95pt x 584.1825pt>
 File: Figures/Sample_mesh.jpg Graphic file (type jpg)
 <use Figures/Sample_mesh.jpg>
 Package pdftex.def Info: Figures/Sample_mesh.jpg  used on input line 76.
@@ -1152,6 +1354,7 @@ Package fancyhdr Warning: \headheight is too small (14.45377pt):
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
+
 (fancyhdr)                \addtolength{\topmargin}{-0.04622pt}.
 
 [4]
@@ -1160,6 +1363,7 @@ Package fancyhdr Warning: \headheight is too small (14.45377pt):
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
+
 (fancyhdr)                \addtolength{\topmargin}{-0.04622pt}.
 
 [5 <./Figures/Sample_mesh.jpg>])
@@ -1168,6 +1372,7 @@ Package fancyhdr Warning: \headheight is too small (14.45377pt):
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
+
 (fancyhdr)                \addtolength{\topmargin}{-0.04622pt}.
 
 [6]
@@ -1195,7 +1400,7 @@ Chapter 4.
 
  (manPartSelection.tex
 Chapter 5.
-<Diagrams/overview.png, id=401, 476.78125pt x 450.18187pt>
+<Diagrams/overview.png, id=432, 476.78125pt x 450.18187pt>
 File: Diagrams/overview.png Graphic file (type png)
 <use Diagrams/overview.png>
 Package pdftex.def Info: Diagrams/overview.png  used on input line 8.
@@ -1206,15 +1411,16 @@ Package pdftex.def Info: Diagrams/overview.png  used on input line 8.
 
 
  <./Diagrams/overview.png>]
-<DatasheetImages/vcotable.png, id=411, 606.76688pt x 342.5297pt>
+<DatasheetImages/vcotable.png, id=442, 606.76688pt x 342.5297pt>
 File: DatasheetImages/vcotable.png Graphic file (type png)
 <use DatasheetImages/vcotable.png>
 Package pdftex.def Info: DatasheetImages/vcotable.png  used on input line 34.
 (pdftex.def)             Requested size: 606.7654pt x 342.52885pt.
-<DatasheetImages/vcotuningtable.png, id=412, 514.17094pt x 519.44063pt>
+<DatasheetImages/vcotuningtable.png, id=443, 514.17094pt x 519.44063pt>
 File: DatasheetImages/vcotuningtable.png Graphic file (type png)
 <use DatasheetImages/vcotuningtable.png>
-Package pdftex.def Info: DatasheetImages/vcotuningtable.png  used on input line 40.
+Package pdftex.def Info: DatasheetImages/vcotuningtable.png  used on input line
+ 40.
 (pdftex.def)             Requested size: 514.1697pt x 519.43936pt.
 
 
@@ -1222,6 +1428,7 @@ Package fancyhdr Warning: \headheight is too small (14.45377pt):
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
+
 (fancyhdr)                \addtolength{\topmargin}{-0.04622pt}.
 
 [10 <./DatasheetImages/vcotable.png>]
@@ -1233,13 +1440,15 @@ Package fancyhdr Warning: \headheight is too small (14.45377pt):
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
+
 (fancyhdr)                \addtolength{\topmargin}{-0.04622pt}.
 
 [11 <./DatasheetImages/vcotuningtable.png>]
-<DatasheetImages/poweramptable.png, id=431, 746.03719pt x 456.20438pt>
+<DatasheetImages/poweramptable.png, id=462, 746.03719pt x 456.20438pt>
 File: DatasheetImages/poweramptable.png Graphic file (type png)
 <use DatasheetImages/poweramptable.png>
-Package pdftex.def Info: DatasheetImages/poweramptable.png  used on input line 80.
+Package pdftex.def Info: DatasheetImages/poweramptable.png  used on input line 
+80.
 (pdftex.def)             Requested size: 746.03535pt x 456.20325pt.
 
 
@@ -1247,10 +1456,11 @@ Package fancyhdr Warning: \headheight is too small (14.45377pt):
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
+
 (fancyhdr)                \addtolength{\topmargin}{-0.04622pt}.
 
 [12]
-<DatasheetImages/lnatable.png, id=439, 574.39594pt x 302.63063pt>
+<DatasheetImages/lnatable.png, id=470, 574.39594pt x 302.63063pt>
 File: DatasheetImages/lnatable.png Graphic file (type png)
 <use DatasheetImages/lnatable.png>
 Package pdftex.def Info: DatasheetImages/lnatable.png  used on input line 101.
@@ -1261,36 +1471,41 @@ Package fancyhdr Warning: \headheight is too small (14.45377pt):
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
+
 (fancyhdr)                \addtolength{\topmargin}{-0.04622pt}.
 
 [13 <./DatasheetImages/poweramptable.png>]
-<DatasheetImages/mixertable.png, id=448, 682.80093pt x 260.47313pt>
+<DatasheetImages/mixertable.png, id=479, 682.80093pt x 260.47313pt>
 File: DatasheetImages/mixertable.png Graphic file (type png)
 <use DatasheetImages/mixertable.png>
-Package pdftex.def Info: DatasheetImages/mixertable.png  used on input line 117.
+Package pdftex.def Info: DatasheetImages/mixertable.png  used on input line 117
+.
 (pdftex.def)             Requested size: 682.79926pt x 260.47249pt.
 
 Overfull \hbox (8.2024pt too wide) in paragraph at lines 117--118
  [][] 
  []
 
-<DatasheetImages/mixerharmonics.png, id=449, 331.2375pt x 222.07968pt>
+<DatasheetImages/mixerharmonics.png, id=480, 331.2375pt x 222.07968pt>
 File: DatasheetImages/mixerharmonics.png Graphic file (type png)
 <use DatasheetImages/mixerharmonics.png>
-Package pdftex.def Info: DatasheetImages/mixerharmonics.png  used on input line 123.
+Package pdftex.def Info: DatasheetImages/mixerharmonics.png  used on input line
+ 123.
 (pdftex.def)             Requested size: 331.23668pt x 222.07913pt.
 
 Package fancyhdr Warning: \headheight is too small (14.45377pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
+
 (fancyhdr)                \addtolength{\topmargin}{-0.04622pt}.
 
 [14 <./DatasheetImages/lnatable.png>]
-<DatasheetImages/loamptable.png, id=460, 264.99pt x 210.03468pt>
+<DatasheetImages/loamptable.png, id=491, 264.99pt x 210.03468pt>
 File: DatasheetImages/loamptable.png Graphic file (type png)
 <use DatasheetImages/loamptable.png>
-Package pdftex.def Info: DatasheetImages/loamptable.png  used on input line 148.
+Package pdftex.def Info: DatasheetImages/loamptable.png  used on input line 148
+.
 (pdftex.def)             Requested size: 264.98935pt x 210.03416pt.
 
 
@@ -1298,13 +1513,15 @@ Package fancyhdr Warning: \headheight is too small (14.45377pt):
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
+
 (fancyhdr)                \addtolength{\topmargin}{-0.04622pt}.
 
 [15 <./DatasheetImages/mixertable.png> <./DatasheetImages/mixerharmonics.png>]
-<DatasheetImages/outputswing.png, id=471, 750.55406pt x 121.95563pt>
+<DatasheetImages/outputswing.png, id=502, 750.55406pt x 121.95563pt>
 File: DatasheetImages/outputswing.png Graphic file (type png)
 <use DatasheetImages/outputswing.png>
-Package pdftex.def Info: DatasheetImages/outputswing.png  used on input line 169.
+Package pdftex.def Info: DatasheetImages/outputswing.png  used on input line 16
+9.
 (pdftex.def)             Requested size: 750.55223pt x 121.9553pt.
 
 Overfull \hbox (55.62927pt too wide) in paragraph at lines 169--170
@@ -1316,13 +1533,15 @@ Package fancyhdr Warning: \headheight is too small (14.45377pt):
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
+
 (fancyhdr)                \addtolength{\topmargin}{-0.04622pt}.
 
 [16 <./DatasheetImages/loamptable.png>]
-<DatasheetImages/filterspecs.png, id=479, 356.0803pt x 408.77719pt>
+<DatasheetImages/filterspecs.png, id=510, 356.0803pt x 408.77719pt>
 File: DatasheetImages/filterspecs.png Graphic file (type png)
 <use DatasheetImages/filterspecs.png>
-Package pdftex.def Info: DatasheetImages/filterspecs.png  used on input line 184.
+Package pdftex.def Info: DatasheetImages/filterspecs.png  used on input line 18
+4.
 (pdftex.def)             Requested size: 356.07944pt x 408.77618pt.
 )
 
@@ -1330,6 +1549,7 @@ Package fancyhdr Warning: \headheight is too small (14.45377pt):
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
+
 (fancyhdr)                \addtolength{\topmargin}{-0.04622pt}.
 
 [17 <./DatasheetImages/outputswing.png> <./DatasheetImages/filterspecs.png>]
@@ -1338,6 +1558,7 @@ Package fancyhdr Warning: \headheight is too small (14.45377pt):
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
+
 (fancyhdr)                \addtolength{\topmargin}{-0.04622pt}.
 
 [18]
@@ -1345,15 +1566,16 @@ Package fancyhdr Warning: \headheight is too small (14.45377pt):
 
  (manSchematic.tex
 Chapter 6.
-<CaptureImages/ultralib.png, id=493, 1445.4pt x 782.17218pt>
+<CaptureImages/ultralib.png, id=524, 1445.4pt x 782.17218pt>
 File: CaptureImages/ultralib.png Graphic file (type png)
 <use CaptureImages/ultralib.png>
 Package pdftex.def Info: CaptureImages/ultralib.png  used on input line 10.
 (pdftex.def)             Requested size: 1445.39648pt x 782.17027pt.
-<CaptureImages/ultralibexample.png, id=495, 921.4425pt x 42.1575pt>
+<CaptureImages/ultralibexample.png, id=526, 921.4425pt x 42.1575pt>
 File: CaptureImages/ultralibexample.png Graphic file (type png)
 <use CaptureImages/ultralibexample.png>
-Package pdftex.def Info: CaptureImages/ultralibexample.png  used on input line 22.
+Package pdftex.def Info: CaptureImages/ultralibexample.png  used on input line 
+22.
 (pdftex.def)             Requested size: 921.44026pt x 42.15738pt.
 [19
 
@@ -1361,12 +1583,12 @@ Package pdftex.def Info: CaptureImages/ultralibexample.png  used on input line 2
 
 
  <./CaptureImages/ultralib.png>]
-<CaptureImages/editpin.png, id=502, 1295.59032pt x 577.40718pt>
+<CaptureImages/editpin.png, id=533, 1295.59032pt x 577.40718pt>
 File: CaptureImages/editpin.png Graphic file (type png)
 <use CaptureImages/editpin.png>
 Package pdftex.def Info: CaptureImages/editpin.png  used on input line 35.
 (pdftex.def)             Requested size: 1295.58716pt x 577.40578pt.
-<CaptureImages/wirealias.png, id=504, 928.97063pt x 285.31593pt>
+<CaptureImages/wirealias.png, id=535, 928.97063pt x 285.31593pt>
 File: CaptureImages/wirealias.png Graphic file (type png)
 <use CaptureImages/wirealias.png>
 Package pdftex.def Info: CaptureImages/wirealias.png  used on input line 45.
@@ -1377,20 +1599,22 @@ Package fancyhdr Warning: \headheight is too small (14.45377pt):
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
+
 (fancyhdr)                \addtolength{\topmargin}{-0.04622pt}.
 
-[20 <./CaptureImages/ultralibexample.png> <./CaptureImages/editpin.png> <./CaptureImages/wirealias.png>]
-<CaptureImages/offpageconn.png, id=513, 1440.88312pt x 726.46407pt>
+[20 <./CaptureImages/ultralibexample.png> <./CaptureImages/editpin.png> <./Capt
+ureImages/wirealias.png>]
+<CaptureImages/offpageconn.png, id=544, 1440.88312pt x 726.46407pt>
 File: CaptureImages/offpageconn.png Graphic file (type png)
 <use CaptureImages/offpageconn.png>
 Package pdftex.def Info: CaptureImages/offpageconn.png  used on input line 62.
 (pdftex.def)             Requested size: 1440.87961pt x 726.4623pt.
-<CaptureImages/coupling.png, id=515, 693.34032pt x 407.27156pt>
+<CaptureImages/coupling.png, id=546, 693.34032pt x 407.27156pt>
 File: CaptureImages/coupling.png Graphic file (type png)
 <use CaptureImages/coupling.png>
 Package pdftex.def Info: CaptureImages/coupling.png  used on input line 76.
 (pdftex.def)             Requested size: 693.33862pt x 407.27055pt.
-<CaptureImages/dcblocking.png, id=516, 654.94687pt x 197.98969pt>
+<CaptureImages/dcblocking.png, id=547, 654.94687pt x 197.98969pt>
 File: CaptureImages/dcblocking.png Graphic file (type png)
 <use CaptureImages/dcblocking.png>
 Package pdftex.def Info: CaptureImages/dcblocking.png  used on input line 82.
@@ -1405,10 +1629,12 @@ Package fancyhdr Warning: \headheight is too small (14.45377pt):
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
+
 (fancyhdr)                \addtolength{\topmargin}{-0.04622pt}.
 
-[21 <./CaptureImages/offpageconn.png> <./CaptureImages/coupling.png> <./CaptureImages/dcblocking.png>]
-<CaptureImages/testpin.png, id=527, 484.05844pt x 392.96812pt>
+[21 <./CaptureImages/offpageconn.png> <./CaptureImages/coupling.png> <./Capture
+Images/dcblocking.png>]
+<CaptureImages/testpin.png, id=558, 484.05844pt x 392.96812pt>
 File: CaptureImages/testpin.png Graphic file (type png)
 <use CaptureImages/testpin.png>
 Package pdftex.def Info: CaptureImages/testpin.png  used on input line 112.
@@ -1419,23 +1645,25 @@ Package fancyhdr Warning: \headheight is too small (14.45377pt):
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
+
 (fancyhdr)                \addtolength{\topmargin}{-0.04622pt}.
 
 [22 <./CaptureImages/testpin.png>]
-<CaptureImages/leds.png, id=537, 525.46312pt x 279.29344pt>
+<CaptureImages/leds.png, id=568, 525.46312pt x 279.29344pt>
 File: CaptureImages/leds.png Graphic file (type png)
 <use CaptureImages/leds.png>
 Package pdftex.def Info: CaptureImages/leds.png  used on input line 132.
 (pdftex.def)             Requested size: 525.46184pt x 279.29276pt.
-<CaptureImages/pot.png, id=538, 734.745pt x 392.96812pt>
+<CaptureImages/pot.png, id=569, 734.745pt x 392.96812pt>
 File: CaptureImages/pot.png Graphic file (type png)
 <use CaptureImages/pot.png>
 Package pdftex.def Info: CaptureImages/pot.png  used on input line 143.
 (pdftex.def)             Requested size: 734.7432pt x 392.96715pt.
-<CaptureImages/transmitterfull.png, id=541, 1003.49907pt x 639.89063pt>
+<CaptureImages/transmitterfull.png, id=572, 1003.49907pt x 639.89063pt>
 File: CaptureImages/transmitterfull.png Graphic file (type png)
 <use CaptureImages/transmitterfull.png>
-Package pdftex.def Info: CaptureImages/transmitterfull.png  used on input line 159.
+Package pdftex.def Info: CaptureImages/transmitterfull.png  used on input line 
+159.
 (pdftex.def)             Requested size: 1003.49661pt x 639.88905pt.
 
 Overfull \hbox (31.99332pt too wide) in paragraph at lines 159--160
@@ -1447,6 +1675,7 @@ Package fancyhdr Warning: \headheight is too small (14.45377pt):
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
+
 (fancyhdr)                \addtolength{\topmargin}{-0.04622pt}.
 
 [23 <./CaptureImages/leds.png> <./CaptureImages/pot.png>]
@@ -1455,13 +1684,15 @@ Package fancyhdr Warning: \headheight is too small (14.45377pt):
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
+
 (fancyhdr)                \addtolength{\topmargin}{-0.04622pt}.
 
 [24 <./CaptureImages/transmitterfull.png>]
-<CaptureImages/receiverfull.png, id=557, 827.34094pt x 609.02531pt>
+<CaptureImages/receiverfull.png, id=588, 827.34094pt x 609.02531pt>
 File: CaptureImages/receiverfull.png Graphic file (type png)
 <use CaptureImages/receiverfull.png>
-Package pdftex.def Info: CaptureImages/receiverfull.png  used on input line 193.
+Package pdftex.def Info: CaptureImages/receiverfull.png  used on input line 193
+.
 (pdftex.def)             Requested size: 827.33893pt x 609.02382pt.
 
 
@@ -1469,13 +1700,15 @@ Package fancyhdr Warning: \headheight is too small (14.45377pt):
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
+
 (fancyhdr)                \addtolength{\topmargin}{-0.04622pt}.
 
 [25 <./CaptureImages/receiverfull.png>]
-<CaptureImages/basebandamp.png, id=566, 844.65562pt x 644.4075pt>
+<CaptureImages/basebandamp.png, id=597, 844.65562pt x 644.4075pt>
 File: CaptureImages/basebandamp.png Graphic file (type png)
 <use CaptureImages/basebandamp.png>
 Package pdftex.def Info: CaptureImages/basebandamp.png  used on input line 221.
+
 (pdftex.def)             Requested size: 844.65356pt x 644.40593pt.
 
 
@@ -1483,15 +1716,17 @@ Package fancyhdr Warning: \headheight is too small (14.45377pt):
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
+
 (fancyhdr)                \addtolength{\topmargin}{-0.04622pt}.
 
 [26 <./CaptureImages/basebandamp.png>]
-<Diagrams/non-inverting-amp.jpg, id=576, 376.40625pt x 250.9375pt>
+<Diagrams/non-inverting-amp.jpg, id=607, 376.40625pt x 250.9375pt>
 File: Diagrams/non-inverting-amp.jpg Graphic file (type jpg)
 <use Diagrams/non-inverting-amp.jpg>
-Package pdftex.def Info: Diagrams/non-inverting-amp.jpg  used on input line 244.
+Package pdftex.def Info: Diagrams/non-inverting-amp.jpg  used on input line 244
+.
 (pdftex.def)             Requested size: 376.40532pt x 250.93687pt.
-<CaptureImages/filters.png, id=579, 651.18282pt x 600.74437pt>
+<CaptureImages/filters.png, id=610, 651.18282pt x 600.74437pt>
 File: CaptureImages/filters.png Graphic file (type png)
 <use CaptureImages/filters.png>
 Package pdftex.def Info: CaptureImages/filters.png  used on input line 260.
@@ -1502,6 +1737,7 @@ Package fancyhdr Warning: \headheight is too small (14.45377pt):
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
+
 (fancyhdr)                \addtolength{\topmargin}{-0.04622pt}.
 
 [27 <./Diagrams/non-inverting-amp.jpg>])
@@ -1510,6 +1746,7 @@ Package fancyhdr Warning: \headheight is too small (14.45377pt):
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
+
 (fancyhdr)                \addtolength{\topmargin}{-0.04622pt}.
 
 [28 <./CaptureImages/filters.png>]
@@ -1517,10 +1754,11 @@ Package fancyhdr Warning: \headheight is too small (14.45377pt):
 
  (manLayout.tex
 Chapter 7.
-<AllegroImages/layersOverview.jpg, id=593, 433.62pt x 178.6675pt>
+<AllegroImages/layersOverview.jpg, id=624, 433.62pt x 178.6675pt>
 File: AllegroImages/layersOverview.jpg Graphic file (type jpg)
 <use AllegroImages/layersOverview.jpg>
-Package pdftex.def Info: AllegroImages/layersOverview.jpg  used on input line 14.
+Package pdftex.def Info: AllegroImages/layersOverview.jpg  used on input line 1
+4.
 (pdftex.def)             Requested size: 433.61894pt x 178.66705pt.
 [29
 
@@ -1528,10 +1766,11 @@ Package pdftex.def Info: AllegroImages/layersOverview.jpg  used on input line 14
 
 
  <./AllegroImages/layersOverview.jpg>]
-<AllegroImages/tracesandvias.png, id=600, 557.83406pt x 586.44093pt>
+<AllegroImages/tracesandvias.png, id=631, 557.83406pt x 586.44093pt>
 File: AllegroImages/tracesandvias.png Graphic file (type png)
 <use AllegroImages/tracesandvias.png>
-Package pdftex.def Info: AllegroImages/tracesandvias.png  used on input line 39.
+Package pdftex.def Info: AllegroImages/tracesandvias.png  used on input line 39
+.
 (pdftex.def)             Requested size: 557.83269pt x 586.43948pt.
 
 
@@ -1539,48 +1778,47 @@ Package fancyhdr Warning: \headheight is too small (14.45377pt):
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
+
 (fancyhdr)                \addtolength{\topmargin}{-0.04622pt}.
 
 [30]
-<AllegroImages/layoutfull.png, id=609, 1443.89438pt x 782.925pt>
-File: AllegroImages/layoutfull.png Graphic file (type png)
-<use AllegroImages/layoutfull.png>
-Package pdftex.def Info: AllegroImages/layoutfull.png  used on input line 56.
-(pdftex.def)             Requested size: 1443.89085pt x 782.9231pt.
-
-Overfull \hbox (107.79253pt too wide) in paragraph at lines 56--57
- [][] 
- []
-
 
 Package fancyhdr Warning: \headheight is too small (14.45377pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
+
 (fancyhdr)                \addtolength{\topmargin}{-0.04622pt}.
 
 [31 <./AllegroImages/tracesandvias.png>]
-<AllegroImages/designworkflow.png, id=615, 350.81062pt x 404.26031pt>
-File: AllegroImages/designworkflow.png Graphic file (type png)
-<use AllegroImages/designworkflow.png>
-Package pdftex.def Info: AllegroImages/designworkflow.png  used on input line 67.
-(pdftex.def)             Requested size: 350.80975pt x 404.25932pt.
+<AllegroImages/componentTypes.jpg, id=645, 803.0pt x 516.93124pt>
+File: AllegroImages/componentTypes.jpg Graphic file (type jpg)
+<use AllegroImages/componentTypes.jpg>
+Package pdftex.def Info: AllegroImages/componentTypes.jpg  used on input line 5
+7.
+(pdftex.def)             Requested size: 802.99805pt x 516.92998pt.
+<AllegroImages/footprint.png, id=647, 496.53741pt x 236.57797pt>
+File: AllegroImages/footprint.png Graphic file (type png)
+<use AllegroImages/footprint.png>
+Package pdftex.def Info: AllegroImages/footprint.png  used on input line 68.
+(pdftex.def)             Requested size: 496.5362pt x 236.5774pt.
 
 
 Package fancyhdr Warning: \headheight is too small (14.45377pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
+
 (fancyhdr)                \addtolength{\topmargin}{-0.04622pt}.
 
-[32 <./AllegroImages/layoutfull.png>]
-<AllegroImages/windowsTab.png, id=621, 719.68875pt x 453.94594pt>
-File: AllegroImages/windowsTab.png Graphic file (type png)
-<use AllegroImages/windowsTab.png>
-Package pdftex.def Info: AllegroImages/windowsTab.png  used on input line 78.
-(pdftex.def)             Requested size: 719.687pt x 453.94482pt.
+[32 <./AllegroImages/componentTypes.jpg> <./AllegroImages/footprint.png>]
+<AllegroImages/layoutfull.png, id=654, 1443.89438pt x 782.925pt>
+File: AllegroImages/layoutfull.png Graphic file (type png)
+<use AllegroImages/layoutfull.png>
+Package pdftex.def Info: AllegroImages/layoutfull.png  used on input line 91.
+(pdftex.def)             Requested size: 1443.89085pt x 782.9231pt.
 
-Overfull \hbox (34.0237pt too wide) in paragraph at lines 78--79
+Overfull \hbox (107.79253pt too wide) in paragraph at lines 91--92
  [][] 
  []
 
@@ -1589,13 +1827,39 @@ Package fancyhdr Warning: \headheight is too small (14.45377pt):
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
+
 (fancyhdr)                \addtolength{\topmargin}{-0.04622pt}.
 
-[33 <./AllegroImages/designworkflow.png>]
-<AllegroImages/setupPane.png, id=627, 350.05782pt x 253.69781pt>
+[33 <./AllegroImages/layoutfull.png>]
+<AllegroImages/designworkflow.png, id=660, 350.81062pt x 404.26031pt>
+File: AllegroImages/designworkflow.png Graphic file (type png)
+<use AllegroImages/designworkflow.png>
+Package pdftex.def Info: AllegroImages/designworkflow.png  used on input line 1
+02.
+(pdftex.def)             Requested size: 350.80975pt x 404.25932pt.
+<AllegroImages/windowsTab.png, id=661, 719.68875pt x 453.94594pt>
+File: AllegroImages/windowsTab.png Graphic file (type png)
+<use AllegroImages/windowsTab.png>
+Package pdftex.def Info: AllegroImages/windowsTab.png  used on input line 113.
+(pdftex.def)             Requested size: 719.687pt x 453.94482pt.
+
+Overfull \hbox (34.0237pt too wide) in paragraph at lines 113--114
+ [][] 
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (14.45377pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-0.04622pt}.
+
+[34 <./AllegroImages/designworkflow.png>]
+<AllegroImages/setupPane.png, id=667, 350.05782pt x 253.69781pt>
 File: AllegroImages/setupPane.png Graphic file (type png)
 <use AllegroImages/setupPane.png>
-Package pdftex.def Info: AllegroImages/setupPane.png  used on input line 88.
+Package pdftex.def Info: AllegroImages/setupPane.png  used on input line 125.
 (pdftex.def)             Requested size: 350.05695pt x 253.69719pt.
 
 
@@ -1603,22 +1867,127 @@ Package fancyhdr Warning: \headheight is too small (14.45377pt):
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
+
 (fancyhdr)                \addtolength{\topmargin}{-0.04622pt}.
 
-[34 <./AllegroImages/windowsTab.png> <./AllegroImages/setupPane.png>])
+[35 <./AllegroImages/windowsTab.png>]
+<AllegroImages/designTabSetupPane.png, id=674, 689.57625pt x 676.02562pt>
+File: AllegroImages/designTabSetupPane.png Graphic file (type png)
+<use AllegroImages/designTabSetupPane.png>
+Package pdftex.def Info: AllegroImages/designTabSetupPane.png  used on input li
+ne 135.
+(pdftex.def)             Requested size: 689.57455pt x 676.02396pt.
+
+Overfull \hbox (12.94508pt too wide) in paragraph at lines 135--136
+ [][] 
+ []
+
 
 Package fancyhdr Warning: \headheight is too small (14.45377pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
+
 (fancyhdr)                \addtolength{\topmargin}{-0.04622pt}.
 
-[35]
+[36 <./AllegroImages/setupPane.png>]
+<AllegroImages/colorsTabSetupPane.png, id=682, 657.95813pt x 781.41937pt>
+File: AllegroImages/colorsTabSetupPane.png Graphic file (type png)
+<use AllegroImages/colorsTabSetupPane.png>
+Package pdftex.def Info: AllegroImages/colorsTabSetupPane.png  used on input li
+ne 146.
+(pdftex.def)             Requested size: 657.95653pt x 781.41747pt.
+
+
+Package fancyhdr Warning: \headheight is too small (14.45377pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-0.04622pt}.
+
+[37 <./AllegroImages/designTabSetupPane.png>]
+<AllegroImages/colorsGeometry.png, id=689, 650.43pt x 777.65532pt>
+File: AllegroImages/colorsGeometry.png Graphic file (type png)
+<use AllegroImages/colorsGeometry.png>
+Package pdftex.def Info: AllegroImages/colorsGeometry.png  used on input line 1
+59.
+(pdftex.def)             Requested size: 650.4284pt x 777.65343pt.
+
+
+Package fancyhdr Warning: \headheight is too small (14.45377pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-0.04622pt}.
+
+[38 <./AllegroImages/colorsTabSetupPane.png>]
+<AllegroImages/colorsComponents.png, id=696, 654.19406pt x 780.66656pt>
+File: AllegroImages/colorsComponents.png Graphic file (type png)
+<use AllegroImages/colorsComponents.png>
+Package pdftex.def Info: AllegroImages/colorsComponents.png  used on input line
+ 171.
+(pdftex.def)             Requested size: 654.19246pt x 780.66466pt.
+
+
+Package fancyhdr Warning: \headheight is too small (14.45377pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-0.04622pt}.
+
+[39 <./AllegroImages/colorsGeometry.png>]
+<AllegroImages/netsColors.png, id=702, 553.31718pt x 780.66656pt>
+File: AllegroImages/netsColors.png Graphic file (type png)
+<use AllegroImages/netsColors.png>
+Package pdftex.def Info: AllegroImages/netsColors.png  used on input line 181.
+(pdftex.def)             Requested size: 553.31583pt x 780.66466pt.
+
+
+Package fancyhdr Warning: \headheight is too small (14.45377pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-0.04622pt}.
+
+[40 <./AllegroImages/colorsComponents.png>]
+<AllegroImages/boardOutline.png, id=709, 1094.58937pt x 547.2947pt>
+File: AllegroImages/boardOutline.png Graphic file (type png)
+<use AllegroImages/boardOutline.png>
+Package pdftex.def Info: AllegroImages/boardOutline.png  used on input line 193
+.
+(pdftex.def)             Requested size: 1094.5867pt x 547.29335pt.
+
+Overfull \hbox (22.80568pt too wide) in paragraph at lines 193--194
+ [][] 
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (14.45377pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-0.04622pt}.
+
+[41 <./AllegroImages/netsColors.png>])
+
+Package fancyhdr Warning: \headheight is too small (14.45377pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-0.04622pt}.
+
+[42 <./AllegroImages/boardOutline.png>]
 \openout2 = `manDigitalProcessing.aux'.
 
  (manDigitalProcessing.tex
 Chapter 8.
-) [36
+) [43
 
 
 
@@ -1628,7 +1997,7 @@ Chapter 8.
 
  (manNetworking.tex
 Chapter 9.
-) [37
+) [44
 
 
 
@@ -1638,7 +2007,7 @@ Chapter 9.
 
  (manResults.tex
 Chapter 10.
-) [38
+) [45
 
 
 
@@ -1648,7 +2017,7 @@ Chapter 10.
 
  (manIssues.tex
 Chapter 11.
-) [39
+) [46
 
 
 
@@ -1656,12 +2025,16 @@ Chapter 11.
 ]
 runsystem(makeindex manual.idx)...executed safely (allowed).
 
- (manual.ind) [40
+ (manual.ind) [47
 
 
 
 
-] (manual.aux (prologue.aux) (manIntroduction.aux) (manProjectDescription.aux) (manResources.aux) (manRadarTheory.aux) (manPartSelection.aux) (manSchematic.aux) (manLayout.aux) (manDigitalProcessing.aux) (manNetworking.aux) (manResults.aux) (manIssues.aux))
+] (manual.aux (prologue.aux) (manIntroduction.aux)
+(manProjectDescription.aux) (manResources.aux) (manRadarTheory.aux)
+(manPartSelection.aux) (manSchematic.aux) (manLayout.aux)
+(manDigitalProcessing.aux) (manNetworking.aux) (manResults.aux) (manIssues.aux)
+)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-03-14>
@@ -1671,20 +2044,25 @@ L3 programming layer <2024-03-14>
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `manual.out' has not changed.
-(rerunfilecheck)             Checksum: 552CCF1B6F40549EFF0653E321F2812D;6344.
+(rerunfilecheck)             Checksum: E4188A830679C5063027EDEE6C056354;6750.
  ) 
 Here is how much of TeX's memory you used:
- 47549 strings out of 474423
- 1086090 string characters out of 5758133
+ 47635 strings out of 474423
+ 1088644 string characters out of 5758133
  1939496 words of memory out of 5000000
- 69070 multiletter control sequences out of 15000+600000
+ 69137 multiletter control sequences out of 15000+600000
  585684 words of font info for 100 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  99i,12n,107p,1182b,844s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<D:/mixtex/fonts/type1/public/txfonts/rtcxr.pfb><D:/mixtex/fonts/type1/public/txfonts/rtxb.pfb><D:/mixtex/fonts/type1/public/txfonts/rtxmi.pfb><D:/mixtex/fonts/type1/public/txfonts/rtxr.pfb><D:/mixtex/fonts/type1/public/txfonts/txex.pfb><D:/mixtex/fonts/type1/public/txfonts/txtt.pfb><D:/mixtex/fonts/type1/urw/times/utmb8a.pfb><D:/mixtex/fonts/type1/urw/times/utmr8a.pfb><D:/mixtex/fonts/type1/urw/times/utmri8a.pfb>
-Output written on manual.pdf (47 pages, 4330611 bytes).
+<D:/mixtex/fonts/type1/public/txfonts/rtcxr.pfb><D:/mixtex/fonts/type1/public
+/txfonts/rtxb.pfb><D:/mixtex/fonts/type1/public/txfonts/rtxmi.pfb><D:/mixtex/fo
+nts/type1/public/txfonts/rtxr.pfb><D:/mixtex/fonts/type1/public/txfonts/txex.pf
+b><D:/mixtex/fonts/type1/public/txfonts/txtt.pfb><D:/mixtex/fonts/type1/urw/tim
+es/utmb8a.pfb><D:/mixtex/fonts/type1/urw/times/utmr8a.pfb><D:/mixtex/fonts/type
+1/urw/times/utmri8a.pfb>
+Output written on manual.pdf (54 pages, 4741599 bytes).
 PDF statistics:
- 731 PDF objects out of 1000 (max. 8388607)
- 136 named destinations out of 1000 (max. 500000)
- 538 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 819 PDF objects out of 1000 (max. 8388607)
+ 155 named destinations out of 1000 (max. 500000)
+ 602 words of extra memory for PDF output out of 10000 (max. 10000000)
 

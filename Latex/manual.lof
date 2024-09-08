@@ -37,10 +37,18 @@
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {7.1}{\ignorespaces PCB Layers}}{29}{figure.7.1}%
 \contentsline {figure}{\numberline {7.2}{\ignorespaces Traces and Vias from Mithril Board}}{31}{figure.7.2}%
-\contentsline {figure}{\numberline {7.3}{\ignorespaces Allegro Layout}}{32}{figure.7.3}%
-\contentsline {figure}{\numberline {7.4}{\ignorespaces Design Workflow}}{33}{figure.7.4}%
-\contentsline {figure}{\numberline {7.5}{\ignorespaces How to Display Design Workflow}}{34}{figure.7.5}%
-\contentsline {figure}{\numberline {7.6}{\ignorespaces Design Setup}}{34}{figure.7.6}%
+\contentsline {figure}{\numberline {7.3}{\ignorespaces Component Package Types}}{32}{figure.7.3}%
+\contentsline {figure}{\numberline {7.4}{\ignorespaces Footprint Schematic Symbol Relationship}}{32}{figure.7.4}%
+\contentsline {figure}{\numberline {7.5}{\ignorespaces Allegro Layout}}{33}{figure.7.5}%
+\contentsline {figure}{\numberline {7.6}{\ignorespaces Design Workflow}}{34}{figure.7.6}%
+\contentsline {figure}{\numberline {7.7}{\ignorespaces How to Display Design Workflow}}{35}{figure.7.7}%
+\contentsline {figure}{\numberline {7.8}{\ignorespaces Design Setup}}{36}{figure.7.8}%
+\contentsline {figure}{\numberline {7.9}{\ignorespaces Design Tab}}{37}{figure.7.9}%
+\contentsline {figure}{\numberline {7.10}{\ignorespaces Layer Colors}}{38}{figure.7.10}%
+\contentsline {figure}{\numberline {7.11}{\ignorespaces Geometry Colors}}{39}{figure.7.11}%
+\contentsline {figure}{\numberline {7.12}{\ignorespaces Component Colors}}{40}{figure.7.12}%
+\contentsline {figure}{\numberline {7.13}{\ignorespaces Net Colors}}{41}{figure.7.13}%
+\contentsline {figure}{\numberline {7.14}{\ignorespaces Board Outline}}{42}{figure.7.14}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }

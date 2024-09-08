@@ -38,8 +38,11 @@
 \contentsline {section}{\numberline {7.1}Intro to PCBs}{29}{section.7.1}%
 \contentsline {subsection}{\numberline {7.1.1}PCB Layers}{29}{subsection.7.1.1}%
 \contentsline {section}{\numberline {7.2}Traces and Vias}{31}{section.7.2}%
-\contentsline {section}{\numberline {7.3}Allegro Overview}{32}{section.7.3}%
-\contentsline {chapter}{\numberline {8}Digital Processing }{36}{chapter.8}%
-\contentsline {chapter}{\numberline {9}Networking }{37}{chapter.9}%
-\contentsline {chapter}{\numberline {10}Results }{38}{chapter.10}%
-\contentsline {chapter}{\numberline {11}Issues }{39}{chapter.11}%
+\contentsline {section}{\numberline {7.3}Components}{32}{section.7.3}%
+\contentsline {section}{\numberline {7.4}Printing and Assembling}{33}{section.7.4}%
+\contentsline {section}{\numberline {7.5}Allegro Overview}{33}{section.7.5}%
+\contentsline {subsection}{\numberline {7.5.1}Design Setup}{36}{subsection.7.5.1}%
+\contentsline {chapter}{\numberline {8}Digital Processing }{43}{chapter.8}%
+\contentsline {chapter}{\numberline {9}Networking }{44}{chapter.9}%
+\contentsline {chapter}{\numberline {10}Results }{45}{chapter.10}%
+\contentsline {chapter}{\numberline {11}Issues }{46}{chapter.11}%
