@@ -6,3 +6,4 @@ Mithril is a proof of concept outlining the implementation of distributed comput
 It sort of worked. There was a power leakage issue in the passive mixers of the receive path that caused the LO to dominate the resulting downconverted signal. But, we still saw the signal move and change as objects moved and changed which is a win. Thank you to Henrik Forsten for publishing his work on homemade transceivers in the open domain, that was our bible for this. Check out his blog [here](https://hforsten.com/). Check out some footage of Mithril in action below.
 
 ![thumbnail_mithril_full_system](./images_videos/mithril_full_system.jpg)
+![video](https://github.com/user-attachments/assets/d944aaed-c8e4-4f8d-a232-266edb5aea6f)
